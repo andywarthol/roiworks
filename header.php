@@ -60,7 +60,7 @@
 										<span class="icon-bar"></span>
 									</button>
 
-									<a class="navbar-brand" href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="homepage"><i class="glyphicon glyphicon-cog"></i><?php bloginfo( 'name' ) ?></a>
+									<a class="navbar-brand" href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="homepage"><?php bloginfo( 'name' ) ?></a>
 
 								</div>
 

@@ -2,6 +2,7 @@ body {
   font-family: "jaf-facitweb", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
+  background: #efefef;
   padding-top: 70px; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: "jaf-facitweb", sans-serif; }
@@ -26,7 +27,8 @@ body {
   background-image: -webkit-linear-gradient(left, #c2e0ed 0%, #83d0f0 87%); }
 
 .flat {
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
 .btn {
   border-radius: 2px;
@@ -81,6 +83,30 @@ body {
   .panel-group .panel .panel-collapse .panel-body {
     border-top: none;
     padding: 10px 30px 15px; }
+
+.well {
+  display: block;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  background: none;
+  padding-top: 0; }
+  .well h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .well ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0; }
+    .well ul li {
+      margin-bottom: 10px; }
+      .well ul li a i {
+        font-size: 0.7em;
+        margin-right: 5px;
+        top: 0px; }
 
 body.home {
   padding-top: 0; }
@@ -146,22 +172,42 @@ section {
     color: white; }
   section h1, section h2, section h3, section h4 {
     margin-top: 0;
-    padding: 0; }
+    padding: 0;
+    text-transform: uppercase; }
   section h1 {
     margin-bottom: 20px;
-    text-align: center; }
-  section h2 small {
-    margin-left: 10px; }
+    font-weight: bold; }
+  section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #efefef; }
+    section h2 small {
+      margin-left: 10px; }
   section p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.5;
-    margin-bottom: 30px; }
+    margin-bottom: 24px; }
   section ul {
     padding: 0 0 0 20px;
     margin-bottom: 30px;
     list-style-position: outside; }
     section ul li {
       margin-bottom: 15px; }
+  section code {
+    margin-bottom: 30px; }
+  section .card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    overflow: auto; }
+    section .card img {
+      max-width: 100%;
+      height: auto; }
+  section .respond-form {
+    padding: 0;
+    margin-top: 0; }
 
 .bubble {
   position: relative;
@@ -188,22 +234,43 @@ section {
     font-size: 32px;
     display: block; }
 
-.card {
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  background: white;
-  padding: 20px;
-  height: 200px;
-  margin-bottom: 30px; }
-  .card h1 {
-    text-indent: -9999px; }
-  .card img {
-    max-width: 100%;
-    height: auto; }
-  .card .flat {
+.results .card {
+  height: 200px; }
+  .results .card .flat {
     position: absolute;
     bottom: 45px;
     left: 0;
     right: 0; }
+  .results .card h1 {
+    text-indent: -9999px; }
+
+.post-excerpt .col-sm-4 {
+  padding: 0; }
+.post-excerpt .col-sm-8 {
+  padding-left: 0; }
+  .post-excerpt .col-sm-8 h1 {
+    line-height: 1;
+    margin-bottom: 5px;
+    font-size: 22px; }
+    .post-excerpt .col-sm-8 h1 a {
+      text-transform: none;
+      line-height: 1;
+      padding: 0; }
+  .post-excerpt .col-sm-8 .byline {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  .post-excerpt .col-sm-8 p {
+    margin-bottom: 0; }
+
+.single .card {
+  padding: 30px; }
+  .single .card article h1 {
+    font-size: 28px;
+    margin-bottom: 5px; }
+  .single .card article .blog-post {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #efefef; }
 
 .service h1 {
   margin-bottom: 40px; }

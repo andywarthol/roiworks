@@ -6,22 +6,42 @@ section
 	h1, h2, h3, h4
 		margin-top: 0
 		padding: 0
+		text-transform: uppercase
 	h1
 		margin-bottom: 20px
-		text-align: center
+		font-weight: bold
 	h2
+		font-size: 20px
+		font-weight: bold
+		padding-bottom: 5px
+		border-bottom: 1px solid #efefef
 		small
 			margin-left: 10px
 	p
-		font-size: 15px
+		font-size: 14px
 		line-height: 1.5
-		margin-bottom: 30px
+		margin-bottom: 24px
 	ul
 		padding: 0 0 0 20px
 		margin-bottom: 30px
 		list-style-position: outside
 		li
 			margin-bottom: 15px
+	code
+		margin-bottom: 30px
+	.card
+		border: 1px solid rgba(0, 0, 0, .1)
+		background: white
+		padding: 20px
+		margin-bottom: 30px
+		overflow: auto
+		img
+			max-width: 100%
+			height: auto
+	.respond-form
+		padding: 0
+		margin-top: 0
+
 .bubble
 	position: relative
 	text-align: center
@@ -47,22 +67,49 @@ section
 		font-size: 32px
 		display: block
 
-.card
-	border: 1px solid rgba(0, 0, 0, .15)
-	background: white
-	padding: 20px
-	height: 200px
-	margin-bottom: 30px
-	h1
-		text-indent: -9999px
-	img
-		max-width: 100%
-		height: auto
-	.flat
-		position: absolute
-		bottom: 45px
-		left: 0
-		right: 0
+.results
+	.card
+		height: 200px
+		.flat
+			position: absolute
+			bottom: 45px
+			left: 0
+			right: 0
+		h1
+			text-indent: -9999px
+
+// Blog posts
+.post-excerpt
+	.col-sm-4
+		padding: 0
+	.col-sm-8
+		padding-left: 0
+		h1
+			line-height: 1
+			margin-bottom: 5px
+			font-size: 22px
+			a
+				text-transform: none
+				line-height: 1
+				padding: 0
+		.byline
+			font-size: 12px
+			text-transform: uppercase
+			margin-bottom: 15px
+		p
+			margin-bottom: 0
+
+
+.single 
+	.card
+		padding: 30px
+		article
+			h1
+				font-size: 28px
+				margin-bottom: 5px
+			.blog-post
+				margin-bottom: 20px
+				border-bottom: 1px solid #efefef
 
 .service
 	h1

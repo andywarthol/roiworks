@@ -182,4 +182,9 @@ function child_theme_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'child_theme_scripts', 1005 );
+
+function custom_excerpt_length( $length ) {
+	return 50;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 ?>
