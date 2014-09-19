@@ -1,0 +1,58 @@
+body.home
+	padding-top: 0
+	section
+		padding: 2em 0
+		&.hero
+			background: $blue
+			padding-top: 100px
+			h1
+				color: white
+				font-weight: bold
+			h2
+				font-size: 22px
+				margin-bottom: 20px
+				color: white
+			ul
+				li
+					font-size: 18px
+					color: white
+		h1
+			text-align: center
+			margin: 0 0 30px
+		h3
+			margin-top: 40px
+			font-size: 1.75em
+		.artwork
+			width: 70%
+		.icon
+			width: 150px
+			height: 100px
+			display: inline-block
+			background-size: 100px 100px
+			background-repeat: no-repeat
+			background-color: transparent
+			background-position: center center
+			transition: .5s ease-in-out
+			opacity: 0
+			-webkit-transform: translateY(88px)
+			-moz-transform: translateY(88px)
+			-o-transform: translateY(88px)
+			-ms-transform: translateY(88px)
+			transform: translateY(88px)
+			&.shown
+				opacity: 1
+				-webkit-transform: none
+				-moz-transform: none
+				-o-transform: none
+				-ms-transform: none
+				transform: none
+			&.seo
+				background-image: url('../images/search-icon.png')
+			&.rwd
+				background-image: url('../images/devices-icon.png')
+			&.ppc
+				background-image: url('../images/targeting-icon.png')
+			&.conversion
+				background-image: url('../images/funnel-icon.png')
+			&.ux
+				background-image: url('../images/beaker-icon.png')

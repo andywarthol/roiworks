@@ -1,0 +1,37 @@
+.home
+	header
+		.navbar
+			background: rgba(0, 0, 0, .4)
+			position: absolute
+header
+	.navbar
+		background: $ash
+		border-bottom-color: rgba(0, 0, 0, .1)
+		height: $navbarHeight
+		.navbar-header
+			.navbar-brand
+				height: $navbarHeight
+				line-height: $navbarHeight
+				padding: 0 15px
+				font-size: 1.5em
+				color: white
+				i
+					font-size: .8em
+					margin-right: 4px
+				&:hover
+					background: rgba(0, 0, 0, .1)
+		.navbar-collapse
+			.navbar-nav
+				float: right
+				li
+					a
+						color: white
+						line-height: $navbarHeight
+						padding: 0 15px
+						&:hover
+							background: rgba(0, 0, 0, .15)
+					&.active
+						a
+							background: transparent
+							&:hover
+								background: rgba(0, 0, 0, .15)
