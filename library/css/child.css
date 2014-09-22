@@ -2,13 +2,16 @@ body {
   font-family: "jaf-facitweb", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  background: #efefef;
+  background: #f1f1f1;
   padding-top: 70px; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: "jaf-facitweb", sans-serif; }
 
 .grey {
-  background: #efefef; }
+  background: #f1f1f1; }
+
+.white {
+  background: white; }
 
 .blue {
   background: #00b6d6; }
@@ -85,6 +88,7 @@ body {
     padding: 10px 30px 15px; }
 
 .well {
+  width: 124px;
   display: block;
   box-shadow: none;
   border-radius: 0;
@@ -189,6 +193,8 @@ section {
     font-size: 15px;
     line-height: 1.6;
     margin-bottom: 24px; }
+    section p.intro {
+      font-size: 18px; }
   section ul {
     padding: 0 0 0 20px;
     margin-bottom: 30px;
@@ -269,6 +275,44 @@ section {
     font-size: 14px;
     line-height: 1.5; }
 
+.value {
+  padding: 15px 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #dadada;
+  box-shadow: 0 1px 0 white; }
+  .value h2 {
+    font-size: 24px; }
+  .value blockquote {
+    background: white;
+    font-family: Georgia, serif;
+    border-radius: 12px;
+    position: relative;
+    font-size: 17px;
+    line-height: 1.6;
+    font-style: italic;
+    padding: 20px;
+    border: none;
+    color: #555555; }
+    .value blockquote:after {
+      content: "";
+      position: absolute;
+      bottom: 50%;
+      left: -15px;
+      margin-bottom: -15px;
+      border-width: 15px 15px 15px 0;
+      border-style: solid;
+      border-color: transparent white;
+      display: block;
+      width: 0; }
+    .value blockquote small {
+      color: #212121;
+      display: block;
+      text-align: right;
+      margin-top: 10px;
+      font-style: normal;
+      margin-left: 10px;
+      font-family: "jaf-facitweb", sans-serif; }
+
 .single .card {
   padding: 30px; }
   .single .card article h1 {
@@ -278,8 +322,12 @@ section {
     margin-bottom: 20px;
     border-bottom: 1px solid #efefef; }
 
+.service.ppc {
+  background: #dc7960;
+  color: rgba(0, 0, 0, 0.85); }
 .service h1 {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  text-align: center; }
 .service p {
   font-size: 18px; }
 .service ul li {
@@ -326,6 +374,11 @@ header .navbar {
       margin-right: 4px; }
     header .navbar .navbar-header .navbar-brand:hover {
       background: rgba(0, 0, 0, 0.1); }
+  header .navbar .call {
+    margin: 0 0 0 100px; }
+    header .navbar .call .navbar-nav li {
+      color: white;
+      line-height: 70px; }
   header .navbar .navbar-collapse .navbar-nav {
     float: right; }
     header .navbar .navbar-collapse .navbar-nav li a {
@@ -338,6 +391,8 @@ header .navbar {
       background: transparent; }
       header .navbar .navbar-collapse .navbar-nav li.active a:hover {
         background: rgba(0, 0, 0, 0.15); }
+    header .navbar .navbar-collapse .navbar-nav li.telephone {
+      color: white; }
 
 .footer {
   background: #282828;

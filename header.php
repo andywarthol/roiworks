@@ -64,6 +64,14 @@
 
 								</div>
 
+								<nav class="pull-right call">
+									<ul class="nav navbar-nav">
+										<li class="telephone">
+											<span>Call us at:</span> <strong>1-800-555-1212</strong>
+										</li>
+									</ul>
+								</nav>
+
 								<div class="navbar-collapse collapse navbar-responsive-collapse">
 									<?php bones_main_nav(); ?>
 

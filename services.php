@@ -33,7 +33,34 @@ Template Name: Services
 		</div>
 	</div>
 </section>
-<section class="service grey">
+<section class="service white">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Social</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-5">
+						<img src="http://placehold.it/640x480" alt="" class="thumbnail img-responsive">
+					</div>
+					<div class="col-sm-7">
+						<p>Culpa rem accusantium voluptatem qui, odio voluptate fugit. Voluptate aut ipsa cumque aliquid:</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						</ul>
+						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="service">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -43,9 +70,6 @@ Template Name: Services
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-5">
-						<img src="http://placehold.it/640x480" alt="" class="thumbnail img-responsive">
-					</div>
 					<div class="col-sm-7">
 						<p>Culpa rem accusantium voluptatem qui, odio voluptate fugit. Voluptate aut ipsa cumque aliquid:</p>
 						<ul>
@@ -55,12 +79,16 @@ Template Name: Services
 						</ul>
 						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
+					<div class="col-sm-5">
+						<img src="http://placehold.it/640x480" alt="" class="thumbnail img-responsive">
+					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="service">
+<section class="service white">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -70,6 +98,33 @@ Template Name: Services
 					</div>
 				</div>
 				<div class="row">
+					<div class="col-sm-5">
+						<img src="http://placehold.it/640x480" alt="" class="thumbnail img-responsive">
+					</div>
+					<div class="col-sm-7">
+						<p>Culpa rem accusantium voluptatem qui, odio voluptate fugit. Voluptate aut ipsa cumque aliquid:</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						</ul>
+						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="service">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Conversion Rate Optimization</h1>
+					</div>
+				</div>
+				<div class="row">
 					<div class="col-sm-7">
 						<p>Culpa rem accusantium voluptatem qui, odio voluptate fugit. Voluptate aut ipsa cumque aliquid:</p>
 						<ul>
@@ -88,13 +143,13 @@ Template Name: Services
 		</div>
 	</div>
 </section>
-<section class="service grey">
+<section class="service white">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1>Conversion Rate Optimization</h1>
+						<h1>UX Research, Usability &amp; User Testing</h1>
 					</div>
 				</div>
 				<div class="row">
@@ -121,7 +176,62 @@ Template Name: Services
 			<div class="col-lg-10 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1>UX Research</h1>
+						<h1>Creative Services</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-7">
+						<p>Culpa rem accusantium voluptatem qui, odio voluptate fugit. Voluptate aut ipsa cumque aliquid:</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						</ul>
+						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+					</div>
+					<div class="col-sm-5">
+						<img src="http://placehold.it/640x480" alt="" class="thumbnail img-responsive">
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="service white">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Website Design</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-5">
+						<img src="http://placehold.it/640x480" alt="" class="thumbnail img-responsive">
+					</div>
+					<div class="col-sm-7">
+						<p>Culpa rem accusantium voluptatem qui, odio voluptate fugit. Voluptate aut ipsa cumque aliquid:</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						</ul>
+						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="service">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>A/B Testing</h1>
 					</div>
 				</div>
 				<div class="row">

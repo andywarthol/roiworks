@@ -21,6 +21,8 @@ section
 		font-size: 15px
 		line-height: 1.6
 		margin-bottom: 24px
+		&.intro
+			font-size: 18px
 	ul
 		padding: 0 0 0 20px
 		margin-bottom: 30px
@@ -104,6 +106,44 @@ section
 			font-size: 14px
 			line-height: 1.5
 
+.value
+	padding: 15px 0
+	margin-bottom: 15px
+	border-bottom: 1px solid #dadada
+	box-shadow: 0 1px 0 white
+	h2
+		font-size: 24px
+	blockquote
+		background: white
+		font-family: Georgia, serif
+		border-radius: 12px
+		position: relative
+		font-size: 17px
+		line-height: 1.6
+		font-style: italic
+		padding: 20px
+		border: none
+		color: #555
+		&:after
+			content: ""
+			position: absolute
+			bottom: 50%
+			left: -15px
+			margin-bottom: -15px
+			border-width: 15px 15px 15px 0
+			border-style: solid
+			border-color: transparent white
+			display: block
+			width: 0
+		small
+			color: $black
+			display: block
+			text-align: right
+			margin-top: 10px
+			font-style: normal
+			margin-left: 10px
+			font-family: "jaf-facitweb", sans-serif
+
 
 .single 
 	.card
@@ -117,8 +157,12 @@ section
 				border-bottom: 1px solid #efefef
 
 .service
+	&.ppc
+		background: #dc7960
+		color: rgba(0, 0, 0, .85)
 	h1
 		margin-bottom: 40px
+		text-align: center
 	p
 		font-size: 18px
 	ul

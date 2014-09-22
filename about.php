@@ -12,10 +12,10 @@ Template Name: About
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
 					<div class="col-sm-3 ">
-						<div class="well">
+						<div class="well affix">
 							<h3>About</h3>
 							<ul class="">
-								<?php wp_list_pages('title_li=&child_of=12&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
+								<?php wp_list_pages('sort_column=menu_order&exclude=44&title_li=&child_of=12&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
 							</ul>
 						</div>
 					</div>
