@@ -29,7 +29,7 @@ Template Name: Culture
 								</header>
 							</div>
 						</div>
-						<div class="row value">
+						<div class="row block">
 							<div class="col-sm-12">
 								<h2>Without hard work, nothing grows but weeds.</h2>
 							</div>
@@ -40,7 +40,7 @@ Template Name: Culture
 								<blockquote>"The reason why we work hard is simple.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, facere suscipit ipsa at, quo deleniti qui soluta dignissimos. Exercitationem porro mollitia esse, temporibus odit tenetur explicabo officia unde." <small>George Revutsky, Founder CEO</small></blockquote>
 							</div>
 						</div>
-						<div class="row value">
+						<div class="row block">
 							<div class="col-sm-12">
 								<h2>Always remember that DATA is your friend.</h2>
 							</div>
@@ -51,7 +51,7 @@ Template Name: Culture
 								<blockquote>"It's important to know that we are a data first organization.  Opinions about what is best for conversions always vary, but until you have data you really don't have shit.  We base our decisions off of data because the numbers never lie." <small>George Revutsky, Founder CEO</small></blockquote>
 							</div>
 						</div>
-						<div class="row value">
+						<div class="row block">
 							<div class="col-sm-12">
 								<h2>Focus on the client and all else will follow.</h2>
 							</div>
@@ -62,7 +62,7 @@ Template Name: Culture
 								<blockquote>"We are a Special Forces team for our clients.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, facere suscipit ipsa at, quo deleniti qui soluta dignissimos. Exercitationem porro mollitia esse, temporibus odit tenetur explicabo officia unde." <small>George Revutsky, Founder CEO</small></blockquote>
 							</div>
 						</div>
-						<div class="row value">
+						<div class="row block">
 							<div class="col-sm-12">
 								<h2>Take care of yourself, damnit.</h2>
 							</div>
@@ -73,7 +73,7 @@ Template Name: Culture
 								<blockquote>"If you're not taking care of yourself, work output is the first thing to go.  That's why it's so important to be good to your body &mdash; Et, facere suscipit ipsa at, quo deleniti qui soluta dignissimos. Exercitationem porro mollitia esse." <small>Justin Stein, Account Manager</small></blockquote>
 							</div>
 						</div>
-						<div class="row value">
+						<div class="row block">
 							<div class="col-sm-12">
 								<h2>Make friends at work.</h2>
 							</div>
@@ -81,10 +81,10 @@ Template Name: Culture
 								<img src="<?php bloginfo('template_directory'); ?>/library/images/make-friends.jpg" class="thumbnail">
 							</div>
 							<div class="col-sm-8">
-								<blockquote>"Runway is a really awesome place with a lot of really awesome people.  One thing I love about it is that there are tons of happy hours and cool events and mingling, which makes it more than just a place of business." <small>Stephen Edmondson, Sr. Account Manager</small></blockquote>
+								<blockquote>"Runway is a really awesome place with a lot of really awesome people.  One thing I love about it is that there are tons of happy hours and cool events and mingling, which makes it more than just a place of business." <small>Stephen Edmondson, Client Services Manager</small></blockquote>
 							</div>
 						</div>
-						<div class="row value">
+						<div class="row block">
 							<div class="col-sm-12">
 								<h2>Have fun whenever you can.</h2>
 							</div>

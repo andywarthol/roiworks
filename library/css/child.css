@@ -1,9 +1,9 @@
 body {
+  padding-top: 70px;
   font-family: "jaf-facitweb", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  background: #f1f1f1;
-  padding-top: 70px; }
+  background: #f1f1f1; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: "jaf-facitweb", sans-serif; }
 
@@ -86,6 +86,12 @@ body {
   .panel-group .panel .panel-collapse .panel-body {
     border-top: none;
     padding: 10px 30px 15px; }
+
+.headshot {
+  width: 250px;
+  height: auto; }
+  .headshot.pull-right {
+    margin: 0 0 10px 20px; }
 
 .well {
   width: 124px;
@@ -177,9 +183,9 @@ section {
     color: white; }
   section h1, section h2, section h3, section h4 {
     margin-top: 0;
-    padding: 0;
-    text-transform: uppercase; }
+    padding: 0; }
   section h1 {
+    text-transform: uppercase;
     margin-bottom: 20px;
     font-weight: bold; }
   section h2 {
@@ -275,14 +281,15 @@ section {
     font-size: 14px;
     line-height: 1.5; }
 
-.value {
+.block {
   padding: 15px 0;
   margin-bottom: 15px;
   border-bottom: 1px solid #dadada;
   box-shadow: 0 1px 0 white; }
-  .value h2 {
-    font-size: 24px; }
-  .value blockquote {
+  .block h2 {
+    font-size: 24px;
+    text-transform: none; }
+  .block blockquote {
     background: white;
     font-family: Georgia, serif;
     border-radius: 12px;
@@ -293,7 +300,7 @@ section {
     padding: 20px;
     border: none;
     color: #555555; }
-    .value blockquote:after {
+    .block blockquote:after {
       content: "";
       position: absolute;
       bottom: 50%;
@@ -304,7 +311,7 @@ section {
       border-color: transparent white;
       display: block;
       width: 0; }
-    .value blockquote small {
+    .block blockquote small {
       color: #212121;
       display: block;
       text-align: right;
@@ -360,7 +367,7 @@ section {
   position: absolute; }
 
 header .navbar {
-  background: #282828;
+  background: rgba(40, 40, 40, 0.96);
   border-bottom-color: rgba(0, 0, 0, 0.1);
   height: 70px; }
   header .navbar .navbar-header .navbar-brand {

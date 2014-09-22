@@ -29,12 +29,10 @@ Template Name: Leadership
 							</div>
 						</div>
 						<?php if( have_rows('team_member') ): while ( have_rows('team_member') ) : the_row(); ?>
-						<div class="row">
-							<div class="col-sm-4">
-								<img src="<?php the_sub_field('team_member_headshot'); ?>" class="thumbnail img-responsive">
-							</div>
-							<div class="col-sm-8">
+						<div class="row block">
+							<div class="col-sm-12">
 								<h2><?php the_sub_field('team_member_name'); ?><small><?php the_sub_field('team_member_title'); ?></small></h2>
+								<img src="<?php the_sub_field('team_member_headshot'); ?>" class="pull-right thumbnail img-responsive headshot">
 								<p><?php the_sub_field('team_member_bio'); ?></p>
 							</div>
 						</div>
