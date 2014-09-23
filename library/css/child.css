@@ -251,14 +251,35 @@ section {
     display: block; }
 
 .results .card {
-  height: 200px; }
+  height: 240px;
+  text-align: center;
+  background-size: auto 32px;
+  background-position: center 90%;
+  background-repeat: no-repeat; }
+  .results .card.post-123 {
+    background-size: auto 48px; }
+  .results .card.post-87 {
+    background-size: auto 42px; }
+  .results .card.post-130 {
+    background-size: auto 42px; }
   .results .card .flat {
     position: absolute;
     bottom: 45px;
     left: 0;
     right: 0; }
   .results .card h1 {
+    display: none;
     text-indent: -9999px; }
+  .results .card em {
+    font-weight: bold;
+    font-size: 60px;
+    display: block;
+    font-style: normal; }
+    .results .card em small {
+      font-size: 0.65em;
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 10px; }
 
 .post-excerpt .col-sm-4 {
   padding: 0; }

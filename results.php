@@ -26,10 +26,12 @@ Template Name: Results
 						foreach( $myposts as $post ) :  setup_postdata($post);
 					?>
 					<div class="col-sm-4">
-						<div class="bubble"><?php the_field('key_performance_indicator'); ?></div>
-						<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background: #fff url('<?php the_field('company_logo'); ?>') center center no-repeat; background-size: 85% auto;">
-			        <h1><?php the_field('company_name'); ?></h1>
-			        <p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
+			        <h1><?php the_title(); ?></h1>
+							<?php the_field('performance_metric'); ?><br/>
+							<em><?php the_field('the_figure'); ?></em>
+							<?php the_field('time_frame'); ?>
+			        <!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
 						</article> <!-- end article -->
 					</div>
 					<!-- Close the loop -->
@@ -44,10 +46,12 @@ Template Name: Results
 						foreach( $myposts as $post ) :  setup_postdata($post);
 					?>
 					<div class="col-sm-4">
-						<div class="bubble"><?php the_field('key_performance_indicator'); ?></div>
-						<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background: #fff url('<?php the_field('company_logo'); ?>') center 60px no-repeat; background-size: 85% auto;">
-			        <h1><?php the_field('company_name'); ?></h1>
-			        <p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
+			        <h1><?php the_title(); ?></h1>
+							<?php the_field('performance_metric'); ?><br/>
+							<em><?php the_field('the_figure'); ?></em>
+							<?php the_field('time_frame'); ?>
+			        <!-- <p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
 						</article> <!-- end article -->
 					</div>
 					<!-- Close the loop -->

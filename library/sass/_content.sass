@@ -74,14 +74,36 @@ section
 
 .results
 	.card
-		height: 200px
+		height: 240px
+		text-align: center
+		background-size: auto 32px
+		background-position: center 90%
+		background-repeat: no-repeat
+		&.post-123
+			background-size: auto 48px
+		&.post-87
+			background-size: auto 42px
+		&.post-130
+			background-size: auto 42px
 		.flat
 			position: absolute
 			bottom: 45px
 			left: 0
 			right: 0
 		h1
+			display: none
 			text-indent: -9999px
+		em
+			font-weight: bold
+			font-size: 60px
+			display: block
+			font-style: normal
+			small
+				font-size: .65em
+				display: inline-block
+				vertical-align: middle
+				margin-bottom: 10px
+
 
 // Blog posts
 .post-excerpt
