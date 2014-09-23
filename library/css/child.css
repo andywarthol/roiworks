@@ -255,9 +255,12 @@ section {
   text-align: center;
   background-size: auto 32px;
   background-position: center 90%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  color: #555555; }
   .results .card.post-123 {
     background-size: auto 48px; }
+  .results .card.post-141 {
+    background-size: auto 52px; }
   .results .card.post-87 {
     background-size: auto 42px; }
   .results .card.post-130 {
@@ -271,6 +274,7 @@ section {
     display: none;
     text-indent: -9999px; }
   .results .card em {
+    color: #282828;
     font-weight: bold;
     font-size: 60px;
     display: block;
