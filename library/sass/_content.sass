@@ -6,6 +6,8 @@ section
 	h1, h2, h3, h4
 		margin-top: 0
 		padding: 0
+		i
+			font-size: .76em
 	h1
 		text-transform: uppercase
 		margin-bottom: 20px
@@ -170,7 +172,11 @@ section
 			font-style: normal
 			margin-left: 10px
 			font-family: "jaf-facitweb", sans-serif
-
+.about
+	.card
+		h2
+			font-size: 28px
+			margin-bottom: 30px
 
 .single 
 	.card
@@ -184,9 +190,42 @@ section
 				border-bottom: 1px solid #efefef
 
 .service
+	h2
+		@extend h1
+		font-size: 36px
+		border: none
+	.img-responsive
+		display: inline-block
 	&.ppc
-		background: #dc7960
-		color: rgba(0, 0, 0, .85)
+		img
+			max-width: 200px
+	&.social
+		img
+			max-width: 240px
+	&.display
+		img
+			max-width: 160px
+	&.analytics
+		img
+			width: 220px
+			margin-top: -20px
+	&.cro
+		img
+			width: 220px
+			margin-top: -10px
+	&.ux
+		img
+			width: 160px
+	&.website
+		img
+			width: 200px
+	&.creative
+		img
+			width: 180px
+			margin-left: 20px
+	&.ab
+		img
+			width: 260px
 	h1
 		margin-bottom: 40px
 		text-align: center

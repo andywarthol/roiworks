@@ -31,7 +31,7 @@ Template Name: Culture
 						</div>
 						<div class="row block">
 							<div class="col-sm-12">
-								<h2>Without hard work, nothing grows but weeds.</h2>
+								<h2>Work smarter, not harder.</h2>
 							</div>
 							<div class="col-sm-4">
 								<img src="<?php bloginfo('template_directory'); ?>/library/images/work-hard.jpg" class="thumbnail">
@@ -42,7 +42,7 @@ Template Name: Culture
 						</div>
 						<div class="row block">
 							<div class="col-sm-12">
-								<h2>Always remember that DATA is your friend.</h2>
+								<h2>Data is your friend.</h2>
 							</div>
 							<div class="col-sm-4">
 								<img src="<?php bloginfo('template_directory'); ?>/library/images/data-first.jpg" class="thumbnail">

@@ -1,21 +1,32 @@
 body.home
 	padding-top: 0
 	section
-		padding: 2em 0
+		padding: 3em 0
 		&.hero
-			background: $blue
-			padding-top: 100px
+			// background: $lightBlue
+			padding-top: 110px
+			img
+				width: 345px
+				height: auto
+				display: inline-block
+				margin: 20px 0 0 0
+				position: absolute
+				top: -5px
+				left: 50%
+				margin-left: -150px
 			h1
-				color: white
 				font-weight: bold
+				text-transform: none
+				font-size: 38px
+				margin-bottom: 40px
+				text-transform: uppercase
 			h2
 				font-size: 22px
 				margin-bottom: 20px
-				color: white
+				border: none
 			ul
 				li
-					font-size: 18px
-					color: white
+					font-size: 16px
 		h1
 			text-align: center
 			margin: 0 0 30px
@@ -56,3 +67,15 @@ body.home
 				background-image: url('../images/funnel-icon.png')
 			&.ux
 				background-image: url('../images/beaker-icon.png')
+		&.results
+			text-align: center
+			.col-sm-3
+				float: none
+				display: inline-block
+			.card
+				font-size: 13px
+				height: 210px
+				white-space: nowrap
+				border-color: darken($lightGrey, 8%)
+				em
+					font-size: 48px

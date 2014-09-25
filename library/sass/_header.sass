@@ -1,16 +1,20 @@
 .home
 	header
 		.navbar
-			background: rgba(0, 0, 0, .4)
-			position: absolute
+			// // background: rgba(0, 0, 0, .4)
+			// position: absolute
 header
 	.navbar
-		background: rgba($ash, .96)
+		background: rgba(#006C7F, .98)
 		border-bottom-color: rgba(0, 0, 0, .1)
 		height: $navbarHeight
 		.navbar-header
 			.navbar-brand
+				width: 145px
 				height: $navbarHeight
+				background: url('../images/logo-2x.png') center center no-repeat
+				background-size: 121px 20px
+				text-indent: -9999px
 				line-height: $navbarHeight
 				padding: 0 15px
 				font-size: 1.5em
@@ -18,8 +22,6 @@ header
 				i
 					font-size: .8em
 					margin-right: 4px
-				&:hover
-					background: rgba(0, 0, 0, .1)
 		.call
 			margin: 0 0 0 100px
 			.navbar-nav
@@ -33,13 +35,14 @@ header
 					a
 						color: white
 						line-height: $navbarHeight
-						padding: 0 15px
+						padding: 0 18px
+						font-size: 15px
 						&:hover
-							background: rgba(0, 0, 0, .15)
+							background: rgba(0, 0, 0, .05)
 					&.active
 						a
 							background: transparent
 							&:hover
-								background: rgba(0, 0, 0, .15)
+								background: rgba(0, 0, 0, .05)
 					&.telephone
 						color: white

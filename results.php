@@ -9,12 +9,13 @@ Template Name: Results
 <section class="results grey">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-lg-10 col-lg-offset-1 col-md-12">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<div class="row">
 					<div class="col-sm-12">
 						<header>
-							<h1 class="page-title"><?php the_title(); ?></h1>
+							<h1 class="page-title"><i class="glyphicon glyphicon-signal"></i>	<?php the_title(); ?></h1>
+							<p class="intro">Our data-driven decisions allow us to move the needle significantly.  Check out some of our results.</p>
 						</header>
 					</div>
 				</div>
