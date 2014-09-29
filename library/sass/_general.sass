@@ -7,13 +7,16 @@ body
 	background: $lightGrey
 	h1, h2, h3, h4, h5
 		font-family: "jaf-facitweb", sans-serif
-
+a
+	color: $linkColor
 .grey
 	background: $lightGrey
 .white
 	background: white
 .blue
 	background: $blue
+	a
+		color: lighten($linkColor, 25%)
 .purple-gradient
 	background-image: -webkit-linear-gradient(left, #491164 0%, #b5238a 87%)
 	background-image: -o-linear-gradient(left, #491164 0%, #b5238a 87%)
@@ -24,12 +27,17 @@ body
 	background-image: -o-linear-gradient(left, #efefef 0%, #dadada 87%)
 	background-image: linear-gradient(to right, #efefef 0%, #dadada 87%)
 
+.dark-graydient
+	background-image: -webkit-linear-gradient(left, #666 0%, #333 87%)
+	background-image: -o-linear-gradient(left, #666 0%, #333 87%)
+	background-image: linear-gradient(to right, #666 0%, #333 87%)
+
 .lightBlue-gradient
 	background-image: -webkit-linear-gradient(left, #c2e0ed 0%, #83d0f0 87%)
 
 .flat
 	margin: 0!important
-	padding: 0!important
+	padding: 0 0 5px!important
 
 .thumbnail
 	margin-bottom: 24px
@@ -70,6 +78,8 @@ body
 .panel-group
 	.panel
 		margin-bottom: 1em
+		box-shadow: none
+		border-color: darken($lightGrey, 5%)
 		.panel-heading
 			background: white
 		.panel-title
@@ -80,12 +90,13 @@ body
 				font-size: 16px
 				i
 					margin-right: 6px
-					top: 2px
+					top: 0px
+					color: darken($lightGrey, 25%)
 				.glyphicon-chevron-right
 					display: none
 				.glyphicon-chevron-down
 					display: inline-block
-					top: 4px
+					top: 2px
 				&.collapsed
 					.glyphicon-chevron-right
 						display: inline-block
@@ -94,7 +105,10 @@ body
 		.panel-collapse
 			.panel-body
 				border-top: none
-				padding: 10px 30px 15px
+				padding: 0px 20px 15px
+				font-size: 14px
+				color: #555
+				line-height: 1.5
 .headshot
 	width: 250px
 	height: auto

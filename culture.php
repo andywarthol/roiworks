@@ -86,7 +86,7 @@ Template Name: Culture
 						</div>
 						<div class="row block">
 							<div class="col-sm-12">
-								<h2>Have fun whenever you can.</h2>
+								<h2>Celebrate success</h2>
 							</div>
 							<div class="col-sm-4">
 								<img src="<?php bloginfo('template_directory'); ?>/library/images/have-fun.jpg" class="thumbnail">

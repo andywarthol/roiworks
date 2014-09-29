@@ -26,7 +26,7 @@ Template Name: Services
 						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 					<div class="col-sm-5 col-lg-4">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/ppc.gif" alt="Pay Per Click (PPC) graphic element" class="img-responsive">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/ppc.gif" alt="Pay Per Click (PPC) graphic element" class="img-responsive in">
 					</div>
 				</div>
 			</div>
@@ -256,14 +256,14 @@ Template Name: Services
 <script>
 	jQuery(document).ready(function($){
 		
-    $('.element').bind('inview', function (event, visible) {
+    $('.service img').bind('inview', function (event, visible) {
       if (visible == true) {
         // element is now visible in the viewport
-       // $(".element img").addClass('in');
+       $(this).addClass('in');
           
       } else {
         // element has gone out of viewport
-         // $(".mac img").removeClass('in');
+         // $(" img").removeClass('in');
       }
     });
 	});
