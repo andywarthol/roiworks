@@ -8,6 +8,12 @@ body.home
 			background-size: cover
 			padding-top: 150px
 			min-height: 500px
+			&.white-wall
+				background: url('../images/hero-test-2.jpg') 50% 50% no-repeat
+				background-size: cover
+				h1
+					color: $ash
+					font-weight: bold
 			img
 				width: 345px
 				height: auto
@@ -18,7 +24,7 @@ body.home
 				left: 50%
 				margin-left: -150px
 			h1
-				font-weight: bold
+				font-weight: normal
 				text-transform: none
 				font-size: 44px
 				line-height: 1.4
@@ -27,9 +33,9 @@ body.home
 				color: white
 				span
 					&::selection
-						background: $ash
+						background: $ash!important
 					&::-moz-selection
-						background: $ash
+						background: $ash!important
 			h2
 				font-size: 22px
 				margin-bottom: 20px

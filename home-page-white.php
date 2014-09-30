@@ -1,17 +1,17 @@
 <?php
 /*
-Template Name: Home Page
+Template Name: Home Page White
 */
 ?>
 
 <?php get_header(); ?>
-<section class="hero white">
+<section class="hero white white-wall">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-sm-6 col-md-7">
-						<h1>We're not afraid<br/><span data-typer-targets="of color., of disagreeing with you., of deadlines., of data."></span></h1>
+						<h1>Reporting bad.<br/>Analysis good.</h1>
 						<p class="flat"><a href="?page_id=10" class="btn btn-lg btn-primary">Learn more &raquo;</a></p>
 					</div>
 					<div class="col-sm-6 col-md-5">
@@ -229,7 +229,9 @@ Template Name: Home Page
 <script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.typer.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.inview.min.js"></script>
 <script>
+
 	jQuery(document).ready(function($){
+		$('body').addClass('home');
 		$('.icon').addClass('shown');
 
 		// Accordion

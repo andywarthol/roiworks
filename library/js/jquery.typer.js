@@ -42,7 +42,7 @@ String.prototype.rightChars = function(n){
 
     return $('<span></span>')
       .css('color', color)
-      .css('background-color', backgroundColor);
+      .css('background-color', '#212121');
   };
 
   isNumber = function (n) {
@@ -227,7 +227,7 @@ String.prototype.rightChars = function(n){
       leftStop: i,
       rightStop: currentText.length - j,
       primaryColor: $e.css('color'),
-      backgroundColor: $e.css('background-color'),
+      backgroundColor: $e.css('#212121'),
       text: newString
     });
 
