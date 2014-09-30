@@ -11,7 +11,7 @@ Template Name: Home Page
 			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-sm-6 col-md-7">
-						<h1>We're not afraid<br/><span data-typer-targets="of color., of disagreeing with you., of deadlines., of data."></span></h1>
+						<h1>We're not afraid<br/>of <span data-typer-targets="color.,disagreeing with you.,deadlines.,data."></span></h1>
 						<p class="flat"><a href="?page_id=10" class="btn btn-lg btn-primary">Learn more &raquo;</a></p>
 					</div>
 					<div class="col-sm-6 col-md-5">
