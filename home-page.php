@@ -182,6 +182,39 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
+<section class="testimonials white">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>Our Clients Don't Hate Us</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+		      <div class="col-sm-4 text-center">
+						<img class="thumbnail" src="<?php the_field('headshot1'); ?>" alt="">
+		  			<blockquote>
+		      		<?php the_field('testimonial1'); ?>
+		      	</blockquote>
+		      </div>
+		      <div class="col-sm-4 text-center">
+						<img class="thumbnail" src="<?php the_field('headshot2'); ?>" alt="">
+		  			<blockquote>
+		      		<?php the_field('testimonial2'); ?>
+		      	</blockquote>
+		      </div>
+		      <div class="col-sm-4 text-center">
+						<img class="thumbnail" src="<?php the_field('headshot3'); ?>" alt="">
+		  			<blockquote>
+		      		<?php the_field('testimonial3'); ?>
+		      	</blockquote>
+		      </div>
+		    </div>
+		  </div>
+    </div>
+  </div>
+</section>
 <section class="faq grey">
 	<div class="container">
 		<div class="row">
@@ -235,18 +268,8 @@ Template Name: Home Page
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
 
-		$.typer.options.backgroundColor = '#212121';
-
 		// Type replacement
-		$('[data-typer-targets]').typer({
-		  // highlightSpeed    : 20,
-		  // typeSpeed         : 100,
-		  // clearDelay        : 500,
-		  // typeDelay         : 200,
-		  // clearOnHighlight  : false,
-		  // typerDataAttr     : 'data-typer-targets',
-		  // typerInterval     : 2000
-		});
+		$('[data-typer-targets]').typer();
 
 		$.typer.options.highlightSpeed = 30;
 		$.typer.options.typeSpeed = 130;

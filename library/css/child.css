@@ -143,6 +143,54 @@ a {
     .carousel-indicators li.active {
       background-color: #617b8a; }
 
+.thumbnail {
+  position: relative;
+  height: 150px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: 10px; }
+  .thumbnail img {
+    width: 138px;
+    height: 138px; }
+
+h1, .service h2 {
+  margin-bottom: 40px; }
+  h1 i, .service h2 i {
+    color: #e18e7c; }
+
+h2 {
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0 0 20px; }
+
+blockquote {
+  display: inline-block;
+  max-width: 90%;
+  position: relative;
+  border-radius: 2px;
+  padding: 15px 20px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #222b30;
+  border: none;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+  clear: both; }
+  blockquote small {
+    margin-top: 10px;
+    font-size: 15px;
+    white-space: nowrap;
+    font-style: normal;
+    font-family: "jaf-facitweb";
+    color: #666666; }
+    blockquote small:after, blockquote small:before {
+      content: ""; }
+    blockquote small strong {
+      display: block;
+      white-space: normal;
+      color: #222b30; }
+
 .well {
   width: 124px;
   display: block;
