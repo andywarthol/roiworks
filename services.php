@@ -26,7 +26,7 @@ Template Name: Services
 						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 					<div class="col-sm-5 col-lg-4">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/ppc.gif" alt="Pay Per Click (PPC) graphic element" class="img-responsive in">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/ppc-service.gif" alt="Pay Per Click (PPC) graphic element" class="img-responsive in">
 					</div>
 				</div>
 			</div>
@@ -44,7 +44,7 @@ Template Name: Services
 				</div>
 				<div class="row">
 					<div class="col-sm-5 col-lg-4 text-right">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/social.gif" alt="Social media laptop graphic" class="img-responsive">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/social-service.gif" alt="Social media laptop graphic" class="img-responsive">
 					</div>
 					<div class="col-sm-7 col-lg-7">
 						<p>We deploy carefully targeted social campaigns.</p>
