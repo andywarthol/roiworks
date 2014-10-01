@@ -143,27 +143,24 @@ a {
     .carousel-indicators li.active {
       background-color: #617b8a; }
 
-.thumbnail {
+.testimonials .thumbnail {
   position: relative;
   height: 150px;
   width: auto;
   display: inline-block;
   margin-bottom: 10px; }
-  .thumbnail img {
+  .testimonials .thumbnail img {
     width: 138px;
     height: 138px; }
-
-h1, .service h2 {
+.testimonials h1, .testimonials .service h2, .service .testimonials h2 {
   margin-bottom: 40px; }
-  h1 i, .service h2 i {
+  .testimonials h1 i, .testimonials .service h2 i, .service .testimonials h2 i {
     color: #e18e7c; }
-
-h2 {
+.testimonials h2 {
   font-weight: normal;
   font-size: 18px;
   margin: 0 0 20px; }
-
-blockquote {
+.testimonials blockquote {
   display: inline-block;
   max-width: 90%;
   position: relative;
@@ -177,16 +174,16 @@ blockquote {
   line-height: 1.5;
   margin: 0 0 20px 0;
   clear: both; }
-  blockquote small {
+  .testimonials blockquote small {
     margin-top: 10px;
     font-size: 15px;
     white-space: nowrap;
     font-style: normal;
     font-family: "jaf-facitweb";
     color: #666666; }
-    blockquote small:after, blockquote small:before {
+    .testimonials blockquote small:after, .testimonials blockquote small:before {
       content: ""; }
-    blockquote small strong {
+    .testimonials blockquote small strong {
       display: block;
       white-space: normal;
       color: #222b30; }
@@ -217,6 +214,10 @@ blockquote {
         margin-right: 5px;
         top: 0px; }
 
+@media screen and (min-width: 1200px) {
+  .oversize {
+    max-width: 115%;
+    margin-top: -7.5%; } }
 body.home {
   padding-top: 0; }
   body.home section {
@@ -572,6 +573,18 @@ section {
   font-size: 18px;
   margin-bottom: 10px; }
 
+.technique {
+  margin-bottom: 40px; }
+  .technique h1, .technique .service h2, .service .technique h2 {
+    font-weight: normal;
+    font-size: 24px; }
+    .technique h1 i, .technique .service h2 i, .service .technique h2 i {
+      color: #b1d4e9; }
+  .technique .service {
+    width: 100px;
+    height: auto;
+    margin: 1em 1em 1em 0; }
+
 .contact .google-map {
   position: relative;
   padding-bottom: 75%;
@@ -593,10 +606,8 @@ section {
     display: block;
     margin-bottom: 5px; }
 
-.home header .navbar {
-  background: rgba(0, 0, 0, 0.3); }
-  .home header .navbar.dark {
-    background: rgba(32, 80, 129, 0.98); }
+.home header .navbar.dark {
+  background: rgba(32, 80, 129, 0.98); }
 
 header .navbar {
   background: rgba(32, 80, 129, 0.98);

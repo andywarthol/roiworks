@@ -11,7 +11,7 @@ Template Name: Home Page
 			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-sm-6 col-md-7">
-						<h1>We're not afraid<br/>of <span data-typer-targets="color.,disagreeing with you.,deadlines.,data."></span></h1>
+						<h1>We're not afraid<br/>of <span data-typer-targets="user insight, A/B testing, analytics, color, deadlines, data"></span></h1>
 						<p class="flat"><a href="?page_id=10" class="btn btn-lg btn-primary">Learn more &raquo;</a></p>
 					</div>
 					<div class="col-sm-6 col-md-5">
@@ -28,7 +28,7 @@ Template Name: Home Page
 			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="flat">Compelling Results</h1>
+						<h1 class="flat">Awesome Results</h1>
 						<p class="intro">We effectively move the needle for our clients with data-driven decisions.</p>
 					</div>
 				</div>
@@ -275,7 +275,6 @@ Template Name: Home Page
 		$.typer.options.typeSpeed = 130;
 		$.typer.options.clearDelay = 700;
 		$.typer.options.typeDelay = 400;
-		$.typer.options.clearOnHighlight = false;
 		$.typer.options.typerInterval = 3000;
 
 		$('.hero').bind('inview', function (event, visible) {
