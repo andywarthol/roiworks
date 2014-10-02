@@ -7,9 +7,13 @@ body {
   background: #edf5fa; }
   body h1, body .service h2, .service body h2, body h2, body h3, body h4, body h5 {
     font-family: "jaf-facitweb", sans-serif; }
+  body.modal-open {
+    margin: 0; }
+    body.modal-open .navbar-fixed-top {
+      margin: 0; }
 
 a {
-  color: #57afe6; }
+  color: #1e94de; }
 
 .grey {
   background: #edf5fa; }
@@ -20,7 +24,7 @@ a {
 .blue {
   background: #205081; }
   .blue a {
-    color: #c6e4f7; }
+    color: #8cc9ef; }
 
 .purple-gradient {
   background-image: -webkit-linear-gradient(left, #491164 0%, #b5238a 87%);
@@ -81,6 +85,27 @@ a {
     background: rgba(0, 0, 0, 0.45);
     color: white; }
 
+.attachment-post-thumbnail {
+  width: 140px;
+  height: auto; }
+
+.attachment-post-medium {
+  width: 200px;
+  height: auto; }
+
+.alignleft {
+  float: left;
+  margin: 0 20px 10px 0; }
+
+.alignright {
+  float: right;
+  margin: 0 0 10px 20px; }
+
+form label {
+  font-weight: normal; }
+form button[type="submit"], form input[type="submit"] {
+  -webkit-font-smoothing: antialiased; }
+
 .panel-group .panel {
   margin-bottom: 1em;
   box-shadow: none;
@@ -112,6 +137,25 @@ a {
     font-size: 14px;
     color: #555555;
     line-height: 1.5; }
+
+.modal .modal-dialog .modal-content {
+  border-radius: 0; }
+  .modal .modal-dialog .modal-content .modal-header {
+    border: none;
+    padding-bottom: 0; }
+    .modal .modal-dialog .modal-content .modal-header .modal-title {
+      font-size: 26px; }
+      .modal .modal-dialog .modal-content .modal-header .modal-title br {
+        display: none; }
+      .modal .modal-dialog .modal-content .modal-header .modal-title small {
+        margin-left: 5px;
+        font-size: 18px; }
+    .modal .modal-dialog .modal-content .modal-header .close {
+      text-shadow: none;
+      opacity: 0.7;
+      font-size: 22px; }
+      .modal .modal-dialog .modal-content .modal-header .close:hover {
+        opacity: 1; }
 
 .headshot {
   width: 250px;
@@ -186,7 +230,7 @@ a {
       color: #222b30; }
 
 .well {
-  width: 124px;
+  max-width: 280px;
   display: block;
   box-shadow: none;
   border-radius: 0;
@@ -205,11 +249,16 @@ a {
     margin: 0; }
     .well ul li {
       margin-bottom: 10px; }
-      .well ul li a i {
-        display: none;
-        font-size: 0.7em;
-        margin-right: 5px;
-        top: 0px; }
+      .well ul li.current_page_item a {
+        display: block;
+        font-weight: bold; }
+      .well ul li a {
+        font-size: 15px; }
+        .well ul li a i {
+          display: none;
+          font-size: 0.7em;
+          margin-right: 5px;
+          top: 0px; }
 
 @media screen and (min-width: 1200px) {
   .oversize {
@@ -376,6 +425,14 @@ section {
   section .byline {
     font-size: 14px;
     text-transform: uppercase; }
+  section.hero.approach {
+    background: url("../images/stephen-sm.jpg") 50% 50%;
+    background-size: cover;
+    color: white !important; }
+  section.hero.results {
+    background: url("../images/mayvenn.jpg") 50% 50%;
+    background-size: cover;
+    color: white !important; }
 
 .bubble {
   position: relative;
@@ -521,6 +578,41 @@ section {
   font-size: 28px;
   margin-bottom: 30px; }
 
+.leadership .col-sm-3 {
+  padding: 0 5px; }
+.leadership .team-member {
+  position: relative;
+  padding: 0; }
+  .leadership .team-member:hover .caption {
+    opacity: 1; }
+.leadership .caption {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  background: rgba(0, 0, 0, 0.6); }
+  .leadership .caption h3 {
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    right: 0;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-top: -25px; }
+    .leadership .caption h3 span {
+      display: inline-block; }
+    .leadership .caption h3 small {
+      margin-top: 10px;
+      display: block;
+      color: white;
+      text-transform: none; }
+
 .single .card {
   padding: 30px; }
   .single .card article h1, .single .card article .service h2, .service .single .card article h2 {
@@ -562,8 +654,7 @@ section {
 .service.ab img {
   width: 260px; }
 .service h1, .service h2 {
-  margin-bottom: 40px;
-  text-align: center; }
+  margin-bottom: 30px; }
 .service p {
   font-size: 18px; }
 .service ul li {
@@ -587,7 +678,7 @@ section {
   padding-bottom: 75%;
   height: 0;
   overflow: hidden;
-  margin-bottom: 20px; }
+  margin-bottom: 0; }
   .contact .google-map iframe {
     background: white;
     padding: 6px;

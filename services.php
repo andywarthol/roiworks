@@ -23,7 +23,7 @@ Template Name: Services
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 						</ul>
-						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 					<div class="col-sm-5 col-lg-4">
 						<img src="<?php bloginfo('template_directory'); ?>/library/images/ppc-service.gif" alt="Pay Per Click (PPC) graphic element" class="img-responsive in">
@@ -52,7 +52,7 @@ Template Name: Services
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 						</ul>
-						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 				</div>
 			</div>
@@ -76,7 +76,7 @@ Template Name: Services
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 						</ul>
-						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 					<div class="col-sm-5 col-lg-4">
 						<img src="<?php bloginfo('template_directory'); ?>/library/images/display-ad.gif" alt="Display ad graphic on devices" class="img-responsive">
@@ -107,7 +107,7 @@ Template Name: Services
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 						</ul>
-						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 				</div>
 			</div>
@@ -131,7 +131,7 @@ Template Name: Services
 							<li>Writing copy to reduce confusion and reinforce your value prop.</li>
 							<li>Tweaking designs to effectively guide users through your funnel.</li>
 						</ul>
-						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 					<div class="col-sm-5 col-lg-4">
 						<img src="<?php bloginfo('template_directory'); ?>/library/images/conversion-rate-optimization.gif" alt="" class="img-responsive">
@@ -162,7 +162,7 @@ Template Name: Services
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 						</ul>
-						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 				</div>
 			</div>
@@ -186,7 +186,7 @@ Template Name: Services
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 						</ul>
-						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 					<div class="col-sm-5 col-lg-4">
 						<img src="<?php bloginfo('template_directory'); ?>/library/images/creative-services.gif" alt="" class="img-responsive">
@@ -217,7 +217,7 @@ Template Name: Services
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 						</ul>
-						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 				</div>
 			</div>
@@ -241,7 +241,7 @@ Template Name: Services
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 						</ul>
-						<p class="flat text-center"><a href="#" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 					<div class="col-sm-5 col-lg-4">
 						<img src="<?php bloginfo('template_directory'); ?>/library/images/landing-page-optimization.gif" alt="Graphic of landing page optimization through a/b testing" class="img-responsive">

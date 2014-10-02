@@ -50,6 +50,14 @@ section
 	.byline
 		font-size: 14px
 		text-transform: uppercase
+	&.hero.approach
+		background: url('../images/stephen-sm.jpg') 50% 50%
+		background-size: cover
+		color: white!important
+	&.hero.results
+		background: url('../images/mayvenn.jpg') 50% 50%
+		background-size: cover
+		color: white!important
 
 .bubble
 	position: relative
@@ -202,6 +210,43 @@ section
 			font-size: 28px
 			margin-bottom: 30px
 
+.leadership
+	.col-sm-3
+		padding: 0 5px
+	.team-member
+		position: relative
+		padding: 0
+		&:hover
+			.caption
+				opacity: 1
+	.caption
+		position: absolute
+		display: block
+		top: 0
+		bottom: 0
+		right: 0
+		left: 0
+		opacity: 0
+		transition: opacity .25s ease-in-out
+		background: rgba(0, 0, 0, .6)
+		h3
+			text-align: left
+			color: white
+			position: absolute
+			top: 50%
+			left: 10px
+			right: 0
+			font-size: 19px
+			text-transform: uppercase
+			margin-top: -25px
+			span
+				display: inline-block
+			small
+				margin-top: 10px
+				display: block
+				color: white
+				text-transform: none
+
 .single 
 	.card
 		padding: 30px
@@ -256,8 +301,7 @@ section
 		img
 			width: 260px
 	h1
-		margin-bottom: 40px
-		text-align: center
+		margin-bottom: 30px
 	p
 		font-size: 18px
 	ul
@@ -283,7 +327,7 @@ section
 		padding-bottom: 75%
 		height: 0
 		overflow: hidden
-		margin-bottom: 20px
+		margin-bottom: 0
 		iframe
 			background: white
 			padding: 6px

@@ -6,15 +6,12 @@ Template Name: Approach
 
 <?php get_header(); ?>
 
-<section class="approach">
+<section class="approach hero">
 	<div class="container">
 		<div class="row col-lg-10 col-lg-offset-1">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div class="row">
 				<div class="col-sm-6 col-md-7">
-					<br class="hidden-xs">
-					<br class="hidden-xs">
-					<br class="hidden-xs">
 					<header>
 						<h1 class="page-title"><?php the_title(); ?></h1>
 					</header>
@@ -31,7 +28,8 @@ Template Name: Approach
 					<a href="#data" class="btn btn-lg btn-primary">Hire us <i class="glyphicon glyphicon-chevron-right"></i></a>
 				</div>
 				<div class="col-sm-6 col-md-5">
-					<img src="<?php bloginfo('template_directory'); ?>/library/images/services-light.gif" class="img-responsive oversize">
+					<!-- <img src="<?php bloginfo('template_directory'); ?>/library/images/services-light.gif" class="img-responsive oversize"> -->
+					&nbsp;
 				</div>
 			</div>
 			<?php endwhile; endif; ?>

@@ -7,6 +7,10 @@ body
 	background: $lightGrey
 	h1, h2, h3, h4, h5
 		font-family: "jaf-facitweb", sans-serif
+	&.modal-open
+		margin: 0
+		.navbar-fixed-top
+			margin: 0
 a
 	color: $linkColor
 .grey
@@ -72,6 +76,28 @@ a
 	&:hover
 		background: rgba(0, 0, 0, .45)
 		color: white
+
+// Image Styles
+.attachment-post-thumbnail
+	width: 140px
+	height: auto
+.attachment-post-medium
+	width: 200px
+	height: auto
+.alignleft
+	float: left
+	margin: 0 20px 10px 0
+.alignright
+	float: right
+	margin: 0 0 10px 20px
+
+// Form Styles
+form
+	label
+		font-weight: normal
+	button[type="submit"], input[type="submit"]
+		-webkit-font-smoothing: antialiased
+
 .panel-group
 	.panel
 		margin-bottom: 1em
@@ -106,6 +132,35 @@ a
 				font-size: 14px
 				color: #555
 				line-height: 1.5
+
+.modal
+	.modal-dialog
+		.modal-content
+			// background: darken($ash, 10%)
+			border-radius: 0
+			.modal-header
+				border: none
+				padding-bottom: 0
+				.modal-title
+					// color: white
+					font-size: 26px
+					br
+						display: none
+					small
+						margin-left: 5px
+						font-size: 18px
+				.close
+					// color: white
+					text-shadow: none
+					opacity: .7
+					font-size: 22px
+					&:hover
+						opacity: 1
+			.modal-body
+				p
+					// color: white
+
+
 .headshot
 	width: 250px
 	height: auto
@@ -182,7 +237,8 @@ a
 // Sidebar
 .sidebar
 .well
-	width: 124px
+	// width: 124px
+	max-width: 280px
 	display: block
 	box-shadow: none
 	border-radius: 0
@@ -201,7 +257,16 @@ a
 		margin: 0
 		li
 			margin-bottom: 10px
+			&.current_page_item
+				a
+					display: block
+					// background: white
+					font-weight: bold
+					// padding: 8px 10px
+					// border-radius: 0
+					// margin-left: -10px
 			a
+				font-size: 15px
 				i
 					display: none
 					font-size: .7em
