@@ -31,7 +31,7 @@ Template Name: Leadership
 						<div class="row">
 							<?php if( have_rows('team_member') ): while ( have_rows('team_member') ) : the_row(); ?>
 								<div class="col-sm-3">
-									<div class="team-member">
+									<div class="team-member id-<?php the_sub_field('team_member_id'); ?>">
 										<a data-toggle="modal" href='#modal-<?php the_sub_field('team_member_id'); ?>'>
 											<img src="<?php the_sub_field('team_member_headshot'); ?>" class="img-responsive headshot">
 											<div class="caption">
@@ -55,8 +55,12 @@ Template Name: Leadership
 								</div><!-- col-sm-3-->
 							<?php endwhile; else : endif;  ?>
 						</div>
+						<br/><br/>
 						<div class="row">
 							<div class="col-sm-12">
+								<header>
+									<h2>Industry Experience</h2>
+								</header>
 								<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 									<?php the_content(); ?>
 								</article> <!-- end article -->

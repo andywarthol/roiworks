@@ -86,28 +86,59 @@ section
 		display: block
 
 .results
+	.filters
+		list-style-type: none
+		display: inline-block
+		padding: 0
+		margin: 0 0 20px
+		.btn
+			font-size: 13px
+			margin: 0 5px
+			color: #666
+			padding: 6px 20px
+			border: 1px solid darken($lightGrey, 7.5%)
+			-webkit-font-smoothing: antialiased
+			transition: none
+			&:hover
+				background: $blue
+				border-color: $blue
+				color: white
+			&:active, &:focus
+				outline: none
+				background: $blue
+				color: white
 	.card
-		height: 240px
+		min-height: 240px
 		text-align: center
 		background-size: auto 32px
 		background-position: center 90%
 		background-repeat: no-repeat
 		font-size: 13px
 		color: #555
+	.col-sm-3
+		padding: 0 10px
 		&.post-123
-			background-size: auto 48px
+			article
+				background-size: auto 48px
 		&.post-141
-			background-size: auto 52px
+			article
+				background-size: auto 52px
 		&.post-87
-			background-size: auto 42px
+			article
+				background-size: auto 42px
 		&.post-130
-			background-size: auto 42px
+			article
+				background-size: auto 42px
 		// Results 2 Demphasized Version
+		&.post-224
+			article
+				background-size: 80% auto
 		&.dem
-			font-size: 17px
-			font-weight: bold
-			padding: 15px
-			text-transform: lowercase
+			article
+				font-size: 17px
+				font-weight: bold
+				padding: 15px
+				text-transform: lowercase
 			span
 				display: block
 				font-weight: normal
@@ -216,6 +247,7 @@ section
 	.team-member
 		position: relative
 		padding: 0
+		margin-left: 10px
 		&:hover
 			.caption
 				opacity: 1

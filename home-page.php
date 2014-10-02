@@ -11,7 +11,7 @@ Template Name: Home Page
 			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-sm-6 col-md-7">
-						<h1>We're not afraid<br/>of <span data-typer-targets="user insight, A/B testing, analytics, color, deadlines, data"></span></h1>
+						<h1>We're not afraid<br/>of <span data-typer-targets="user insight., A/B testing., analytics., color., deadlines., data."></span></h1>
 						<p class="flat"><a href="?page_id=10" class="btn btn-lg btn-primary">Learn more &raquo;</a></p>
 					</div>
 					<div class="col-sm-6 col-md-5">
@@ -129,53 +129,34 @@ Template Name: Home Page
 			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-sm-4 bucket">
-						<h2>Design &amp; Build</h2>
-						<i class="icon rwd"></i>
+						<h2>Measurement &amp; Research</h2>
+						<i class="icon analytics"></i>
 						<ul>
-							<li><a href="#">UX Research</a></li>
-							<li><a href="#">User Testing</a></li>
-							<li><a href="#">Responsive Web Design</a></li>
+							<li><a href="ux-research-user-testing">UX Research</a></li>
+							<li><a href="analytics">Analytics</a></li>
+							<li><a href="ab-testing">A/B Testing</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-4 bucket">
 						<h2>Digital Marketing</h2>
 						<i class="icon ppc"></i>
 						<ul>
-							<li><a href="#">SEM &amp; PPC</a></li>
-							<li><a href="#">Display Advertising</a></li>
-							<li><a href="#">Social</a></li>
+							<li><a href="sem-ppc">SEM</a></li>
+							<li><a href="display-advertising">Display Advertising</a></li>
+							<li><a href="social">Social</a></li>
+							<li><a href="SEO">SEO</a></li>
+							<li><a href="conversion-rate-optimization">Conversion Rate Optimization (CRO)</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-4 bucket">
-						<h2>Measurement</h2>
-						<i class="icon analytics"></i>
-						<ul>
-							<li><a href="#">Analytics</a></li>
-							<li><a href="#">A/B Testing</a></li>
-							<li><a href="#">Conversion Rate Optimization</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="row hide">
-					<div class="col-lg-2 col-lg-offset-1 bucket">
-						<i class="icon seo"></i>
-						<h2>SEO</h2>
-					</div>
-					<div class="col-lg-2 bucket">
+						<h2>Design &amp; Build</h2>
 						<i class="icon rwd"></i>
-						<h2>Responsive Design</h2>
-					</div>
-					<div class="col-lg-2 bucket">
-						<i class="icon ppc"></i>
-						<h2>Pay Per Click</h2>
-					</div>
-					<div class="col-lg-2 bucket">
-						<i class="icon conversion"></i>
-						<h2>Conversion <br class="visible-lg">Optimization</h2>
-					</div>
-					<div class="col-lg-2 bucket">
-						<i class="icon ux"></i>
-						<h2>UX</h2>
+						<ul>
+							<li><a href="responsive-web-design">Responsive Web Design</a></li>
+							<li><a href="usability">Usability</a></li>
+							<li><a href="brand-identity">Brand Identity</a></li>
+							<li><a href="convincing-copy">Convincing Copy</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
