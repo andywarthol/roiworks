@@ -236,7 +236,7 @@ form button[type="submit"], form input[type="submit"] {
   border-radius: 0;
   border: none;
   background: none;
-  padding-top: 0; }
+  padding: 0; }
   .well h3 {
     text-transform: uppercase;
     font-size: 15px;
@@ -426,13 +426,20 @@ section {
     font-size: 14px;
     text-transform: uppercase; }
   section.hero.approach {
-    background: url("../images/stephen-sm.jpg") 50% 50%;
+    background: url("../images/stephen-sm2.jpg") 50% 50%;
     background-size: cover;
     color: white !important; }
   section.hero.results {
     background: url("../images/mayvenn.jpg") 50% 50%;
     background-size: cover;
     color: white !important; }
+  section.hero.about {
+    background: url("../images/macbook-air.jpg") 50% 50%;
+    background-size: cover;
+    color: white !important; }
+  section.hero.service {
+    background: url("../images/stephen-sm2.jpg") 50% 50%;
+    background-size: cover; }
 
 .bubble {
   position: relative;
@@ -478,9 +485,7 @@ section {
       border-color: #205081;
       color: white; }
     .results .filters .btn:active, .results .filters .btn:focus {
-      outline: none;
-      background: #205081;
-      color: white; }
+      outline: none; }
 .results .card {
   min-height: 240px;
   text-align: center;

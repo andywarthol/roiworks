@@ -16,15 +16,6 @@ Template Name: Approach
 						<h1 class="page-title"><?php the_title(); ?></h1>
 					</header>
 					<p>Our shop takes a holistic approach to producing value.  We employ many different tools to push the needle, but they are all intertwined.  We also have rules in which we live by:</p>
-					<!-- <ul>
-						<li>Data is our master.</li>
-						<li>We talk to users.</li>
-						<li>Hypothesize <i class="glyphicon glyphicon-arrow-right" style="font-size: .75em; top: 0"></i> Test <i class="glyphicon glyphicon-arrow-right" style="font-size: .75em; top: 0"></i> Instrument.</li>
-						<li>Instrument <i class="glyphicon glyphicon-arrow-right" style="font-size: .75em; top: 0"></i> Test <i class="glyphicon glyphicon-arrow-right" style="font-size: .75em; top: 0"></i> Iterate.</li>
-						<li>Time is money.  Make it load quickly.</li>
-						<li>Form without function is useless.</li>
-						<li>We hire geniuses.</li>
-					</ul> -->
 					<a href="#data" class="btn btn-lg btn-primary">Hire us <i class="glyphicon glyphicon-chevron-right"></i></a>
 				</div>
 				<div class="col-sm-6 col-md-5">

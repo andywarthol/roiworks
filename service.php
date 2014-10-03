@@ -27,6 +27,7 @@ Template Name: Service
 									<h1 class="page-title"><?php the_title(); ?></h1>
 								</header>
 								<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+									<?php the_post_thumbnail('medium', array('class' => 'alignright attachment-post-medium')); ?>
 									<?php the_content(); ?>
 									<p class="text-center"><a href="?page_id=14" class="btn btn-lg btn-primary">Contact us <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 								</article> <!-- end article -->
