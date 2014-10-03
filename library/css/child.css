@@ -138,24 +138,30 @@ form button[type="submit"], form input[type="submit"] {
     color: #555555;
     line-height: 1.5; }
 
-.modal .modal-dialog .modal-content {
-  border-radius: 0; }
-  .modal .modal-dialog .modal-content .modal-header {
-    border: none;
-    padding-bottom: 0; }
-    .modal .modal-dialog .modal-content .modal-header .modal-title {
-      font-size: 26px; }
-      .modal .modal-dialog .modal-content .modal-header .modal-title br {
-        display: none; }
-      .modal .modal-dialog .modal-content .modal-header .modal-title small {
-        margin-left: 5px;
-        font-size: 18px; }
-    .modal .modal-dialog .modal-content .modal-header .close {
-      text-shadow: none;
-      opacity: 0.7;
-      font-size: 22px; }
-      .modal .modal-dialog .modal-content .modal-header .close:hover {
-        opacity: 1; }
+.modal .modal-dialog {
+  width: 700px; }
+  .modal .modal-dialog .modal-content {
+    background: #d9ebf6;
+    border-color: #205081;
+    border-radius: 0; }
+    .modal .modal-dialog .modal-content .modal-header {
+      border: none;
+      padding-bottom: 0; }
+      .modal .modal-dialog .modal-content .modal-header .modal-title {
+        font-size: 26px; }
+        .modal .modal-dialog .modal-content .modal-header .modal-title br {
+          display: none; }
+        .modal .modal-dialog .modal-content .modal-header .modal-title small {
+          margin-left: 5px;
+          font-size: 18px; }
+      .modal .modal-dialog .modal-content .modal-header .close {
+        text-shadow: none;
+        opacity: 0.7;
+        font-size: 28px; }
+        .modal .modal-dialog .modal-content .modal-header .close:hover {
+          opacity: 1; }
+    .modal .modal-dialog .modal-content .modal-body p {
+      font-size: 14px; }
 
 .headshot {
   width: 250px;
