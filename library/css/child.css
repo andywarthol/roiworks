@@ -430,7 +430,7 @@ section {
     background-size: cover;
     color: white !important; }
   section.hero.results {
-    background: url("../images/mayvenn.jpg") 50% 50%;
+    background: url("../images/results-hero.jpg") 50% 50%;
     background-size: cover;
     color: white !important; }
   section.hero.about {
@@ -438,6 +438,9 @@ section {
     background-size: cover;
     color: white !important; }
   section.hero.service {
+    background: url("../images/stephen-sm2.jpg") 50% 50%;
+    background-size: cover; }
+  section.hero.contact {
     background: url("../images/stephen-sm2.jpg") 50% 50%;
     background-size: cover; }
 
@@ -467,6 +470,8 @@ section {
     font-size: 32px;
     display: block; }
 
+.results.grey {
+  padding-top: 1.5em; }
 .results .filters {
   list-style-type: none;
   display: inline-block;
