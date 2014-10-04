@@ -4,7 +4,8 @@ body {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   color: #222b30;
-  background: #edf5fa; }
+  background: #edf5fa;
+  background: white; }
   body h1, body .service h2, .service body h2, body h2, body h3, body h4, body h5 {
     font-family: "jaf-facitweb", sans-serif; }
   body.modal-open {
@@ -432,22 +433,24 @@ section {
     font-size: 14px;
     text-transform: uppercase; }
   section.hero.approach {
-    background: url("../images/stephen-sm2.jpg") 50% 50%;
+    background: url("../images/markerboard-green.jpg") 50% 50%;
     background-size: cover;
-    color: white !important; }
+    color: #1a3100 !important; }
   section.hero.results {
+    display: none;
     background: url("../images/results-hero.jpg") 50% 50%;
     background-size: cover;
     color: white !important; }
   section.hero.about {
-    background: url("../images/macbook-air.jpg") 50% 50%;
+    background: url("../images/george-yellow.jpg") 50% 50%;
     background-size: cover;
-    color: white !important; }
+    color: #2f2300 !important; }
   section.hero.service {
-    background: url("../images/stephen-sm2.jpg") 50% 50%;
-    background-size: cover; }
+    background: url("../images/george-blue.jpg") 50% 50%;
+    background-size: cover;
+    color: #003243 !important; }
   section.hero.contact {
-    background: url("../images/stephen-sm2.jpg") 50% 50%;
+    background: url("../images/george-orange.jpg") 50% 50%;
     background-size: cover; }
 
 .bubble {
@@ -740,6 +743,20 @@ section {
   background: rgba(0, 0, 0, 0.3); }
   .home header .navbar.dark {
     background: rgba(32, 80, 129, 0.98); }
+
+.page-template-approach-php header .navbar {
+  background: rgba(111, 163, 49, 0.98); }
+
+.page-template-about-php header .navbar {
+  background: rgba(204, 150, 0, 0.98); }
+
+.page-template-contact-php {
+  padding-top: 0; }
+  .page-template-contact-php .hero {
+    height: 372px;
+    padding-top: 120px; }
+  .page-template-contact-php header .navbar {
+    background: #f4974d; }
 
 header .navbar {
   background: rgba(32, 80, 129, 0.98);
