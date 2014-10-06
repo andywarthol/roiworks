@@ -479,8 +479,6 @@ section {
     font-size: 32px;
     display: block; }
 
-.results.grey {
-  padding-top: 1.5em; }
 .results .filters {
   list-style-type: none;
   display: inline-block;
@@ -784,15 +782,17 @@ header .navbar {
     float: right; }
     header .navbar .navbar-collapse .navbar-nav li a {
       color: white;
-      line-height: 80px;
+      line-height: 40px;
+      margin-top: 20px;
       padding: 0 18px;
-      font-size: 15px; }
+      font-size: 15px;
+      border-radius: 6px; }
       header .navbar .navbar-collapse .navbar-nav li a:hover {
-        background: rgba(0, 0, 0, 0.05); }
+        background: rgba(0, 0, 0, 0.1); }
     header .navbar .navbar-collapse .navbar-nav li.active a {
       background: transparent; }
       header .navbar .navbar-collapse .navbar-nav li.active a:hover {
-        background: rgba(0, 0, 0, 0.05); }
+        background: rgba(0, 0, 0, 0.1); }
     header .navbar .navbar-collapse .navbar-nav li.telephone {
       color: white; }
 
