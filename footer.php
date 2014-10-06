@@ -4,9 +4,9 @@
 
 				<div id="inner-footer" class="wrap clearfix">
 
-					<!-- <nav role="navigation">
+					<nav role="navigation">
 							<?php bones_footer_links(); ?>
-					</nav> -->
+					</nav>
 
 					<p class="source-org copyright">&copy; Copyright <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 

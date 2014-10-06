@@ -244,7 +244,6 @@ Template Name: Home Page
 <script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.inview.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
-		$('.icon').addClass('shown');
 
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
@@ -266,6 +265,17 @@ Template Name: Home Page
       } else {
       	// element is no longer visible in the viewport
         $('.navbar-fixed-top').addClass('dark');
+      }
+    });
+
+    $('.how').bind('inview', function (event, visible) {
+      if (visible == true) {
+        // element is now visible in the viewport
+       $('.icon').addClass('shown');
+          
+      } else {
+      	// element is no longer visible in the viewport
+        $('.icon').removeClass('shown');
       }
     });
 

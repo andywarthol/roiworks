@@ -350,15 +350,17 @@ body.home {
       body.home section .icon.seo {
         background-image: url("../images/search-icon.png"); }
       body.home section .icon.rwd {
-        background-image: url("../images/devices-icon.png"); }
+        background-image: url("../images/devices-icon.png");
+        transition-delay: 0.5s; }
       body.home section .icon.ppc {
-        background-image: url("../images/targeting-icon.png"); }
+        background-image: url("../images/targeting-icon.png");
+        transition-delay: 0.25s; }
       body.home section .icon.conversion {
         background-image: url("../images/funnel-icon.png"); }
       body.home section .icon.ux {
         background-image: url("../images/beaker-icon.png"); }
       body.home section .icon.analytics {
-        background-image: url("../images/metrics-icon.png"); }
+        background-image: url("../images/metrics-icon2.png"); }
     body.home section.results {
       text-align: center; }
       body.home section.results .item {
@@ -803,3 +805,10 @@ header .navbar {
   text-align: center;
   border: none;
   box-shadow: none; }
+  .footer ul.footer-nav {
+    margin: 0 0 20px; }
+    .footer ul.footer-nav li {
+      margin: 0 15px; }
+      .footer ul.footer-nav li a:hover {
+        color: white;
+        text-decoration: none; }
