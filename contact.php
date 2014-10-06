@@ -11,7 +11,7 @@ Template Name: Contact
 		<div class="row col-lg-10 col-lg-offset-1">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div class="row">
-				<div class="col-sm-6 col-md-7">
+				<div class="col-sm-6 col-md-6">
 					<header>
 						<h1 class="page-title"><?php the_title(); ?> Us</h1>
 					</header>

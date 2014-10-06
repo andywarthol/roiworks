@@ -25,7 +25,7 @@ a {
 .blue {
   background: #205081; }
   .blue a {
-    color: #8cc9ef; }
+    color: #d8edfa; }
 
 .purple-gradient {
   background-image: -webkit-linear-gradient(left, #491164 0%, #b5238a 87%);
@@ -435,9 +435,9 @@ section {
     font-size: 14px;
     text-transform: uppercase; }
   section.hero.approach {
-    background: url("../images/markerboard-green.jpg") 50% 50%;
+    background: url("../images/stephen-blue.jpg") 50% 50%;
     background-size: cover;
-    color: #1a3100 !important; }
+    color: white !important; }
   section.hero.results {
     display: none;
     background: url("../images/results-hero.jpg") 50% 50%;
@@ -448,11 +448,11 @@ section {
     background-size: cover;
     color: #2f2300 !important; }
   section.hero.service {
-    background: url("../images/george-blue.jpg") 50% 50%;
+    background: url("../images/markerboard-green.jpg") 50% 50%;
     background-size: cover;
-    color: #003243 !important; }
+    color: #1a3100 !important; }
   section.hero.contact {
-    background: url("../images/george-orange.jpg") 50% 50%;
+    background: url("../images/contact-yellow.jpg") 50% 50%;
     background-size: cover; }
 
 .bubble {
@@ -508,51 +508,59 @@ section {
   background-repeat: no-repeat;
   font-size: 13px;
   color: #555555; }
-.results .col-sm-3 {
+.results .col-sm-3, .results .col-sm-3 article {
   padding: 0 10px; }
-  .results .col-sm-3.post-123 article {
+  .results .col-sm-3.post-123, .results .col-sm-3 article.post-123 {
     background-size: auto 48px; }
-  .results .col-sm-3.post-141 article {
+    .results .col-sm-3.post-123 article, .results .col-sm-3 article.post-123 article {
+      background-size: auto 48px; }
+  .results .col-sm-3.post-141, .results .col-sm-3 article.post-141 {
     background-size: auto 52px; }
-  .results .col-sm-3.post-87 article {
+    .results .col-sm-3.post-141 article, .results .col-sm-3 article.post-141 article {
+      background-size: auto 52px; }
+  .results .col-sm-3.post-87 article, .results .col-sm-3 article.post-87 article {
     background-size: auto 42px; }
-  .results .col-sm-3.post-130 article {
+  .results .col-sm-3.post-130, .results .col-sm-3 article.post-130 {
     background-size: auto 42px; }
-  .results .col-sm-3.post-224 article {
+    .results .col-sm-3.post-130 article, .results .col-sm-3 article.post-130 article {
+      background-size: auto 42px; }
+  .results .col-sm-3.post-224, .results .col-sm-3 article.post-224 {
     background-size: 80% auto; }
-  .results .col-sm-3.dem article {
+    .results .col-sm-3.post-224 article, .results .col-sm-3 article.post-224 article {
+      background-size: 80% auto; }
+  .results .col-sm-3.dem article, .results .col-sm-3 article.dem article {
     font-size: 17px;
     font-weight: bold;
     padding: 15px;
     text-transform: lowercase; }
-  .results .col-sm-3.dem span {
+  .results .col-sm-3.dem span, .results .col-sm-3 article.dem span {
     display: block;
     font-weight: normal;
     font-size: 15px; }
-  .results .col-sm-3.dem em {
+  .results .col-sm-3.dem em, .results .col-sm-3 article.dem em {
     margin-top: 30px;
     display: inline-block;
     font-size: 17px;
     font-weight: bold; }
-  .results .col-sm-3.flip {
+  .results .col-sm-3.flip, .results .col-sm-3 article.flip {
     background-position: center 20%;
     padding-top: 110px; }
-  .results .col-sm-3 .flat {
+  .results .col-sm-3 .flat, .results .col-sm-3 article .flat {
     position: absolute;
     bottom: 45px;
     left: 0;
     right: 0; }
-  .results .col-sm-3 h1, .results .col-sm-3 .service h2, .service .results .col-sm-3 h2 {
+  .results .col-sm-3 h1, .results .col-sm-3 .service h2, .service .results .col-sm-3 h2, .results .col-sm-3 article h1, .results .col-sm-3 article .service h2, .service .results .col-sm-3 article h2 {
     display: none;
     text-indent: -9999px; }
-  .results .col-sm-3 em {
+  .results .col-sm-3 em, .results .col-sm-3 article em {
     color: #444444;
     font-weight: bold;
     font-size: 32px;
     display: block;
     font-style: normal;
     margin-top: 36px; }
-    .results .col-sm-3 em small {
+    .results .col-sm-3 em small, .results .col-sm-3 article em small {
       font-size: 0.65em;
       display: inline-block;
       vertical-align: middle;
@@ -744,19 +752,17 @@ section {
   .home header .navbar.dark {
     background: rgba(32, 80, 129, 0.98); }
 
-.page-template-approach-php header .navbar {
+.page-template-services-php header .navbar {
   background: rgba(111, 163, 49, 0.98); }
 
 .page-template-about-php header .navbar {
   background: rgba(204, 150, 0, 0.98); }
 
-.page-template-contact-php {
-  padding-top: 0; }
-  .page-template-contact-php .hero {
-    height: 372px;
-    padding-top: 120px; }
-  .page-template-contact-php header .navbar {
-    background: #f4974d; }
+.page-template-approach-php header .navbar {
+  background: rgba(22, 55, 88, 0.98); }
+
+.page-template-contact-php header .navbar {
+  background: #e8ab00; }
 
 header .navbar {
   background: rgba(32, 80, 129, 0.98);
@@ -808,7 +814,11 @@ header .navbar {
   .footer ul.footer-nav {
     margin: 0 0 20px; }
     .footer ul.footer-nav li {
-      margin: 0 15px; }
-      .footer ul.footer-nav li a:hover {
-        color: white;
-        text-decoration: none; }
+      margin: 0 10px; }
+      .footer ul.footer-nav li a {
+        font-size: 15px; }
+        .footer ul.footer-nav li a:hover {
+          color: white;
+          text-decoration: none; }
+  .footer p.copyright {
+    font-size: 14px; }
