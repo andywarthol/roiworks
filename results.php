@@ -30,6 +30,13 @@ Template Name: Results
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 col-md-12">
+				<div class="row">
+					<div class="col-sm-12">
+						<header>
+							<h1 class="page-title">Results</h1>
+						</header>
+					</div>
+				</div>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<div class="row">
 					<div class="col-sm-12 text-center">

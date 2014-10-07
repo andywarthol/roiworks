@@ -11,7 +11,7 @@ Template Name: About
 		<div class="row col-lg-10 col-lg-offset-1">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div class="row">
-				<div class="col-sm-6 col-md-7 col-lg-8">
+				<div class="col-sm-6">
 					<header>
 						<h1 class="page-title"><?php the_title(); ?></h1>
 					</header>
@@ -33,7 +33,7 @@ Template Name: About
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
 					<div class="col-sm-3 ">
-						<div class="well affix">
+						<div class="well">
 							<h3>About</h3>
 							<ul class="">
 								<?php wp_list_pages('sort_column=menu_order&exclude=44&title_li=&child_of=12&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
