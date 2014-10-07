@@ -18,10 +18,10 @@ Template Name: Approach
 					<p>Our shop takes a holistic approach to producing value.  We employ many different tools to push the needle, but they are all intertwined.  We also have rules in which we live by:</p>
 					<a href="#data" class="btn btn-lg btn-primary">Hire us <i class="glyphicon glyphicon-chevron-right"></i></a>
 				</div>
-				<div class="col-sm-6 col-md-5">
-					<!-- <img src="<?php bloginfo('template_directory'); ?>/library/images/services-light.gif" class="img-responsive oversize"> -->
+				<!-- <div class="col-sm-6 col-md-5">
+					<img src="<?php bloginfo('template_directory'); ?>/library/images/services-light-icon-grey.png" class="img-responsive oversize">
 					&nbsp;
-				</div>
+				</div>-->
 			</div>
 			<?php endwhile; endif; ?>
 		</div>
@@ -33,73 +33,80 @@ Template Name: Approach
 			<div class="col-lg-10 col-lg-offset-1">
 				<div class="row technique">
 					<div class="col-sm-3 text-right">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/data.gif" alt="" class="service">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/analytics-icon-grey.png" alt="" class="service">
 					</div>
 					<div class="col-sm-8">
-						<h1>Data is our master</h1>
+						<h2>Analytics</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam incidunt, tenetur modi cupiditate, dignissimos, dolor corrupti ipsam, ipsum veritatis doloribus optio. At expedita nam ipsum iusto eveniet magnam, impedit asperiores.</p>
+						<i class="glyphicon glyphicon-arrow-down"></i>
 					</div>
 				</div>
 				<div class="row technique">
 					<div class="col-sm-3 text-right">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/speed.gif" alt="" class="service">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/ux-icon-grey.png" alt="" class="service">
 					</div>
 					<div class="col-sm-8">
-						<h1>Time is money</h1>
-						<p>Make it load fast. Totam incidunt, tenetur modi cupiditate, dignissimos, dolor corrupti ipsam, ipsum veritatis doloribus optio. At expedita nam ipsum iusto eveniet magnam, impedit asperiores.</p>
-					</div>
-				</div>
-				<div class="row technique">
-					<div class="col-sm-3 text-right">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/user-testing.gif" alt="" class="service">
-					</div>
-					<div class="col-sm-8">
-						<h1>Talk to your users</h1>
+						<h2>UX Research &amp; Customer Development</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam incidunt, tenetur modi cupiditate, dignissimos, dolor corrupti ipsam, ipsum veritatis doloribus optio. At expedita nam ipsum iusto eveniet magnam, impedit asperiores.</p>
+						<i class="glyphicon glyphicon-arrow-down"></i>
 					</div>
 				</div>
 				<div class="row technique">
 					<div class="col-sm-3 text-right">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/ux.gif" alt="" class="service">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/ab-testing-icon-grey.png" alt="" class="service">
 					</div>
 					<div class="col-sm-8">
-						<h1>Hypothesize <i class="glyphicon glyphicon-arrow-right"></i> Test <i class="glyphicon glyphicon-arrow-right"></i> Instrument.</h1>
+						<h2>A/B Testing &amp; Conversion Rate Optimization (CRO)</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam incidunt, tenetur modi cupiditate, dignissimos, dolor corrupti ipsam, ipsum veritatis doloribus optio. At expedita nam ipsum iusto eveniet magnam, impedit asperiores.</p>
+						<i class="glyphicon glyphicon-arrow-down"></i>
 					</div>
 				</div>
 				<div class="row technique">
 					<div class="col-sm-3 text-right">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/strategy.gif" alt="" class="service">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/acquisition-icon-grey.png" alt="" class="service">
 					</div>
 					<div class="col-sm-8">
-						<h1>Strategize</h1>
+						<h2>Acquisition, Testing Channels &amp; Target Audience</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam incidunt, tenetur modi cupiditate, dignissimos, dolor corrupti ipsam, ipsum veritatis doloribus optio. At expedita nam ipsum iusto eveniet magnam, impedit asperiores.</p>
+						<i class="glyphicon glyphicon-arrow-down"></i>
 					</div>
 				</div>
 				<div class="row technique">
 					<div class="col-sm-3 text-right">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/bulb.gif" alt="" class="service">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/activation-icon-grey.png" alt="" class="service">
 					</div>
 					<div class="col-sm-8">
-						<h1>Form needs function</h1>
-						<p>Design should always accomplish something, and not just exist for the sake of </p>
-					</div>
-				</div>
-				<div class="row technique">
-					<div class="col-sm-3 text-right">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/data.gif" alt="" class="service">
-					</div>
-					<div class="col-sm-8">
-						<h1>Data is our master</h1>
+						<h2>Activation</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam incidunt, tenetur modi cupiditate, dignissimos, dolor corrupti ipsam, ipsum veritatis doloribus optio. At expedita nam ipsum iusto eveniet magnam, impedit asperiores.</p>
+						<i class="glyphicon glyphicon-arrow-down"></i>
 					</div>
 				</div>
 				<div class="row technique">
 					<div class="col-sm-3 text-right">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/data.gif" alt="" class="service">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/revenue-icon-grey.png" alt="" class="service">
 					</div>
 					<div class="col-sm-8">
-						<h1>Data is our master</h1>
+						<h2>Revenue &amp; Price Testing</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam incidunt, tenetur modi cupiditate, dignissimos, dolor corrupti ipsam, ipsum veritatis doloribus optio. At expedita nam ipsum iusto eveniet magnam, impedit asperiores.</p>
+						<i class="glyphicon glyphicon-arrow-down"></i>
+					</div>
+				</div>
+				<div class="row technique">
+					<div class="col-sm-3 text-right">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/email-icon-grey.png" alt="" class="service">
+					</div>
+					<div class="col-sm-8">
+						<h2>Retention, Remarketing &amp; Email</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam incidunt, tenetur modi cupiditate, dignissimos, dolor corrupti ipsam, ipsum veritatis doloribus optio. At expedita nam ipsum iusto eveniet magnam, impedit asperiores.</p>
+						<i class="glyphicon glyphicon-arrow-down"></i>
+					</div>
+				</div>
+				<div class="row technique">
+					<div class="col-sm-3 text-right">
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/referral-icon-grey.png" alt="" class="service">
+					</div>
+					<div class="col-sm-8">
+						<h2>Referral Programs</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam incidunt, tenetur modi cupiditate, dignissimos, dolor corrupti ipsam, ipsum veritatis doloribus optio. At expedita nam ipsum iusto eveniet magnam, impedit asperiores.</p>
 					</div>
 				</div>

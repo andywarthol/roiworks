@@ -1,7 +1,7 @@
 .home
 	header
 		.navbar
-			background: rgba(0, 0, 0, .3)
+			// background: rgba(0, 0, 0, .3)
 			&.dark
 				background: rgba($blue, .98)
 
@@ -28,8 +28,9 @@
 
 header
 	.navbar
-		background: rgba(darken($blue, 5%), .98)
-		border-bottom-color: rgba(0, 0, 0, .1)
+		background: $blue
+		border: none
+		border-bottom: 1px solid rgba(0, 0, 0, .05)
 		height: $navbarHeight
 		border-radius: 0
 		margin: 0
