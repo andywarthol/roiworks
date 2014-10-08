@@ -31,6 +31,14 @@ Template Name: Approach
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row">
+					<div class="col-sm-12">
+						<header>
+							<h1 class="page-title text-center" style="font-size: 28px">The Lean Marketing Cycle</h1>
+							<br>
+						</header>
+					</div>
+				</div>
 				<div class="row technique">
 					<div class="col-sm-3 text-right">
 						<img src="<?php bloginfo('template_directory'); ?>/library/images/analytics-icon-grey.png" alt="" class="service">
