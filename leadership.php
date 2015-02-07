@@ -12,7 +12,7 @@ Template Name: Leadership
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
 					<div class="col-sm-3">
-						<div class="well affix">
+						<div class="well">
 							<h3>About</h3>
 							<ul>
 								<?php wp_list_pages('title_li=&child_of=12&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
@@ -54,17 +54,6 @@ Template Name: Leadership
 									</div>
 								</div><!-- col-sm-3-->
 							<?php endwhile; else : endif;  ?>
-						</div>
-						<br/><br/>
-						<div class="row">
-							<div class="col-sm-12">
-								<header>
-									<h2>Industry Experience</h2>
-								</header>
-								<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-									<?php the_content(); ?>
-								</article> <!-- end article -->
-							</div>
 						</div>
 						<?php endwhile; endif; ?>
 					</div>

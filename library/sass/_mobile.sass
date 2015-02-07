@@ -1,0 +1,47 @@
+@media screen and (max-width: 767px)
+	$navbarHeight: 54px
+	header
+		.navbar
+			height: $navbarHeight
+			.navbar-header
+				.navbar-brand
+					height: $navbarHeight
+					margin-left: 10px
+				.navbar-toggle
+					border: none
+					&:active, &:hover, &:focus
+						background: none
+					.icon-bar
+						height: 3px
+						border-radius: 0
+						width: 24px
+			.navbar-collapse
+				border-top: none
+				background: white
+				.navbar-nav
+					overflow: auto
+					li
+						width: 50%
+						float: left
+						text-align: center
+						a
+							margin: 0
+							color: $black
+						&.active
+							a
+								background: transparent
+								color: $ash
+						&.dropdown
+							overflow: auto
+							.dropdown-menu
+								box-shadow: none
+								margin: 0
+								position: static
+								float: none
+								border: none
+								background: white
+								width: 100%
+								li
+									display: block
+									float: none
+									width: 100%

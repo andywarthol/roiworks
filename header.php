@@ -50,7 +50,7 @@
 				<header class="header" role="banner">
 
 					<nav role="navigation">
-						<div class="navbar navbar-inverse">
+						<div class="navbar navbar-inverse navbar-fixed-top">
 							<div class="container">
 								<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 								<div class="navbar-header">
@@ -64,13 +64,13 @@
 
 								</div>
 
-								<nav class="pull-right call">
+								<!-- <nav class="pull-right call">
 									<ul class="nav navbar-nav">
 										<li class="telephone">
 											<span>Call us:</span> <strong>1-800-555-1212</strong>
 										</li>
 									</ul>
-								</nav>
+								</nav> -->
 
 								<div class="navbar-collapse collapse navbar-responsive-collapse">
 									<?php bones_main_nav(); ?>
@@ -82,3 +82,10 @@
 					</nav>
 
 				</header> <!-- end header -->
+				<script>
+				jQuery('.dropdown a').removeAttr('data-toggle');
+				jQuery('.navbar-toggle').bind( "touchstart", function(e){
+					e.preventDefault();
+					jQuery('.navbar-collapse').collapse('toggle');
+				});
+				</script>

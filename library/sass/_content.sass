@@ -12,19 +12,20 @@ section
 			font-size: .76em
 	h1
 		// text-transform: uppercase
-		margin-bottom: 20px
+		margin-bottom: 40px
 		font-weight: bold
+		// padding-bottom: 5px
+		// border-bottom: 1px solid #efefef
 	h2
 		font-size: 20px
 		font-weight: bold
-		padding-bottom: 5px
-		border-bottom: 1px solid #efefef
 		small
 			margin-left: 10px
 	p
-		font-size: 15px
-		line-height: 1.6
-		margin-bottom: 24px
+		font-size: 14px
+		color: #444
+		line-height: 1.75
+		margin-bottom: 1em
 		&.intro
 			font-size: 18px
 	ul
@@ -51,6 +52,8 @@ section
 		font-size: 14px
 		text-transform: uppercase
 	&.hero
+		h1
+			margin-bottom: 20px
 		p
 			font-size: 18px
 	&.hero.approach
@@ -58,7 +61,8 @@ section
 		// background: url('../images/ipad-analytics-2.jpg') 50% 50%
 		// background: url('../images/team-at-pod-blue.jpg') 50% 50%
 		// background: url('../images/stephen-whiteboard-left.jpg') 50% 50%
-		background: url('../images/george-white-board.jpg') 50% 50%
+		// background: url('../images/george-white-board.jpg') 50% 50%
+		background: url('../images/team-kitchen.jpg') 50% 50%
 		background-size: cover
 		color: #ffffff!important
 	&.hero.results
@@ -69,9 +73,11 @@ section
 	&.hero.about
 		// background: url('../images/team-at-pod-blue.jpg') 50% 50%
 		// background: url('../images/code-happy-ipad.jpg') 50% 50%
-		background: url('../images/code-happy-lunch.jpg') 50% 50%
+		background: url('../images/kitchen-collaboration.jpg') 50% 50%
 		background-size: cover
 		color: #ffffff!important
+		p
+			color: #ffffff!important
 	&.hero.service
 		background: url('../images/stephen-blue-board-2.jpg') 50% 50%
 		background: url('../images/stephen-green-screen.jpg') 50% 50%
@@ -83,6 +89,22 @@ section
 		background: url('../images/market-st-blue-iphone.jpg') 50% 50%
 		background-size: cover
 		color: white!Important
+	&.hero.leadership
+		// background: url('../images/code-happy2.jpg') 50% 50%
+		background: url('../images/team-hero.jpg') 50% 50%
+		background-size: cover
+		color: white!Important
+		h1
+			color: $black
+	&.hero.culture
+		// background: url('../images/code-happy2.jpg') 50% 50%
+		background: url('../images/culture-hero.jpg') 50% 50%
+		background-size: cover
+		color: white!Important
+		h1
+			color: white
+		p
+			color: white
 .bubble
 	position: relative
 	text-align: center
@@ -226,13 +248,14 @@ section
 			line-height: 1.5
 
 .block
-	padding: 15px 0
-	margin-bottom: 15px
-	border-bottom: 1px solid #dadada
+	padding: 20px 0
+	margin-bottom: 20px
+	// border-bottom: 1px solid #efefef
 	box-shadow: 0 1px 0 white
 	h2
 		font-size: 24px
 		text-transform: none
+		margin-bottom: 15px
 	blockquote
 		background: white
 		font-family: Georgia, serif
@@ -241,7 +264,7 @@ section
 		font-size: 17px
 		line-height: 1.6
 		font-style: italic
-		padding: 20px
+		padding: 0
 		border: none
 		color: #555
 		&:after
@@ -306,6 +329,40 @@ section
 				display: block
 				color: white
 				text-transform: none
+	.headshot-wrapper
+		float: left
+		margin: 0 20px 5px 0
+		width: 200px
+		display: block
+		text-align: center
+	.headshot
+		border: 1px solid #dadada
+		padding: 5px
+		clear: both
+		margin-bottom: 10px
+	.linkedin
+		text-align: right
+		font-size: 14px
+		.btn-default
+			font-size: 12px
+		img
+			width: 14px
+			height: 14px
+			display: inline-block
+			vertical-align: middle
+			margin-right: 2px
+			margin-bottom: 2px
+	article
+		padding-bottom: 15px
+		border-bottom: 1px solid #efefef
+		margin-bottom: 40px
+		h2
+			border: none
+			font-size: 24px
+			margin: 0 0 15px
+			small
+				font-size: 15px
+
 
 .single 
 	.card

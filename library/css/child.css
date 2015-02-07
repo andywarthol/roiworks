@@ -1,4 +1,5 @@
 body {
+  padding-top: 80px;
   font-family: "jaf-facitweb", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -37,9 +38,9 @@ a {
   background-image: linear-gradient(to right, #efefef 0%, #dadada 87%); }
 
 .dark-graydient {
-  background-image: -webkit-linear-gradient(left, #666666 0%, #333333 87%);
-  background-image: -o-linear-gradient(left, #666666 0%, #333333 87%);
-  background-image: linear-gradient(to right, #666666 0%, #333333 87%); }
+  background-image: -webkit-linear-gradient(left, #666 0%, #333 87%);
+  background-image: -o-linear-gradient(left, #666 0%, #333 87%);
+  background-image: linear-gradient(to right, #666 0%, #333 87%); }
 
 .lightBlue-gradient {
   background-image: -webkit-linear-gradient(left, #c2e0ed 0%, #83d0f0 87%); }
@@ -75,6 +76,10 @@ a {
   .btn-black:hover {
     background: rgba(0, 0, 0, 0.7);
     color: white; }
+
+.btn-default {
+  border: 1px solid #dadada;
+  background-image: linear-gradient(#fff, #efefef); }
 
 .btn-bordered {
   border: 2px solid white;
@@ -135,7 +140,7 @@ form button[type="submit"], form input[type="submit"] {
     border-top: none;
     padding: 0px 20px 15px;
     font-size: 14px;
-    color: #555555;
+    color: #555;
     line-height: 1.5; }
 
 .modal .modal-dialog {
@@ -227,7 +232,7 @@ form button[type="submit"], form input[type="submit"] {
     white-space: nowrap;
     font-style: normal;
     font-family: "jaf-facitweb";
-    color: #666666; }
+    color: #666; }
     .testimonials blockquote small:after, .testimonials blockquote small:before {
       content: ""; }
     .testimonials blockquote small strong {
@@ -278,7 +283,7 @@ body.home {
       background: #d9ebf6;
       background: url("../images/hero-george-blue.jpg") 50% 50% no-repeat;
       background-size: cover;
-      padding-top: 50px; }
+      padding-top: 130px; }
       body.home section.hero.white-wall {
         background: url("../images/hero-test-2.jpg") 50% 50% no-repeat;
         background-size: cover; }
@@ -366,11 +371,14 @@ body.home {
       body.home section.results .col-sm-3 {
         padding: 0 10px; }
       body.home section.results .card {
-        font-size: 13px;
+        font-size: 14px;
         height: 230px;
         border-color: #cde3f1; }
         body.home section.results .card em {
-          font-size: 40px; }
+          font-size: 32px;
+          margin-top: 40px; }
+        body.home section.results .card br {
+          display: none; }
     body.home section.how h2 {
       border: none;
       text-align: center;
@@ -394,19 +402,18 @@ section {
     section h1 i, section .service h2 i, .service section h2 i, section h2 i, section h3 i, section h4 i {
       font-size: 0.76em; }
   section h1, section .service h2, .service section h2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-weight: bold; }
   section h2 {
     font-size: 20px;
-    font-weight: bold;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #efefef; }
+    font-weight: bold; }
     section h2 small {
       margin-left: 10px; }
   section p {
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 24px; }
+    font-size: 14px;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 1em; }
     section p.intro {
       font-size: 18px; }
   section ul {
@@ -432,36 +439,54 @@ section {
   section .byline {
     font-size: 14px;
     text-transform: uppercase; }
+  section.hero h1, section.hero .service h2, .service section.hero h2 {
+    margin-bottom: 20px; }
   section.hero p {
     font-size: 18px; }
   section.hero.approach {
-    background: url("../images/george-white-board.jpg") 50% 50%;
+    background: url("../images/team-kitchen.jpg") 50% 50%;
     background-size: cover;
-    color: white !important; }
+    color: #ffffff !important; }
   section.hero.results {
     display: none;
     background: url("../images/results-hero.jpg") 50% 50%;
     background-size: cover;
     color: white !important; }
   section.hero.about {
-    background: url("../images/code-happy-lunch.jpg") 50% 50%;
+    background: url("../images/kitchen-collaboration.jpg") 50% 50%;
     background-size: cover;
-    color: white !important; }
+    color: #ffffff !important; }
+    section.hero.about p {
+      color: #ffffff !important; }
   section.hero.service {
     background: url("../images/stephen-blue-board-2.jpg") 50% 50%;
     background: url("../images/stephen-green-screen.jpg") 50% 50%;
     background: url("../images/stephen-white-board-blue.jpg") 50% 50%;
     background-size: cover;
-    color: white !important; }
+    color: #ffffff !important; }
   section.hero.contact {
     background: url("../images/market-st-blue-iphone.jpg") 50% 50%;
     background-size: cover;
     color: white !important; }
+  section.hero.leadership {
+    background: url("../images/team-hero.jpg") 50% 50%;
+    background-size: cover;
+    color: white !important; }
+    section.hero.leadership h1, section.hero.leadership .service h2, .service section.hero.leadership h2 {
+      color: #212121; }
+  section.hero.culture {
+    background: url("../images/culture-hero.jpg") 50% 50%;
+    background-size: cover;
+    color: white !important; }
+    section.hero.culture h1, section.hero.culture .service h2, .service section.hero.culture h2 {
+      color: white; }
+    section.hero.culture p {
+      color: white; }
 
 .bubble {
   position: relative;
   text-align: center;
-  background: #cccccc;
+  background: #ccc;
   color: #212121;
   border: none;
   border-radius: 6px;
@@ -475,12 +500,12 @@ section {
     margin-left: -10px;
     border-width: 10px 10px 0;
     border-style: solid;
-    border-color: #cccccc transparent;
+    border-color: #ccc transparent;
     display: block;
     width: 0; }
   .bubble em {
     font-weight: bold;
-    color: #555555;
+    color: #555;
     font-size: 32px;
     display: block; }
 
@@ -492,7 +517,7 @@ section {
   .results .filters .btn {
     font-size: 13px;
     margin: 0 5px;
-    color: #666666;
+    color: #666;
     padding: 6px 20px;
     border: 1px solid #cfe4f2;
     -webkit-font-smoothing: antialiased;
@@ -510,7 +535,7 @@ section {
   background-position: center 90%;
   background-repeat: no-repeat;
   font-size: 13px;
-  color: #555555; }
+  color: #555; }
 .results .col-sm-3, .results .col-sm-3 article {
   padding: 0 10px; }
   .results .col-sm-3.post-123, .results .col-sm-3 article.post-123 {
@@ -557,7 +582,7 @@ section {
     display: none;
     text-indent: -9999px; }
   .results .col-sm-3 em, .results .col-sm-3 article em {
-    color: #444444;
+    color: #444;
     font-weight: bold;
     font-size: 32px;
     display: block;
@@ -591,13 +616,13 @@ section {
     line-height: 1.5; }
 
 .block {
-  padding: 15px 0;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #dadada;
+  padding: 20px 0;
+  margin-bottom: 20px;
   box-shadow: 0 1px 0 white; }
   .block h2 {
     font-size: 24px;
-    text-transform: none; }
+    text-transform: none;
+    margin-bottom: 15px; }
   .block blockquote {
     background: white;
     font-family: Georgia, serif;
@@ -606,9 +631,9 @@ section {
     font-size: 17px;
     line-height: 1.6;
     font-style: italic;
-    padding: 20px;
+    padding: 0;
     border: none;
-    color: #555555; }
+    color: #555; }
     .block blockquote:after {
       content: "";
       position: absolute;
@@ -668,6 +693,39 @@ section {
       display: block;
       color: white;
       text-transform: none; }
+.leadership .headshot-wrapper {
+  float: left;
+  margin: 0 20px 5px 0;
+  width: 200px;
+  display: block;
+  text-align: center; }
+.leadership .headshot {
+  border: 1px solid #dadada;
+  padding: 5px;
+  clear: both;
+  margin-bottom: 10px; }
+.leadership .linkedin {
+  text-align: right;
+  font-size: 14px; }
+  .leadership .linkedin .btn-default {
+    font-size: 12px; }
+  .leadership .linkedin img {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+    margin-bottom: 2px; }
+.leadership article {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 40px; }
+  .leadership article h2 {
+    border: none;
+    font-size: 24px;
+    margin: 0 0 15px; }
+    .leadership article h2 small {
+      font-size: 15px; }
 
 .single .card {
   padding: 30px; }
@@ -744,7 +802,7 @@ section {
     background: white;
     padding: 6px;
     position: absolute;
-    border: 1px solid #dddddd !important;
+    border: 1px solid #ddd !important;
     top: 0;
     left: 0;
     width: 100% !important;
@@ -800,6 +858,17 @@ header .navbar {
         background: rgba(0, 0, 0, 0.1); }
     header .navbar .navbar-collapse .navbar-nav li.telephone {
       color: white; }
+    header .navbar .navbar-collapse .navbar-nav li.dropdown:hover .dropdown-menu {
+      display: block; }
+    header .navbar .navbar-collapse .navbar-nav li .dropdown-menu a {
+      padding: 8px 12px;
+      font-size: 14px;
+      color: #212121;
+      margin: 0;
+      line-height: 1;
+      border-radius: 0; }
+      header .navbar .navbar-collapse .navbar-nav li .dropdown-menu a:hover {
+        background: rgba(0, 0, 0, 0.05); }
 
 .footer {
   background: #00374c;
@@ -821,3 +890,47 @@ header .navbar {
   .footer p.copyright {
     font-size: 14px;
     color: #00a7e5; }
+
+@media screen and (max-width: 767px) {
+  header .navbar {
+    height: 54px; }
+    header .navbar .navbar-header .navbar-brand {
+      height: 54px;
+      margin-left: 10px; }
+    header .navbar .navbar-header .navbar-toggle {
+      border: none; }
+      header .navbar .navbar-header .navbar-toggle:active, header .navbar .navbar-header .navbar-toggle:hover, header .navbar .navbar-header .navbar-toggle:focus {
+        background: none; }
+      header .navbar .navbar-header .navbar-toggle .icon-bar {
+        height: 3px;
+        border-radius: 0;
+        width: 24px; }
+    header .navbar .navbar-collapse {
+      border-top: none;
+      background: white; }
+      header .navbar .navbar-collapse .navbar-nav {
+        overflow: auto; }
+        header .navbar .navbar-collapse .navbar-nav li {
+          width: 50%;
+          float: left;
+          text-align: center; }
+          header .navbar .navbar-collapse .navbar-nav li a {
+            margin: 0;
+            color: #212121; }
+          header .navbar .navbar-collapse .navbar-nav li.active a {
+            background: transparent;
+            color: #222b30; }
+          header .navbar .navbar-collapse .navbar-nav li.dropdown {
+            overflow: auto; }
+            header .navbar .navbar-collapse .navbar-nav li.dropdown .dropdown-menu {
+              box-shadow: none;
+              margin: 0;
+              position: static;
+              float: none;
+              border: none;
+              background: white;
+              width: 100%; }
+              header .navbar .navbar-collapse .navbar-nav li.dropdown .dropdown-menu li {
+                display: block;
+                float: none;
+                width: 100%; } }
