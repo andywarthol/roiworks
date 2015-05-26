@@ -1,13 +1,13 @@
 body {
   padding-top: 80px;
-  font-family: "jaf-facitweb", sans-serif;
+  font-family: "futura-pt", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   color: #222b30;
   background: #edf5fa;
   background: white; }
   body h1, body .service h2, .service body h2, body h2, body h3, body h4, body h5 {
-    font-family: "jaf-facitweb", sans-serif; }
+    font-family: "futura-pt", sans-serif; }
   body.modal-open {
     margin: 0; }
     body.modal-open .navbar-fixed-top {

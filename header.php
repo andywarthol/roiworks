@@ -38,8 +38,8 @@
 		<!-- end analytics -->
 
 		<!-- typekit -->
-		<script type="text/javascript" src="http://use.typekit.net/mqy2pqp.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script src="//use.typekit.net/yoa3fqy.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
 
 		</head>
 
