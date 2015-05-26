@@ -281,9 +281,10 @@ body.home {
     padding: 3em 0; }
     body.home section.hero {
       background: #d9ebf6;
-      background: url("../images/hero-george-blue.jpg") 50% 50% no-repeat;
+      background: url("../images/hero-george-1.jpg") 50% 50% no-repeat;
       background-size: cover;
-      padding-top: 130px; }
+      padding-top: 130px;
+      min-height: 500px; }
       body.home section.hero.white-wall {
         background: url("../images/hero-test-2.jpg") 50% 50% no-repeat;
         background-size: cover; }
@@ -411,7 +412,6 @@ section {
       margin-left: 10px; }
   section p {
     font-size: 14px;
-    color: #444;
     line-height: 1.75;
     margin-bottom: 1em; }
     section p.intro {
@@ -817,17 +817,17 @@ section {
   background: rgba(0, 111, 152, 0.98); }
 
 header .navbar {
-  background: #006f98;
+  background: white;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   height: 80px;
   border-radius: 0;
   margin: 0; }
   header .navbar .navbar-header .navbar-brand {
-    width: 145px;
+    width: 193px;
     height: 80px;
-    background: url("../images/logo-2x-2.png") center center no-repeat;
-    background-size: 133px 22px;
+    background: url("../images/roi-logo1.jpg") center center no-repeat;
+    background-size: 173px 32px;
     text-indent: -9999px;
     line-height: 80px;
     padding: 0 15px;
@@ -844,7 +844,7 @@ header .navbar {
   header .navbar .navbar-collapse .navbar-nav {
     float: right; }
     header .navbar .navbar-collapse .navbar-nav li a {
-      color: white;
+      color: #212121;
       line-height: 40px;
       margin-top: 20px;
       padding: 0 18px;
