@@ -1,13 +1,14 @@
 body {
-  padding-top: 80px;
+  padding-top: 0;
   font-family: "futura-pt", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   color: #222b30;
-  background: #edf5fa;
+  background: #f5f5f5;
   background: white; }
   body h1, body .service h2, .service body h2, body h2, body h3, body h4, body h5 {
-    font-family: "futura-pt", sans-serif; }
+    font-family: "futura-pt", sans-serif;
+    font-weight: normal; }
   body.modal-open {
     margin: 0; }
     body.modal-open .navbar-fixed-top {
@@ -17,13 +18,13 @@ a {
   color: #1e94de; }
 
 .grey {
-  background: #edf5fa; }
+  background: #f5f5f5; }
 
 .white {
   background: white; }
 
 .blue {
-  background: #006f98; }
+  background: #007EA3; }
   .blue a {
     color: #d8edfa; }
 
@@ -57,12 +58,12 @@ a {
   border: none;
   font-weight: normal; }
   .btn i {
-    font-size: 0.7em;
+    font-size: 0.6em;
     top: 0; }
 
 .btn-lg {
-  font-size: 15px;
-  padding: 12px 24px; }
+  font-size: 20px;
+  padding: 16px 42px; }
 
 .btn-primary {
   background: #de3e17; }
@@ -114,7 +115,7 @@ form button[type="submit"], form input[type="submit"] {
 .panel-group .panel {
   margin-bottom: 1em;
   box-shadow: none;
-  border-color: #d9eaf4; }
+  border-color: #e8e8e8; }
   .panel-group .panel .panel-heading {
     background: white; }
   .panel-group .panel .panel-title {
@@ -122,11 +123,11 @@ form button[type="submit"], form input[type="submit"] {
     text-transform: none;
     text-decoration: none; }
     .panel-group .panel .panel-title a {
-      font-size: 16px; }
+      font-size: 18px; }
       .panel-group .panel .panel-title a i {
         margin-right: 6px;
         top: 0px;
-        color: #89bede; }
+        color: #60c7e8; }
       .panel-group .panel .panel-title a .glyphicon-chevron-right {
         display: none; }
       .panel-group .panel .panel-title a .glyphicon-chevron-down {
@@ -139,7 +140,7 @@ form button[type="submit"], form input[type="submit"] {
   .panel-group .panel .panel-collapse .panel-body {
     border-top: none;
     padding: 0px 20px 15px;
-    font-size: 14px;
+    font-size: 17px;
     color: #555;
     line-height: 1.5; }
 
@@ -147,7 +148,7 @@ form button[type="submit"], form input[type="submit"] {
   width: 700px; }
   .modal .modal-dialog .modal-content {
     background: #d9ebf6;
-    border-color: #006f98;
+    border-color: #007EA3;
     border-radius: 0; }
     .modal .modal-dialog .modal-content .modal-header {
       border: none;
@@ -195,50 +196,14 @@ form button[type="submit"], form input[type="submit"] {
     .carousel-indicators li.active {
       background-color: #617b8a; }
 
-.testimonials .thumbnail {
-  position: relative;
-  height: 150px;
-  width: auto;
-  display: inline-block;
-  margin-bottom: 10px; }
-  .testimonials .thumbnail img {
-    width: 138px;
-    height: 138px; }
-.testimonials h1, .testimonials .service h2, .service .testimonials h2 {
-  margin-bottom: 40px; }
-  .testimonials h1 i, .testimonials .service h2 i, .service .testimonials h2 i {
-    color: #e18e7c; }
-.testimonials h2 {
-  font-weight: normal;
-  font-size: 18px;
-  margin: 0 0 20px; }
-.testimonials blockquote {
-  display: inline-block;
-  max-width: 90%;
-  position: relative;
-  border-radius: 2px;
-  padding: 15px 20px;
-  font-family: Georgia, serif;
-  font-style: italic;
-  color: #222b30;
-  border: none;
-  font-size: 14px;
-  line-height: 1.5;
-  margin: 0 0 20px 0;
-  clear: both; }
-  .testimonials blockquote small {
-    margin-top: 10px;
-    font-size: 15px;
-    white-space: nowrap;
-    font-style: normal;
-    font-family: "jaf-facitweb";
-    color: #666; }
-    .testimonials blockquote small:after, .testimonials blockquote small:before {
-      content: ""; }
-    .testimonials blockquote small strong {
-      display: block;
-      white-space: normal;
-      color: #222b30; }
+.contact {
+  background: #efefef; }
+  .contact h2 {
+    color: #212121; }
+  .contact .btn-default {
+    border-radius: 0;
+    padding: 16px 48px;
+    font-size: 20px; }
 
 .well {
   max-width: 280px;
@@ -279,18 +244,14 @@ body.home {
   padding-top: 0; }
   body.home section {
     padding: 3em 0; }
+    body.home section h1, body.home section .service h2, .service body.home section h2 {
+      font-size: 46px; }
     body.home section.hero {
       background: #d9ebf6;
-      background: url("../images/hero-george-1.jpg") 50% 50% no-repeat;
+      background: url("../images/climber-hero.jpg") 50% 50% no-repeat;
       background-size: cover;
       padding-top: 130px;
-      min-height: 501px; }
-      body.home section.hero.white-wall {
-        background: url("../images/hero-test-2.jpg") 50% 50% no-repeat;
-        background-size: cover; }
-        body.home section.hero.white-wall h1, body.home section.hero.white-wall .service h2, .service body.home section.hero.white-wall h2 {
-          color: #222b30;
-          font-weight: bold; }
+      min-height: 500px; }
       body.home section.hero img {
         width: 345px;
         height: auto;
@@ -303,11 +264,11 @@ body.home {
       body.home section.hero h1, body.home section.hero .service h2, .service body.home section.hero h2 {
         font-weight: normal;
         text-transform: none;
-        font-size: 44px;
-        line-height: 1.4;
+        font-size: 54px;
+        line-height: 1.2;
         margin-bottom: 40px;
         text-align: left;
-        color: white; }
+        color: #212121; }
         body.home section.hero h1 span::selection, body.home section.hero .service h2 span::selection, .service body.home section.hero h2 span::selection {
           background: #222b30 !important; }
         body.home section.hero h1 span::-moz-selection, body.home section.hero .service h2 span::-moz-selection, .service body.home section.hero h2 span::-moz-selection {
@@ -374,7 +335,7 @@ body.home {
       body.home section.results .card {
         font-size: 14px;
         height: 230px;
-        border-color: #cde3f1; }
+        border-color: #eaeaea; }
         body.home section.results .card em {
           font-size: 32px;
           margin-top: 40px; }
@@ -384,12 +345,77 @@ body.home {
       border: none;
       text-align: center;
       font-weight: normal;
-      font-size: 20px;
+      font-size: 24px;
       margin-bottom: 20px; }
     body.home section.how ul {
       list-style-type: none;
       padding: 0;
       margin: 0; }
+      body.home section.how ul li a {
+        font-size: 18px;
+        color: white; }
+    body.home section.testimonials {
+      padding-bottom: 5em; }
+      body.home section.testimonials .logo {
+        height: 28px;
+        width: auto; }
+      body.home section.testimonials .thumbnail {
+        position: relative;
+        height: 150px;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 0;
+        border-radius: 50%; }
+      body.home section.testimonials h1, body.home section.testimonials .service h2, .service body.home section.testimonials h2 {
+        margin-bottom: 40px; }
+        body.home section.testimonials h1 i, body.home section.testimonials .service h2 i, .service body.home section.testimonials h2 i {
+          color: #e18e7c; }
+      body.home section.testimonials h2 {
+        font-weight: normal;
+        font-size: 18px;
+        margin: 0 0 20px; }
+      body.home section.testimonials blockquote {
+        display: inline-block;
+        position: relative;
+        border-radius: 2px;
+        padding: 15px 0;
+        font-family: Georgia, serif;
+        font-style: italic;
+        color: #212121;
+        border: none;
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 0;
+        clear: both; }
+        body.home section.testimonials blockquote span {
+          font-size: 40px;
+          line-height: 1;
+          display: inline-block;
+          position: absolute;
+          top: 6px;
+          margin-left: -21px; }
+        body.home section.testimonials blockquote small {
+          margin-top: 20px;
+          font-size: 18px;
+          white-space: nowrap;
+          font-style: normal;
+          font-family: "futura-pt", sans-serif;
+          color: #212121; }
+          body.home section.testimonials blockquote small:after, body.home section.testimonials blockquote small:before {
+            content: ""; }
+          body.home section.testimonials blockquote small strong {
+            display: block;
+            white-space: normal;
+            color: #222b30;
+            height: 32px;
+            width: auto; }
+    body.home section.contact {
+      background: #D3D3D3; }
+      body.home section.contact h2 {
+        margin: 0;
+        line-height: 60px;
+        font-size: 32px;
+        text-align: right; }
 
 section {
   padding: 3em 0; }
@@ -403,19 +429,20 @@ section {
     section h1 i, section .service h2 i, .service section h2 i, section h2 i, section h3 i, section h4 i {
       font-size: 0.76em; }
   section h1, section .service h2, .service section h2 {
-    margin-bottom: 40px;
-    font-weight: bold; }
+    margin-bottom: 40px; }
   section h2 {
-    font-size: 20px;
-    font-weight: bold; }
+    font-size: 28px;
+    margin-top: 40px; }
+    section h2.flat {
+      margin: 0; }
     section h2 small {
       margin-left: 10px; }
   section p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
     margin-bottom: 1em; }
     section p.intro {
-      font-size: 18px; }
+      font-size: 22px; }
   section ul {
     padding: 0 0 0 20px;
     margin-bottom: 30px;
@@ -425,7 +452,7 @@ section {
   section code {
     margin-bottom: 30px; }
   section .card {
-    border: 1px solid #cfe4f2;
+    border: 1px solid #efefef;
     background: white;
     padding: 10px;
     margin-bottom: 20px;
@@ -519,12 +546,12 @@ section {
     margin: 0 5px;
     color: #666;
     padding: 6px 20px;
-    border: 1px solid #cfe4f2;
+    border: 1px solid #e2e2e2;
     -webkit-font-smoothing: antialiased;
     transition: none; }
     .results .filters .btn:hover {
-      background: #006f98;
-      border-color: #006f98;
+      background: #007EA3;
+      border-color: #007EA3;
       color: white; }
     .results .filters .btn:active, .results .filters .btn:focus {
       outline: none; }
@@ -777,12 +804,12 @@ section {
     font-weight: normal;
     font-size: 24px; }
     .technique h1 i, .technique .service h2 i, .service .technique h2 i {
-      color: #b1d4e9; }
+      color: #cfcfcf; }
   .technique .service {
     width: 100px;
     height: auto;
     margin: 1em 1em 1em 0;
-    background: #32c8ff;
+    background: #3dd3ff;
     border-radius: 50%; }
   .technique .glyphicon-arrow-down {
     font-size: 3em;
@@ -813,20 +840,16 @@ section {
     display: block;
     margin-bottom: 5px; }
 
-.home header .navbar.dark {
-  background: rgba(0, 111, 152, 0.98); }
-
 header .navbar {
   background: white;
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   height: 80px;
   border-radius: 0;
   margin: 0; }
   header .navbar .navbar-header .navbar-brand {
     width: 193px;
     height: 80px;
-    background: url("../images/roi-logo1.jpg") center center no-repeat;
+    background: url("../images/roi-logo1.jpg") center 25px no-repeat;
     background-size: 173px 32px;
     text-indent: -9999px;
     line-height: 80px;
@@ -848,14 +871,12 @@ header .navbar {
       line-height: 40px;
       margin-top: 20px;
       padding: 0 18px;
-      font-size: 15px;
+      font-size: 18px;
       border-radius: 6px; }
       header .navbar .navbar-collapse .navbar-nav li a:hover {
-        background: rgba(0, 0, 0, 0.1); }
+        color: #007EA3; }
     header .navbar .navbar-collapse .navbar-nav li.active a {
       background: transparent; }
-      header .navbar .navbar-collapse .navbar-nav li.active a:hover {
-        background: rgba(0, 0, 0, 0.1); }
     header .navbar .navbar-collapse .navbar-nav li.telephone {
       color: white; }
     header .navbar .navbar-collapse .navbar-nav li.dropdown:hover .dropdown-menu {
@@ -871,7 +892,7 @@ header .navbar {
         background: rgba(0, 0, 0, 0.05); }
 
 .footer {
-  background: #00374c;
+  background: #004356;
   color: white;
   margin: 0;
   text-align: center;
@@ -882,14 +903,14 @@ header .navbar {
     .footer ul.footer-nav li {
       margin: 0 10px; }
       .footer ul.footer-nav li a {
-        font-size: 15px;
+        font-size: 17px;
         color: #8cc9ef; }
         .footer ul.footer-nav li a:hover {
           color: white;
           text-decoration: none; }
   .footer p.copyright {
-    font-size: 14px;
-    color: #00a7e5; }
+    font-size: 15px;
+    color: #00b9ef; }
 
 @media screen and (max-width: 767px) {
   header .navbar {

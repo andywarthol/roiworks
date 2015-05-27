@@ -26,7 +26,7 @@ Template Name: Services
 		</div>
 	</div>
 </section>
-<section class="service ppc">
+<section class="service ppc white">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -53,7 +53,7 @@ Template Name: Services
 		</div>
 	</div>
 </section>
-<section class="service white social">
+<section class="service grey social">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -79,7 +79,7 @@ Template Name: Services
 		</div>
 	</div>
 </section>
-<section class="service display">
+<section class="service display white">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -107,7 +107,7 @@ Template Name: Services
 		</div>
 	</div>
 </section>
-<section class="service white analytics">
+<section class="service grey analytics">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -134,7 +134,7 @@ Template Name: Services
 		</div>
 	</div>
 </section>
-<section class="service cro">
+<section class="service cro white">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -162,7 +162,7 @@ Template Name: Services
 		</div>
 	</div>
 </section>
-<section class="service white ux">
+<section class="service grey ux">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -185,34 +185,6 @@ Template Name: Services
 						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="service creative">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<div class="row">
-					<div class="col-sm-12">
-						<h2>Creative Services</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-7 col-lg-offset-1">
-						<p>Culpa rem accusantium voluptatem qui, odio voluptate fugit. Voluptate aut ipsa cumque aliquid:</p>
-						<ul>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-						</ul>
-						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
-					</div>
-					<div class="col-sm-5 col-lg-4">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/creative-services.gif" alt="" class="img-responsive">
-					</div>
-				</div>
-			</div>
 			</div>
 		</div>
 	</div>
@@ -240,34 +212,6 @@ Template Name: Services
 						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="service ab">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<div class="row">
-					<div class="col-sm-12">
-						<h2>A/B Testing</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-7 col-lg-offset-1">
-						<p>Culpa rem accusantium voluptatem qui, odio voluptate fugit. Voluptate aut ipsa cumque aliquid:</p>
-						<ul>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-						</ul>
-						<p class="flat text-center"><a href="?page_id=175" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
-					</div>
-					<div class="col-sm-5 col-lg-4">
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/landing-page-optimization.gif" alt="Graphic of landing page optimization through a/b testing" class="img-responsive">
-					</div>
-				</div>
-			</div>
 			</div>
 		</div>
 	</div>

@@ -2,18 +2,14 @@ body.home
 	padding-top: 0
 	section
 		padding: 3em 0
+		h1
+			font-size: 46px
 		&.hero
 			background: $lightBlue
-			background: url('../images/hero-george-1.jpg') 50% 50% no-repeat
+			background: url('../images/climber-hero.jpg') 50% 50% no-repeat
 			background-size: cover
 			padding-top: 50px+$navbarHeight
-			min-height: 501px
-			&.white-wall
-				background: url('../images/hero-test-2.jpg') 50% 50% no-repeat
-				background-size: cover
-				h1
-					color: $ash
-					font-weight: bold
+			min-height: 500px
 			img
 				width: 345px
 				height: auto
@@ -26,11 +22,11 @@ body.home
 			h1
 				font-weight: normal
 				text-transform: none
-				font-size: 44px
-				line-height: 1.4
+				font-size: 54px
+				line-height: 1.2
 				margin-bottom: 40px
 				text-align: left
-				color: white
+				color: $black
 				span
 					&::selection
 						background: $ash!important
@@ -101,7 +97,7 @@ body.home
 			.card
 				font-size: 14px
 				height: 230px
-				border-color: darken($lightGrey, 8%)
+				border-color: #eaeaea
 				em
 					font-size: 32px
 					margin-top: 40px
@@ -112,9 +108,76 @@ body.home
 				border: none
 				text-align: center
 				font-weight: normal
-				font-size: 20px
+				font-size: 24px
 				margin-bottom: 20px
 			ul
 				list-style-type: none
 				padding: 0
 				margin: 0
+				li 
+					a
+						font-size: 18px
+						color: white
+		// Testimonials
+		&.testimonials
+			padding-bottom: 5em
+			.logo
+				height: 28px
+				width: auto
+			.thumbnail
+				position: relative
+				height: 150px
+				width: auto
+				display: inline-block
+				margin-bottom: 0
+				border-radius: 50%
+			h1
+				margin-bottom: 40px
+				i
+					color: $red
+			h2
+				font-weight: normal
+				font-size: 18px
+				margin: 0 0 20px
+			blockquote
+				display: inline-block
+				position: relative
+				border-radius: 2px
+				padding: 15px 0
+				font-family: Georgia, serif
+				font-style: italic
+				color: $black
+				border: none
+				font-size: 15px
+				line-height: 1.5
+				margin: 0
+				clear: both
+				span
+					font-size: 40px
+					line-height: 1
+					display: inline-block
+					position: absolute
+					top: 6px
+					margin-left: -21px
+				small
+					margin-top: 20px
+					font-size: 18px
+					white-space: nowrap
+					font-style: normal
+					font-family: "futura-pt", sans-serif
+					color: $black
+					&:after, &:before
+						content: ''
+					strong
+						display: block
+						white-space: normal
+						color: $ash
+						height: 32px
+						width: auto
+		&.contact
+			background: #D3D3D3
+			h2
+				margin: 0
+				line-height: 60px
+				font-size: 32px
+				text-align: right

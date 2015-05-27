@@ -426,6 +426,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/buildfire-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5150,
+		"inputAbbreviatedPath": "\/library\/images\/buildfire-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/buildfire-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/cardstore-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -466,6 +477,17 @@
 		"initialSize": 9942,
 		"inputAbbreviatedPath": "\/library\/images\/clapper-patti.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/clapper-patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/climber-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92149,
+		"inputAbbreviatedPath": "\/library\/images\/climber-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/climber-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -965,6 +987,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/ian-blair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14474,
+		"inputAbbreviatedPath": "\/library\/images\/ian-blair.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/ian-blair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/ipad-analytics-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -994,6 +1027,17 @@
 		"initialSize": 5676,
 		"inputAbbreviatedPath": "\/library\/images\/jacqueline-thomas.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/jacqueline-thomas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/jamal-bryant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12606,
+		"inputAbbreviatedPath": "\/library\/images\/jamal-bryant.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/jamal-bryant.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1357,6 +1401,17 @@
 		"initialSize": 7967,
 		"inputAbbreviatedPath": "\/library\/images\/saatchi-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/saatchi-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/saatchiart-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5644,
+		"inputAbbreviatedPath": "\/library\/images\/saatchiart-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/saatchiart-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

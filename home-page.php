@@ -10,9 +10,9 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
-					<div class="col-sm-6 col-md-7">
-						<h1>We're not afraid<br/>of <span data-typer-targets="user insight., A/B testing., analytics., color., deadlines., data."></span></h1>
-						<p class="flat"><a href="?page_id=10" class="btn btn-lg btn-primary">Learn more &raquo;</a></p>
+					<div class="col-sm-6 col-md-8">
+						<h1>Dramatic Results in <br>Extremely Short Timeframes</h1>
+						<p class="flat"><a href="?page_id=10" class="btn btn-lg btn-primary">Get a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 					<div class="col-sm-6 col-md-5">
 						&nbsp;
@@ -110,7 +110,7 @@ Template Name: Home Page
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12 text-center"><a href="#" class="btn btn-lg btn-primary">View more case studies <i class="glyphicon glyphicon-chevron-right"></i></a></div>
+					<div class="col-sm-12 text-center"><a href="#" class="btn btn-lg btn-primary">Get a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a></div>
 				</div>
 			</div>
 		</div>
@@ -122,7 +122,6 @@ Template Name: Home Page
 			<div class="col-sm-12">
 				<h1 class="flat">Our Services</h1>
 				<p class="intro text-center">The foundation of our work is divided into three core departments.</p>
-				<br><br>
 			</div>
 		</div>
 		<div class="row">
@@ -134,7 +133,6 @@ Template Name: Home Page
 						<ul>
 							<li><a href="ux-research-user-testing">UX Research</a></li>
 							<li><a href="analytics">Analytics</a></li>
-							<li><a href="ab-testing">A/B Testing</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-4 bucket">
@@ -154,8 +152,6 @@ Template Name: Home Page
 						<ul>
 							<li><a href="responsive-web-design">Responsive Web Design</a></li>
 							<li><a href="usability">Usability</a></li>
-							<li><a href="brand-identity">Brand Identity</a></li>
-							<li><a href="convincing-copy">Convincing Copy</a></li>
 						</ul>
 					</div>
 				</div>
@@ -167,34 +163,39 @@ Template Name: Home Page
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1>Our Clients Don't Hate Us</h1>
+				<h1>Testimonials</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
+				<?php if(get_field('testimonials')): ?>
 				<div class="row">
-		      <div class="col-sm-4 text-center">
-						<img class="thumbnail" src="<?php the_field('headshot1'); ?>" alt="">
-		  			<blockquote>
-		      		<?php the_field('testimonial1'); ?>
-		      	</blockquote>
-		      </div>
-		      <div class="col-sm-4 text-center">
-						<img class="thumbnail" src="<?php the_field('headshot2'); ?>" alt="">
-		  			<blockquote>
-		      		<?php the_field('testimonial2'); ?>
-		      	</blockquote>
-		      </div>
-		      <div class="col-sm-4 text-center">
-						<img class="thumbnail" src="<?php the_field('headshot3'); ?>" alt="">
-		  			<blockquote>
-		      		<?php the_field('testimonial3'); ?>
-		      	</blockquote>
-		      </div>
-		    </div>
+					<?php while(has_sub_field('testimonials')): ?>
+					<div class="col-sm-4 text-center">
+						<img class="thumbnail img-circle" src="<?php the_sub_field('headshot'); ?>" alt="">
+						<blockquote>
+							<span>“</span><?php the_sub_field('quote'); ?> <small><?php the_sub_field('name'); ?>, <?php the_sub_field('position'); ?></small>
+						</blockquote>
+						<img src="<?php the_sub_field('logo'); ?>" alt="" class="logo">
+					</div>
+					<?php endwhile; ?>
+				</div>
+				<?php endif; ?>
 		  </div>
     </div>
   </div>
+</section>
+<section class="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-sm-8"><h2>Contact us today to jumpstart your growth.</h2></div>
+					<div class="col-sm-4"><a href="" class="btn btn-lg btn-primary">Get Started <i class="glyphicon glyphicon-chevron-right"></i></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <section class="faq grey">
 	<div class="container">

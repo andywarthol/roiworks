@@ -1,36 +1,7 @@
-.home
-	header
-		.navbar
-			// background: rgba(0, 0, 0, .3)
-			&.dark
-				background: rgba($blue, .98)
-
-.page-template-services-php
-	header
-		.navbar
-			// background: #95cc55
-			// border: none
-
-.page-template-about-php
-	header
-		.navbar
-			// background: $ash
-
-.page-template-approach-php
-	header
-		.navbar
-			// background: rgba(darken($blue, 10%), .98)
-
-.page-template-contact-php
-	header
-		.navbar
-			// background: #e8ab00
-
 header
 	.navbar
 		background: white
 		border: none
-		border-bottom: 1px solid rgba(0, 0, 0, .05)
 		height: $navbarHeight
 		border-radius: 0
 		margin: 0
@@ -38,7 +9,7 @@ header
 			.navbar-brand
 				width: 193px
 				height: $navbarHeight
-				background: url('../images/roi-logo1.jpg') center center no-repeat
+				background: url('../images/roi-logo1.jpg') center 25px no-repeat
 				background-size: 173px 32px
 				text-indent: -9999px
 				line-height: $navbarHeight
@@ -63,15 +34,15 @@ header
 						line-height: $navbarHeight/2
 						margin-top: $navbarHeight/4
 						padding: 0 18px
-						font-size: 15px
+						font-size: 18px
+						// letter-spacing: 1px
+						// text-transform: uppercase
 						border-radius: 6px
 						&:hover
-							background: rgba(0, 0, 0, .1)
+							color: $blue
 					&.active
 						a
 							background: transparent
-							&:hover
-								background: rgba(0, 0, 0, .1)
 					&.telephone
 						color: white
 					&.dropdown
