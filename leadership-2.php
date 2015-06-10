@@ -5,26 +5,19 @@ Template Name: Leadership 2
 ?>
 
 <?php get_header(); ?>
-<section class="leadership hero">
-	<div class="container">
-		<div class="row col-lg-10 col-lg-offset-1">
-			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<div class="row">
-				<div class="col-sm-6">
-					<header>
-						<h1 class="page-title"><?php the_title(); ?></h1>
-					</header>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum velit aut, dolore voluptatem, omnis quod eveniet iste.</p>
-					<a href="#data" class="btn btn-lg btn-primary">Hire us <i class="glyphicon glyphicon-chevron-right"></i></a>
-				</div>
-				<div class="col-sm-6 col-md-5 col-lg-4">
-					<!-- <img src="<?php bloginfo('template_directory'); ?>/library/images/services-light.gif" class="img-responsive oversize"> -->
-					&nbsp;
-				</div>
-			</div>
-			<?php endwhile; endif; ?>
+
+<section class="hero">
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	<?php
+		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
+		$url = $thumb['0'];
+	?>
+	<header style="background-image: url(<?=$url?>)">
+		<div class="overlay">
+			<h1 class="page-title text-center"><?php the_title(); ?></h1>
 		</div>
-	</div>
+	</header>
+	<?php endwhile; endif; ?>
 </section>
 <section class="about leadership">
 	<div class="container">

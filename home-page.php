@@ -10,8 +10,9 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
-					<div class="col-sm-6 col-md-8">
+					<div class="col-sm-6 col-md-10">
 						<h1>Dramatic Results in <br>Extremely Short Timeframes</h1>
+						<p class="intro">Helping companies grow with holistic marketing and data-driven strategies.</p>
 						<p class="flat"><a href="?page_id=10" class="btn btn-lg btn-primary">Get a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 					</div>
 					<div class="col-sm-6 col-md-5">

@@ -83,11 +83,13 @@ a
 		color: white
 
 // Image Styles
+.thumbnail
+	margin-bottom: 30px
 .attachment-post-thumbnail
 	width: 140px
 	height: auto
 .attachment-post-medium
-	width: 200px
+	width: 240px
 	height: auto
 .alignleft
 	float: left
@@ -100,6 +102,17 @@ a
 form
 	label
 		font-weight: normal
+		font-size: 20px
+	.form-control
+		border-radius: 0
+		font-size: 20px
+		height: 42px
+	.frm_error
+		padding: 4px 12px
+		background-color: #333
+		color: white
+		border-radius: 0 0 4px 4px
+		margin-top: -1px
 	button[type="submit"], input[type="submit"]
 		-webkit-font-smoothing: antialiased
 
@@ -215,7 +228,7 @@ form
 	padding: 0
 	h3
 		text-transform: uppercase
-		font-size: 15px
+		font-size: 20px
 		font-weight: bold
 		margin-bottom: 20px
 	ul
@@ -225,22 +238,17 @@ form
 		margin: 0
 		li
 			margin-bottom: 10px
-			&.current_page_item
-				a
-					display: block
-					// background: white
-					font-weight: bold
-					// padding: 8px 10px
-					// border-radius: 0
-					// margin-left: -10px
 			a
-				font-size: 15px
+				font-size: 18px
 				i
 					display: none
 					font-size: .7em
-					// color: #666
 					margin-right: 5px
 					top: 0px
+			&.current_page_item
+				a
+					display: block
+					font-weight: bold
 @media screen and (min-width: 1200px)
 	.oversize
 		max-width: 115%

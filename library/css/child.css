@@ -91,12 +91,15 @@ a {
     background: rgba(0, 0, 0, 0.45);
     color: white; }
 
+.thumbnail {
+  margin-bottom: 30px; }
+
 .attachment-post-thumbnail {
   width: 140px;
   height: auto; }
 
 .attachment-post-medium {
-  width: 200px;
+  width: 240px;
   height: auto; }
 
 .alignleft {
@@ -108,7 +111,18 @@ a {
   margin: 0 0 10px 20px; }
 
 form label {
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 20px; }
+form .form-control {
+  border-radius: 0;
+  font-size: 20px;
+  height: 42px; }
+form .frm_error {
+  padding: 4px 12px;
+  background-color: #333;
+  color: white;
+  border-radius: 0 0 4px 4px;
+  margin-top: -1px; }
 form button[type="submit"], form input[type="submit"] {
   -webkit-font-smoothing: antialiased; }
 
@@ -215,7 +229,7 @@ form button[type="submit"], form input[type="submit"] {
   padding: 0; }
   .well h3 {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px; }
   .well ul {
@@ -225,16 +239,16 @@ form button[type="submit"], form input[type="submit"] {
     margin: 0; }
     .well ul li {
       margin-bottom: 10px; }
-      .well ul li.current_page_item a {
-        display: block;
-        font-weight: bold; }
       .well ul li a {
-        font-size: 15px; }
+        font-size: 18px; }
         .well ul li a i {
           display: none;
           font-size: 0.7em;
           margin-right: 5px;
           top: 0px; }
+      .well ul li.current_page_item a {
+        display: block;
+        font-weight: bold; }
 
 @media screen and (min-width: 1200px) {
   .oversize {
@@ -250,7 +264,7 @@ body.home {
       background: #d9ebf6;
       background: url("../images/climber-hero.jpg") 50% 50% no-repeat;
       background-size: cover;
-      padding-top: 130px;
+      padding-top: 100px;
       min-height: 500px; }
       body.home section.hero img {
         width: 345px;
@@ -264,9 +278,9 @@ body.home {
       body.home section.hero h1, body.home section.hero .service h2, .service body.home section.hero h2 {
         font-weight: normal;
         text-transform: none;
-        font-size: 54px;
+        font-size: 64px;
         line-height: 1.2;
-        margin-bottom: 40px;
+        margin-bottom: 15px;
         text-align: left;
         color: #212121; }
         body.home section.hero h1 span::selection, body.home section.hero .service h2 span::selection, .service body.home section.hero h2 span::selection {
@@ -274,9 +288,11 @@ body.home {
         body.home section.hero h1 span::-moz-selection, body.home section.hero .service h2 span::-moz-selection, .service body.home section.hero h2 span::-moz-selection {
           background: #222b30 !important; }
       body.home section.hero h2 {
-        font-size: 22px;
+        font-size: 28px;
         margin-bottom: 20px;
         border: none; }
+      body.home section.hero p.intro {
+        font-size: 26px; }
       body.home section.hero ul li {
         font-size: 16px; }
     body.home section h1, body.home section .service h2, .service body.home section h2 {
@@ -433,14 +449,23 @@ section {
   section h2 {
     font-size: 28px;
     margin-top: 40px; }
+    section h2:first-child {
+      margin-top: 0; }
     section h2.flat {
       margin: 0; }
     section h2 small {
       margin-left: 10px; }
+  section article h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 60px; }
+  section article .btn-primary {
+    margin-top: 30px; }
   section p {
     font-size: 18px;
     line-height: 1.75;
-    margin-bottom: 1em; }
+    margin-bottom: 2em; }
     section p.intro {
       font-size: 22px; }
   section ul {
@@ -448,7 +473,8 @@ section {
     margin-bottom: 30px;
     list-style-position: outside; }
     section ul li {
-      margin-bottom: 15px; }
+      font-size: 18px;
+      margin-bottom: 20px; }
   section code {
     margin-bottom: 30px; }
   section .card {
@@ -466,49 +492,38 @@ section {
   section .byline {
     font-size: 14px;
     text-transform: uppercase; }
-  section.hero h1, section.hero .service h2, .service section.hero h2 {
-    margin-bottom: 20px; }
-  section.hero p {
-    font-size: 18px; }
-  section.hero.approach {
-    background: url("../images/team-kitchen.jpg") 50% 50%;
-    background-size: cover;
-    color: #ffffff !important; }
-  section.hero.results {
-    display: none;
-    background: url("../images/results-hero.jpg") 50% 50%;
-    background-size: cover;
-    color: white !important; }
-  section.hero.about {
-    background: url("../images/kitchen-collaboration.jpg") 50% 50%;
-    background-size: cover;
-    color: #ffffff !important; }
-    section.hero.about p {
-      color: #ffffff !important; }
-  section.hero.service {
-    background: url("../images/stephen-blue-board-2.jpg") 50% 50%;
-    background: url("../images/stephen-green-screen.jpg") 50% 50%;
-    background: url("../images/stephen-white-board-blue.jpg") 50% 50%;
-    background-size: cover;
-    color: #ffffff !important; }
-  section.hero.contact {
-    background: url("../images/market-st-blue-iphone.jpg") 50% 50%;
-    background-size: cover;
-    color: white !important; }
-  section.hero.leadership {
-    background: url("../images/team-hero.jpg") 50% 50%;
-    background-size: cover;
-    color: white !important; }
-    section.hero.leadership h1, section.hero.leadership .service h2, .service section.hero.leadership h2 {
-      color: #212121; }
-  section.hero.culture {
-    background: url("../images/culture-hero.jpg") 50% 50%;
-    background-size: cover;
-    color: white !important; }
-    section.hero.culture h1, section.hero.culture .service h2, .service section.hero.culture h2 {
-      color: white; }
-    section.hero.culture p {
-      color: white; }
+  section.hero {
+    position: relative;
+    height: 260px; }
+    section.hero header {
+      background-size: cover;
+      background-position: 50% 50%;
+      height: 260px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 1; }
+      section.hero header .overlay {
+        height: 260px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        display: table;
+        width: 100%; }
+        section.hero header .overlay h1, section.hero header .overlay .service h2, .service section.hero header .overlay h2 {
+          font-size: 54px;
+          color: white;
+          line-height: 200px;
+          border: none;
+          text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+          display: table-cell;
+          vertical-align: middle; }
 
 .bubble {
   position: relative;
@@ -611,7 +626,7 @@ section {
   .results .col-sm-3 em, .results .col-sm-3 article em {
     color: #444;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 36px;
     display: block;
     font-style: normal;
     margin-top: 36px; }
@@ -749,10 +764,11 @@ section {
   margin-bottom: 40px; }
   .leadership article h2 {
     border: none;
-    font-size: 24px;
-    margin: 0 0 15px; }
+    font-size: 28px;
+    margin: 0 0 15px;
+    font-weight: bold; }
     .leadership article h2 small {
-      font-size: 15px; }
+      font-size: 20px; }
 
 .single .card {
   padding: 30px; }
@@ -849,7 +865,7 @@ header .navbar {
   header .navbar .navbar-header .navbar-brand {
     width: 193px;
     height: 80px;
-    background: url("../images/roi-logo1.jpg") center 25px no-repeat;
+    background: url("../images/roi-logo1.jpg") center 27px no-repeat;
     background-size: 173px 32px;
     text-indent: -9999px;
     line-height: 80px;
@@ -870,7 +886,7 @@ header .navbar {
       color: #212121;
       line-height: 40px;
       margin-top: 20px;
-      padding: 0 18px;
+      padding: 0 20px;
       font-size: 18px;
       border-radius: 6px; }
       header .navbar .navbar-collapse .navbar-nav li a:hover {
@@ -883,7 +899,7 @@ header .navbar {
       display: block; }
     header .navbar .navbar-collapse .navbar-nav li .dropdown-menu a {
       padding: 8px 12px;
-      font-size: 14px;
+      font-size: 17px;
       color: #212121;
       margin: 0;
       line-height: 1;
@@ -892,7 +908,7 @@ header .navbar {
         background: rgba(0, 0, 0, 0.05); }
 
 .footer {
-  background: #004356;
+  background: white;
   color: white;
   margin: 0;
   text-align: center;
@@ -904,13 +920,13 @@ header .navbar {
       margin: 0 10px; }
       .footer ul.footer-nav li a {
         font-size: 17px;
-        color: #8cc9ef; }
+        color: #212121; }
         .footer ul.footer-nav li a:hover {
-          color: white;
-          text-decoration: none; }
+          color: #212121;
+          text-decoration: underline; }
   .footer p.copyright {
     font-size: 15px;
-    color: #00b9ef; }
+    color: #999; }
 
 @media screen and (max-width: 767px) {
   header .navbar {

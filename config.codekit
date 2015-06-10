@@ -481,6 +481,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/climber-hero-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122490,
+		"inputAbbreviatedPath": "\/library\/images\/climber-hero-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/climber-hero-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/climber-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -565,6 +576,28 @@
 		"initialSize": 5167,
 		"inputAbbreviatedPath": "\/library\/images\/coit-cleaners-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/coit-cleaners-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/contact-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58185,
+		"inputAbbreviatedPath": "\/library\/images\/contact-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/contact-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/contact-minihero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144914,
+		"inputAbbreviatedPath": "\/library\/images\/contact-minihero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/contact-minihero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -719,6 +752,17 @@
 		"initialSize": 7287,
 		"inputAbbreviatedPath": "\/library\/images\/emeals-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/emeals-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/empowerment-temple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10057,
+		"inputAbbreviatedPath": "\/library\/images\/empowerment-temple.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/empowerment-temple.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1064,6 +1108,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/leadership-minihero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41195,
+		"inputAbbreviatedPath": "\/library\/images\/leadership-minihero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/leadership-minihero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/linkedin-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1317,6 +1372,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/ppc-service.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40338,
+		"inputAbbreviatedPath": "\/library\/images\/ppc-service.png",
+		"outputAbbreviatedPath": "\/library\/images\/ppc-service.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/ppc.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1335,6 +1401,17 @@
 		"initialSize": 10631,
 		"inputAbbreviatedPath": "\/library\/images\/referral-icon-grey.png",
 		"outputAbbreviatedPath": "\/library\/images\/referral-icon-grey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/reflections-minihero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39005,
+		"inputAbbreviatedPath": "\/library\/images\/reflections-minihero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/reflections-minihero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1390,6 +1467,28 @@
 		"initialSize": 61144,
 		"inputAbbreviatedPath": "\/library\/images\/runway-interior.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/runway-interior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/runway-minihero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53701,
+		"inputAbbreviatedPath": "\/library\/images\/runway-minihero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/runway-minihero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/runway-office-minihero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120531,
+		"inputAbbreviatedPath": "\/library\/images\/runway-office-minihero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/runway-office-minihero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1764,6 +1863,17 @@
 		"initialSize": 8904,
 		"inputAbbreviatedPath": "\/library\/images\/trinet-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/trinet-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/twitter-building-minihero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102291,
+		"inputAbbreviatedPath": "\/library\/images\/twitter-building-minihero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/twitter-building-minihero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

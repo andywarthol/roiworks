@@ -6,26 +6,18 @@ Template Name: About
 
 <?php get_header(); ?>
 
-<section class="about hero">
-	<div class="container">
-		<div class="row col-lg-10 col-lg-offset-1">
-			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<div class="row">
-				<div class="col-sm-6">
-					<header>
-						<h1 class="page-title"><?php the_title(); ?></h1>
-					</header>
-					<p>ROI.works Search Marketing makes it easy for corporations and their advertising agencies to get a steady stream of new customers. </p>
-					<a href="#data" class="btn btn-lg btn-primary">Hire us <i class="glyphicon glyphicon-chevron-right"></i></a>
-				</div>
-				<div class="col-sm-6 col-md-5 col-lg-4">
-					<!-- <img src="<?php bloginfo('template_directory'); ?>/library/images/services-light.gif" class="img-responsive oversize"> -->
-					&nbsp;
-				</div>
-			</div>
-			<?php endwhile; endif; ?>
+<section class="hero">
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	<?php
+		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
+		$url = $thumb['0'];
+	?>
+	<header style="background-image: url(<?=$url?>)">
+		<div class="overlay">
+			<h1 class="page-title text-center"><?php the_title(); ?></h1>
 		</div>
-	</div>
+	</header>
+	<?php endwhile; endif; ?>
 </section>
 <section class="about">
 	<div class="container">
@@ -34,7 +26,7 @@ Template Name: About
 				<div class="row">
 					<div class="col-sm-3 ">
 						<div class="well">
-							<h3>About</h3>
+							<h3>Our Company</h3>
 							<ul class="">
 								<?php wp_list_pages('sort_column=menu_order&exclude=44&title_li=&child_of=12&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
 							</ul>
@@ -56,4 +48,13 @@ Template Name: About
 		</div>
 	</div>
 </section>
+<script>
+	jQuery(document).ready(function($){
+		if (window.location.hash == "#vpclientservices") {
+			$('#field_oknffn').val('VP Client Services');
+		} else if (window.location.hash == "#sraccountmanager") {
+			$('#field_oknffn').val('Senior Account Manager');
+		}
+	});
+</script>
 <?php get_footer(); ?>
