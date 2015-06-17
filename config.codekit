@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18966",
+"creatorBuild": "19033",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -61,6 +61,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/blog.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/careers.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/careers.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -283,6 +292,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/library\/images\/3scale-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7264,
+		"inputAbbreviatedPath": "\/library\/images\/3scale-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/3scale-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/ab-testing-icon-grey.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -360,6 +380,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/anon-female.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19517,
+		"inputAbbreviatedPath": "\/library\/images\/anon-female.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/anon-female.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/anon-female2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5841,
+		"inputAbbreviatedPath": "\/library\/images\/anon-female2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/anon-female2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/apple-icon-touch.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -378,6 +420,17 @@
 		"initialSize": 762585,
 		"inputAbbreviatedPath": "\/library\/images\/approach-wireframe.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/approach-wireframe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/backyard-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129456,
+		"inputAbbreviatedPath": "\/library\/images\/backyard-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/backyard-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -404,6 +457,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/bicycles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29158,
+		"inputAbbreviatedPath": "\/library\/images\/bicycles.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/bicycles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/billy-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -415,6 +479,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/bokeh-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83403,
+		"inputAbbreviatedPath": "\/library\/images\/bokeh-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/bokeh-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/bokeh-hero2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54856,
+		"inputAbbreviatedPath": "\/library\/images\/bokeh-hero2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/bokeh-hero2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/brand-identity.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -422,6 +508,17 @@
 		"initialSize": 22470,
 		"inputAbbreviatedPath": "\/library\/images\/brand-identity.png",
 		"outputAbbreviatedPath": "\/library\/images\/brand-identity.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/bubbles-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 151523,
+		"inputAbbreviatedPath": "\/library\/images\/bubbles-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/bubbles-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -580,6 +677,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/community.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56220,
+		"inputAbbreviatedPath": "\/library\/images\/community.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/community.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/contact-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -734,6 +842,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/dog.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43326,
+		"inputAbbreviatedPath": "\/library\/images\/dog.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/dog.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/dxo-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12623,
+		"inputAbbreviatedPath": "\/library\/images\/dxo-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/dxo-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/email-icon-grey.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -767,6 +897,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/energy-first-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6449,
+		"inputAbbreviatedPath": "\/library\/images\/energy-first-logo.png",
+		"outputAbbreviatedPath": "\/library\/images\/energy-first-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/facebook-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -774,6 +915,17 @@
 		"initialSize": 1580,
 		"inputAbbreviatedPath": "\/library\/images\/facebook-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/facebook-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/fair-trade-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8308,
+		"inputAbbreviatedPath": "\/library\/images\/fair-trade-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/fair-trade-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -800,6 +952,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/fremont-bank-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3854,
+		"inputAbbreviatedPath": "\/library\/images\/fremont-bank-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/fremont-bank-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/funnel-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -807,6 +970,17 @@
 		"initialSize": 10754,
 		"inputAbbreviatedPath": "\/library\/images\/funnel-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/funnel-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/game-night.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47613,
+		"inputAbbreviatedPath": "\/library\/images\/game-night.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/game-night.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -884,6 +1058,28 @@
 		"initialSize": 5954,
 		"inputAbbreviatedPath": "\/library\/images\/graph-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/graph-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/grass-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 695459,
+		"inputAbbreviatedPath": "\/library\/images\/grass-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/grass-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/gym.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43523,
+		"inputAbbreviatedPath": "\/library\/images\/gym.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/gym.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1284,6 +1480,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/market.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59407,
+		"inputAbbreviatedPath": "\/library\/images\/market.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/market.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/mayvenn.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1317,6 +1524,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/mist-mountain-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123440,
+		"inputAbbreviatedPath": "\/library\/images\/mist-mountain-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/mist-mountain-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/monitor.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1335,6 +1553,17 @@
 		"initialSize": 19580,
 		"inputAbbreviatedPath": "\/library\/images\/monitor.png",
 		"outputAbbreviatedPath": "\/library\/images\/monitor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/mountain-sunset-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74270,
+		"inputAbbreviatedPath": "\/library\/images\/mountain-sunset-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/mountain-sunset-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1511,6 +1740,17 @@
 		"initialSize": 5644,
 		"inputAbbreviatedPath": "\/library\/images\/saatchiart-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/saatchiart-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/scott-boecker.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77356,
+		"inputAbbreviatedPath": "\/library\/images\/scott-boecker.jpeg",
+		"outputAbbreviatedPath": "\/library\/images\/scott-boecker.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1885,6 +2125,17 @@
 		"initialSize": 1725,
 		"inputAbbreviatedPath": "\/library\/images\/twitter-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/twitter-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/ucla-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4012,
+		"inputAbbreviatedPath": "\/library\/images\/ucla-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/ucla-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -24,7 +24,7 @@ a {
   background: white; }
 
 .blue {
-  background: #007EA3; }
+  background: #0065A3; }
   .blue a {
     color: #d8edfa; }
 
@@ -162,7 +162,7 @@ form button[type="submit"], form input[type="submit"] {
   width: 700px; }
   .modal .modal-dialog .modal-content {
     background: #d9ebf6;
-    border-color: #007EA3;
+    border-color: #0065A3;
     border-radius: 0; }
     .modal .modal-dialog .modal-content .modal-header {
       border: none;
@@ -303,13 +303,73 @@ body.home {
       font-size: 1.75em; }
     body.home section .artwork {
       width: 70%; }
-    body.home section .bucket {
+    body.home section.results {
+      background-image: url("../images/mist-mountain-hero.jpg");
+      text-align: center;
+      height: 600px;
+      position: relative; }
+      body.home section.results .overlay {
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0; }
+        body.home section.results .overlay h1, body.home section.results .overlay .service h2, .service body.home section.results .overlay h2 {
+          margin-top: 0.75em !important;
+          font-size: 64px;
+          color: white; }
+        body.home section.results .overlay .intro {
+          margin-bottom: 10px;
+          color: white;
+          font-size: 25px; }
+      body.home section.results .item {
+        padding: 20px 60px; }
+      body.home section.results .carousel-control {
+        color: #fff; }
+      body.home section.results .col-sm-3 {
+        padding: 0 15px; }
+      body.home section.results .card {
+        font-size: 16px;
+        min-height: 200px;
+        border: none;
+        background-size: auto 26px; }
+        body.home section.results .card.post-123, body.home section.results .card.post-385 {
+          background-size: auto 42px; }
+          body.home section.results .card.post-123 article, body.home section.results .card.post-385 article {
+            background-size: auto 42px; }
+        body.home section.results .card.post-141, body.home section.results .card.post-390, body.home section.results .card.post-277, body.home section.results .card.post-417 {
+          background-size: auto 48px; }
+          body.home section.results .card.post-141 article, body.home section.results .card.post-390 article, body.home section.results .card.post-277 article, body.home section.results .card.post-417 article {
+            background-size: auto 48px; }
+        body.home section.results .card.post-87 article {
+          background-size: auto 42px; }
+        body.home section.results .card.post-130 {
+          background-size: auto 42px; }
+          body.home section.results .card.post-130 article {
+            background-size: auto 42px; }
+        body.home section.results .card.post-224 {
+          background-size: 80% auto; }
+          body.home section.results .card.post-224 article {
+            background-size: 80% auto; }
+        body.home section.results .card em {
+          font-size: 38px;
+          margin-top: 20px; }
+        body.home section.results .card br {
+          display: none; }
+    body.home section.how h2 {
+      border: none;
+      text-align: center;
+      font-weight: normal;
+      font-size: 24px;
+      margin: 0 0 20px; }
+    body.home section.how .bucket {
       text-align: center; }
-    body.home section .icon {
-      width: 120px;
-      height: 120px;
+    body.home section.how .icon {
+      width: 75px;
+      height: 75px;
       display: inline-block;
-      background-size: 120px 120px;
+      background-size: 75px 75px;
       background-repeat: no-repeat;
       background-color: transparent;
       background-position: center center;
@@ -320,56 +380,39 @@ body.home {
       -o-transform: translateY(88px);
       -ms-transform: translateY(88px);
       transform: translateY(88px);
-      margin: 0 0 20px 0; }
-      body.home section .icon.shown {
+      margin: 0 0 10px; }
+      body.home section.how .icon.shown {
         opacity: 1;
         -webkit-transform: none;
         -moz-transform: none;
         -o-transform: none;
         -ms-transform: none;
         transform: none; }
-      body.home section .icon.seo {
-        background-image: url("../images/search-icon.png"); }
-      body.home section .icon.rwd {
+      body.home section.how .icon.seo {
+        background-image: url("../images/search-icon.png");
+        transition-delay: 0.2s; }
+      body.home section.how .icon.rwd {
         background-image: url("../images/devices-icon.png");
-        transition-delay: 0.5s; }
-      body.home section .icon.ppc {
-        background-image: url("../images/targeting-icon.png");
-        transition-delay: 0.25s; }
-      body.home section .icon.conversion {
-        background-image: url("../images/funnel-icon.png"); }
-      body.home section .icon.ux {
+        transition-delay: 0.65s; }
+      body.home section.how .icon.ppc {
+        background-image: url("../images/targeting-icon.png"); }
+      body.home section.how .icon.cro {
+        background-image: url("../images/funnel-icon.png");
+        transition-delay: 0.35s; }
+      body.home section.how .icon.ux {
         background-image: url("../images/beaker-icon.png"); }
-      body.home section .icon.analytics {
-        background-image: url("../images/metrics-icon2.png"); }
-    body.home section.results {
-      text-align: center; }
-      body.home section.results .item {
-        padding: 20px 80px; }
-      body.home section.results .col-sm-3 {
-        padding: 0 10px; }
-      body.home section.results .card {
-        font-size: 14px;
-        height: 230px;
-        border-color: #eaeaea; }
-        body.home section.results .card em {
-          font-size: 32px;
-          margin-top: 40px; }
-        body.home section.results .card br {
-          display: none; }
-    body.home section.how h2 {
-      border: none;
-      text-align: center;
-      font-weight: normal;
-      font-size: 24px;
-      margin-bottom: 20px; }
+      body.home section.how .icon.analytics {
+        background-image: url("../images/metrics-icon2.png");
+        transition-delay: 0.5s; }
     body.home section.how ul {
       list-style-type: none;
       padding: 0;
       margin: 0; }
-      body.home section.how ul li a {
-        font-size: 18px;
-        color: white; }
+      body.home section.how ul li {
+        margin-bottom: 10px; }
+        body.home section.how ul li a {
+          font-size: 18px;
+          color: white; }
     body.home section.testimonials {
       padding-bottom: 5em; }
       body.home section.testimonials .logo {
@@ -519,7 +562,7 @@ section {
         section.hero header .overlay h1, section.hero header .overlay .service h2, .service section.hero header .overlay h2 {
           font-size: 54px;
           color: white;
-          line-height: 200px;
+          line-height: 1.2;
           border: none;
           text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
           display: table-cell;
@@ -565,28 +608,28 @@ section {
     -webkit-font-smoothing: antialiased;
     transition: none; }
     .results .filters .btn:hover {
-      background: #007EA3;
-      border-color: #007EA3;
+      background: #0065A3;
+      border-color: #0065A3;
       color: white; }
     .results .filters .btn:active, .results .filters .btn:focus {
       outline: none; }
 .results .card {
-  min-height: 240px;
+  min-height: 220px;
   text-align: center;
   background-size: auto 32px;
   background-position: center 90%;
   background-repeat: no-repeat;
-  font-size: 13px;
+  font-size: 16px;
   color: #555; }
 .results .col-sm-3, .results .col-sm-3 article {
   padding: 0 10px; }
-  .results .col-sm-3.post-123, .results .col-sm-3 article.post-123 {
+  .results .col-sm-3.post-123, .results .col-sm-3.post-385, .results .col-sm-3 article.post-123, .results .col-sm-3 article.post-385 {
     background-size: auto 48px; }
-    .results .col-sm-3.post-123 article, .results .col-sm-3 article.post-123 article {
+    .results .col-sm-3.post-123 article, .results .col-sm-3.post-385 article, .results .col-sm-3 article.post-123 article, .results .col-sm-3 article.post-385 article {
       background-size: auto 48px; }
-  .results .col-sm-3.post-141, .results .col-sm-3 article.post-141 {
+  .results .col-sm-3.post-141, .results .col-sm-3.post-390, .results .col-sm-3.post-277, .results .col-sm-3.post-417, .results .col-sm-3 article.post-141, .results .col-sm-3 article.post-390, .results .col-sm-3 article.post-277, .results .col-sm-3 article.post-417 {
     background-size: auto 52px; }
-    .results .col-sm-3.post-141 article, .results .col-sm-3 article.post-141 article {
+    .results .col-sm-3.post-141 article, .results .col-sm-3.post-390 article, .results .col-sm-3.post-277 article, .results .col-sm-3.post-417 article, .results .col-sm-3 article.post-141 article, .results .col-sm-3 article.post-390 article, .results .col-sm-3 article.post-277 article, .results .col-sm-3 article.post-417 article {
       background-size: auto 52px; }
   .results .col-sm-3.post-87 article, .results .col-sm-3 article.post-87 article {
     background-size: auto 42px; }
@@ -626,10 +669,10 @@ section {
   .results .col-sm-3 em, .results .col-sm-3 article em {
     color: #444;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 42px;
     display: block;
     font-style: normal;
-    margin-top: 36px; }
+    margin-top: 20px; }
     .results .col-sm-3 em small, .results .col-sm-3 article em small {
       font-size: 0.65em;
       display: inline-block;
@@ -699,6 +742,26 @@ section {
 .about .card h2 {
   font-size: 28px;
   margin-bottom: 30px; }
+
+.careers blockquote.mission {
+  font-size: 28px;
+  padding: 0;
+  border: none; }
+.careers .headroom {
+  padding-top: 60px; }
+.careers .positions {
+  padding-top: 30px; }
+.careers h3 {
+  font-weight: bold;
+  font-size: 22px; }
+.careers .value {
+  margin-bottom: 30px; }
+.careers h2 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 40px; }
+.careers .perk {
+  margin-bottom: 50px; }
 
 .leadership .col-sm-3 {
   padding: 0 5px; }
@@ -825,7 +888,7 @@ section {
     width: 100px;
     height: auto;
     margin: 1em 1em 1em 0;
-    background: #3dd3ff;
+    background: #3db5ff;
     border-radius: 50%; }
   .technique .glyphicon-arrow-down {
     font-size: 3em;
@@ -890,7 +953,7 @@ header .navbar {
       font-size: 18px;
       border-radius: 6px; }
       header .navbar .navbar-collapse .navbar-nav li a:hover {
-        color: #007EA3; }
+        color: #0065A3; }
     header .navbar .navbar-collapse .navbar-nav li.active a {
       background: transparent; }
     header .navbar .navbar-collapse .navbar-nav li.telephone {

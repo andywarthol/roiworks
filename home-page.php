@@ -5,156 +5,148 @@ Template Name: Home Page
 ?>
 
 <?php get_header(); ?>
-<section class="hero white">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
-				<div class="row">
-					<div class="col-sm-6 col-md-10">
-						<h1>Dramatic Results in <br>Extremely Short Timeframes</h1>
-						<p class="intro">Helping companies grow with holistic marketing and data-driven strategies.</p>
-						<p class="flat"><a href="?page_id=10" class="btn btn-lg btn-primary">Get a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a></p>
-					</div>
-					<div class="col-sm-6 col-md-5">
-						&nbsp;
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 <section class="results grey">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1 class="flat">Awesome Results</h1>
-						<p class="intro">We effectively move the needle for our clients with data-driven decisions.</p>
-					</div>
-				</div>
-				<div class="row">
-					<!-- Bootstrap Carousel -->
-					<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-						<div class="carousel-inner">
-							<div class="item active">
-								<div class="row">
-									<?php
-										global $post;
-										$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date' );
-										$myposts = get_posts( $args );
-										foreach( $myposts as $post ) :  setup_postdata($post);
-									?>
-									<div class="col-sm-3">
-										<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
-											<h1><?php the_title(); ?></h1>
-											<em><?php the_field('the_figure'); ?></em>
-											<?php the_field('performance_metric'); ?> <?php the_field('time_frame'); ?>
-											<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
-										</article> <!-- end article -->
-									</div>
-									<!-- Close the loop -->
-									<?php endforeach; ?>
-									<?php wp_reset_postdata(); ?>
-								</div>
-							</div>
-							<div class="item">
-								<div class="row">
-									<?php
-										global $post;
-										$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '3' );
-										$myposts = get_posts( $args );
-										foreach( $myposts as $post ) :  setup_postdata($post);
-									?>
-									<div class="col-sm-3 ">
-										<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
-											<h1><?php the_title(); ?></h1>
-											<em><?php the_field('the_figure'); ?></em>
-											<?php the_field('performance_metric'); ?><br/> <?php the_field('time_frame'); ?>
-											<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
-										</article> <!-- end article -->
-									</div>
-									<!-- Close the loop -->
-									<?php endforeach; ?>
-									<?php wp_reset_postdata(); ?>
-								</div>
-							</div>
-							<div class="item">
-								<div class="row">
-									<?php
-										global $post;
-										$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '6' );
-										$myposts = get_posts( $args );
-										foreach( $myposts as $post ) :  setup_postdata($post);
-									?>
-									<div class="col-sm-3">
-										<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
-											<h1><?php the_title(); ?></h1>
-											<em><?php the_field('the_figure'); ?></em>
-											<?php the_field('performance_metric'); ?><br/> <?php the_field('time_frame'); ?>
-											<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
-										</article> <!-- end article -->
-									</div>
-									<!-- Close the loop -->
-									<?php endforeach; ?>
-									<?php wp_reset_postdata(); ?>
-								</div>
-							</div>
+	<div class="overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="flat">Dramatic Results. Short Timeframes.</h1>
+							<p class="intro">ROI Works is a digital agency specializing in rapid, data-driven growth and marketing.</p>
 						</div>
-						<ol class="carousel-indicators">
-							<li data-target="#carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel" data-slide-to="1" class=""></li>
-							<li data-target="#carousel" data-slide-to="2" class=""></li>
-						</ol>
-						<a class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-						<a class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12 text-center"><a href="#" class="btn btn-lg btn-primary">Get a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a></div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="how blue">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="flat">Our Services</h1>
-				<p class="intro text-center">The foundation of our work is divided into three core departments.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
-				<div class="row">
-					<div class="col-sm-4 bucket">
-						<h2>Measurement &amp; Research</h2>
-						<i class="icon analytics"></i>
-						<ul>
-							<li><a href="ux-research-user-testing">UX Research</a></li>
-							<li><a href="analytics">Analytics</a></li>
-						</ul>
+					<div class="row">
+						<!-- Bootstrap Carousel -->
+						<div id="carousel" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									<div class="row">
+										<?php
+											global $post;
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date' );
+											$myposts = get_posts( $args );
+											foreach( $myposts as $post ) :  setup_postdata($post);
+										?>
+										<div class="col-sm-3">
+											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
+												<h1><?php the_title(); ?></h1>
+												<em><?php the_field('the_figure'); ?></em>
+												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
+												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
+											</article> <!-- end article -->
+										</div>
+										<!-- Close the loop -->
+										<?php endforeach; ?>
+										<?php wp_reset_postdata(); ?>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row">
+										<?php
+											global $post;
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '4' );
+											$myposts = get_posts( $args );
+											foreach( $myposts as $post ) :  setup_postdata($post);
+										?>
+										<div class="col-sm-3 ">
+											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
+												<h1><?php the_title(); ?></h1>
+												<em><?php the_field('the_figure'); ?></em>
+												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
+												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
+											</article> <!-- end article -->
+										</div>
+										<!-- Close the loop -->
+										<?php endforeach; ?>
+										<?php wp_reset_postdata(); ?>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row">
+										<?php
+											global $post;
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '8' );
+											$myposts = get_posts( $args );
+											foreach( $myposts as $post ) :  setup_postdata($post);
+										?>
+										<div class="col-sm-3">
+											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
+												<h1><?php the_title(); ?></h1>
+												<em><?php the_field('the_figure'); ?></em>
+												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
+												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
+											</article> <!-- end article -->
+										</div>
+										<!-- Close the loop -->
+										<?php endforeach; ?>
+										<?php wp_reset_postdata(); ?>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row">
+										<?php
+											global $post;
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '12' );
+											$myposts = get_posts( $args );
+											foreach( $myposts as $post ) :  setup_postdata($post);
+										?>
+										<div class="col-sm-3">
+											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
+												<h1><?php the_title(); ?></h1>
+												<em><?php the_field('the_figure'); ?></em>
+												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
+												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
+											</article> <!-- end article -->
+										</div>
+										<!-- Close the loop -->
+										<?php endforeach; ?>
+										<?php wp_reset_postdata(); ?>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row">
+										<?php
+											global $post;
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '16' );
+											$myposts = get_posts( $args );
+											foreach( $myposts as $post ) :  setup_postdata($post);
+										?>
+										<div class="col-sm-3">
+											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
+												<h1><?php the_title(); ?></h1>
+												<em><?php the_field('the_figure'); ?></em>
+												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
+												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
+											</article> <!-- end article -->
+										</div>
+										<!-- Close the loop -->
+										<?php endforeach; ?>
+										<?php wp_reset_postdata(); ?>
+									</div>
+								</div>
+							</div>
+							<ol class="carousel-indicators">
+								<li data-target="#carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel" data-slide-to="1" class=""></li>
+								<li data-target="#carousel" data-slide-to="2" class=""></li>
+								<li data-target="#carousel" data-slide-to="3" class=""></li>
+								<li data-target="#carousel" data-slide-to="4" class=""></li>
+							</ol>
+							<a class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+							<a class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+						</div>
 					</div>
-					<div class="col-sm-4 bucket">
-						<h2>Digital Marketing</h2>
-						<i class="icon ppc"></i>
-						<ul>
-							<li><a href="sem-ppc">SEM</a></li>
-							<li><a href="display-advertising">Display Advertising</a></li>
-							<li><a href="social">Social</a></li>
-							<li><a href="SEO">SEO</a></li>
-							<li><a href="conversion-rate-optimization">Conversion Rate Optimization (CRO)</a></li>
-						</ul>
+					<div class="row">
+						<div class="col-sm-12 text-center"><a href="#" class="btn btn-lg btn-primary">Get a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a></div>
 					</div>
-					<div class="col-sm-4 bucket">
-						<h2>Design &amp; Build</h2>
-						<i class="icon rwd"></i>
-						<ul>
-							<li><a href="responsive-web-design">Responsive Web Design</a></li>
-							<li><a href="usability">Usability</a></li>
-						</ul>
-					</div>
+					<script>
+					jQuery(document).ready(function($){
+						$('.carousel').carousel({
+							interval: 8000
+						});
+					});
+					</script>
 				</div>
 			</div>
 		</div>
@@ -185,6 +177,74 @@ Template Name: Home Page
 		  </div>
     </div>
   </div>
+</section>
+<section class="how blue">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>Our Services</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-sm-4 bucket">
+						<i class="icon ppc"></i>
+						<h2>Paid Advertising</h2>
+						<ul>
+							<li><a href="#">PPC / SEM</a></li>
+							<li><a href="#">Display Advertising</a></li>
+							<li><a href="#">Facebook Advertising</a></li>
+							<li><a href="#">Mobile Advertising</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4 bucket">
+						<i class="icon seo"></i>
+						<h2>Search Engine Optimization</h2>
+						<ul>
+							<li><a href="#">SEO Audits</a></li>
+							<li><a href="#">SEO Strategy &amp; Coaching</a></li>
+							<li><a href="#">Content Marketing Strategy</a></li>
+							<li><a href="#">Page Speed Optimization</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4 bucket">
+						<i class="icon cro"></i>
+						<h2>Conversion Rate Optimization</h2>
+						<ul>
+							<li><a href="#">CRO Strategy</a></li>
+							<li><a href="#">User Testing</a></li>
+							<li><a href="#">Funnel Analysis</a></li>
+							<li><a href="#">A/B Testing</a></li>
+						</ul>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-sm-4 col-lg-4 col-lg-offset-2 bucket">
+						<i class="icon analytics"></i>
+						<h2>Analytics</h2>
+						<ul>
+							<li><a href="#">Analytics Audits</a></li>
+							<li><a href="#">Analytics Instrumentation</a></li>
+							<li><a href="#">Tool Assessment</a></li>
+							<li><a href="#">Multi-channel Attribution</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4 bucket">
+						<i class="icon rwd"></i>
+						<h2>Design</h2>
+						<ul>
+							<li><a href="#">Responsive Web Design</a></li>
+							<li><a href="#">Landing Page Design</a></li>
+							<li><a href="#">Usability Audits</a></li>
+							<li><a href="#">Lead Generation UI</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <section class="contact">
 	<div class="container">
@@ -242,33 +302,12 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
-<script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.typer.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.inview.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
 
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
-
-		// Type replacement
-		$('[data-typer-targets]').typer();
-
-		$.typer.options.highlightSpeed = 30;
-		$.typer.options.typeSpeed = 130;
-		$.typer.options.clearDelay = 700;
-		$.typer.options.typeDelay = 400;
-		$.typer.options.typerInterval = 3000;
-
-		$('.hero').bind('inview', function (event, visible) {
-      if (visible == true) {
-        // element is now visible in the viewport
-       $('.navbar-fixed-top').removeClass('dark');
-          
-      } else {
-      	// element is no longer visible in the viewport
-        $('.navbar-fixed-top').addClass('dark');
-      }
-    });
 
     $('.how').bind('inview', function (event, visible) {
       if (visible == true) {
