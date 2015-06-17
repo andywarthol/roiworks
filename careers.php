@@ -97,7 +97,8 @@ Template Name: Careers
 						</div>
 						<div class="row headroom">
 							<div class="col-sm-12">
-								<h2>Plenty of Perks</h2>
+								<h2 class="flat">Plenty of Perks</h2>
+								<p>We greatly value the importance of a well-balanced, healthy work/life balance.  Working at <a href="http://runway.is">Runway</a> has a lot of cool benefits.  Yes it's an amazing space, but there is also a community aspect of life at ROI Works that keeps us happy and well cared for:</p>
 							</div>
 							<div class="col-sm-6 perk">
 								<h3>Dog-Friendly Office</h3>
@@ -110,7 +111,7 @@ Template Name: Careers
 						</div>
 						<div class="row">
 							<div class="col-sm-6 perk">
-								<h3>Great Community</h3>
+								<h3>Free Events Every Week</h3>
 								<img src="<?php bloginfo('template_directory'); ?>/library/images/community.jpg" class="img-responsive">
 							</div>
 							<div class="col-sm-6 perk">
