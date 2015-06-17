@@ -86,7 +86,7 @@ Template Name: Careers
 							</div>
 							<div class="col-sm-12 position">
 								<h3>Senior Account Strategist</h3>
-								<p>We are looking for an online marketing rockstar to drive strategy for our many accounts. <a href="#">Learn more &raquo;</a></p>
+								<p>Are you a seasoned marketer?  We are looking for an online marketing rockstar to drive strategy for our many active accounts. <a href="#">Learn more &raquo;</a></p>
 							</div>
 						</div>
 						<div class="row">
