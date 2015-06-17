@@ -86,13 +86,13 @@ Template Name: Careers
 							</div>
 							<div class="col-sm-12 position">
 								<h3>Senior Account Strategist</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">Learn more &raquo;</a></p>
+								<p>We are looking for an online marketing rockstar to drive strategy for our many accounts. <a href="#">Learn more &raquo;</a></p>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-12 position">
 								<h3>Summer Intern</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">Learn more &raquo;</a></p>
+								<p>Looking to learn valuable marketing skills and earn some extra cash?  We are looking for driven, entry-level marketers.  <a href="#">Learn more &raquo;</a></p>
 							</div>
 						</div>
 						<div class="row headroom">
