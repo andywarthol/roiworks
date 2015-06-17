@@ -1599,6 +1599,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/mountain-peaks-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88378,
+		"inputAbbreviatedPath": "\/library\/images\/mountain-peaks-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/mountain-peaks-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/mountain-sunset-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
