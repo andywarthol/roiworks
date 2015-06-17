@@ -771,7 +771,6 @@ section {
   .careers .overlay-box span.text-content {
     background: rgba(0, 0, 0, 0.65);
     color: white;
-    cursor: pointer;
     display: table;
     min-height: 223px;
     width: 100%;
