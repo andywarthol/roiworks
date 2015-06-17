@@ -83,6 +83,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/causes.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/causes.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/comments.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -930,6 +939,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/fair-trade-promo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31467,
+		"inputAbbreviatedPath": "\/library\/images\/fair-trade-promo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/fair-trade-promo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/flat.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1315,6 +1335,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/leaf-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120387,
+		"inputAbbreviatedPath": "\/library\/images\/leaf-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/leaf-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/linkedin-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1641,6 +1672,17 @@
 		"initialSize": 39005,
 		"inputAbbreviatedPath": "\/library\/images\/reflections-minihero.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/reflections-minihero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/reservoir-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46277,
+		"inputAbbreviatedPath": "\/library\/images\/reservoir-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/reservoir-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
