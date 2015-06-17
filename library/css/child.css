@@ -742,6 +742,8 @@ section {
 .about .card h2 {
   font-size: 28px;
   margin-bottom: 30px; }
+.about ul {
+  margin-left: 30px; }
 
 .careers blockquote.mission {
   font-size: 28px;
