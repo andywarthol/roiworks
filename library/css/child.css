@@ -742,7 +742,7 @@ section {
 .about .card h2 {
   font-size: 28px;
   margin-bottom: 30px; }
-.about ul {
+.about article ul {
   margin-left: 20px; }
 
 .careers blockquote.mission {

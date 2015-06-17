@@ -543,6 +543,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/butterfly-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132411,
+		"inputAbbreviatedPath": "\/library\/images\/butterfly-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/butterfly-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/cardstore-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
