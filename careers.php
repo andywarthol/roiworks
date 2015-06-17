@@ -102,31 +102,49 @@ Template Name: Careers
 							</div>
 							<div class="col-sm-6 perk">
 								<h3>Dog-Friendly Office</h3>
-								<img src="<?php bloginfo('template_directory'); ?>/library/images/dog.jpg" class="img-responsive">
+								<div class="overlay-box">	
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/dog.jpg" class="img-responsive">
+									<span class="text-content"><span>Treat your bestie to a large, open space to enjoy.  He or she will make lots friends pretty much immediately.</span></span>
+								</div>
 							</div>
 							<div class="col-sm-6 perk">
 								<h3>On-Site Gym</h3>
-								<img src="<?php bloginfo('template_directory'); ?>/library/images/gym.jpg" class="img-responsive">
+								<div class="overlay-box">	
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/gym.jpg" class="img-responsive">
+									<span class="text-content"><span>We have a brand new gym right in our backyard.  We'll take care of your membership fees, no problem.</span></span>
+								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-6 perk">
 								<h3>Free Events Every Week</h3>
-								<img src="<?php bloginfo('template_directory'); ?>/library/images/community.jpg" class="img-responsive">
+								<div class="overlay-box">	
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/community.jpg" class="img-responsive">
+									<span class="text-content"><span>Our office has special events nearly every day with yummy food and drinks.</span></span>
+								</div>
 							</div>
 							<div class="col-sm-6 perk">
 								<h3>Bike Parking Aplenty</h3>
-								<img src="<?php bloginfo('template_directory'); ?>/library/images/bicycles.jpg" class="img-responsive">
+								<div class="overlay-box">	
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/bicycles.jpg" class="img-responsive">
+									<span class="text-content"><span>Bike to work?  No problem, just bring your bike into the office.  We've got lots of room and dedicated bike parking.</span></span>
+								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-6 perk">
 								<h3>Marketplace In Building</h3>
-								<img src="<?php bloginfo('template_directory'); ?>/library/images/market.jpg" class="img-responsive">
+								<div class="overlay-box">	
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/market.jpg" class="img-responsive">
+									<span class="text-content"><span>Brand new marketplace downstairs w/ salad bar, taco bar, sushi bar, oyster bar, pizza bar, bar bar...</span></span>
+								</div>
 							</div>
 							<div class="col-sm-6 perk">
 								<h3>Game Night</h3>
-								<img src="<?php bloginfo('template_directory'); ?>/library/images/game-night.jpg" class="img-responsive">
+								<div class="overlay-box">	
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/game-night.jpg" class="img-responsive">
+									<span class="text-content"><span>Game Night happens once a week.  We play all kinds of fun games and also supply free pizza and beer.</span></span>
+								</div>
 							</div>
 						</div>
 					</div>

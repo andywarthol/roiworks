@@ -304,6 +304,31 @@ section
 			margin-bottom: 10px!important
 	.perk
 		margin-bottom: 50px
+	.overlay-box
+		position: relative
+		overflow: auto
+		span.text-content
+			background: rgba(0,0,0,0.65)
+			color: white
+			cursor: pointer
+			display: table
+			min-height: 223px
+			width: 100%
+			left: 0
+			position: absolute
+			top: 0
+			bottom: 0
+			opacity: 0
+			transition: all .25s ease-in-out
+			font-size: 18px
+			padding: 20px
+		span.text-content span 
+			display: table-cell
+			text-align: center
+			vertical-align: middle
+		&:hover
+			span.text-content
+				opacity: 1
 
 .leadership
 	.col-sm-3
