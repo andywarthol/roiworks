@@ -6,12 +6,12 @@ Template Name: Service
 
 <?php get_header(); ?>
 
-<section class="">
+<section class="single">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-3">
+					<div class="col-sm-3 hidden-xs">
 						<div class="well">
 							<h3>Our Services</h3>
 							<ul class="">
@@ -29,7 +29,10 @@ Template Name: Service
 								<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 									<?php the_post_thumbnail('medium', array('class' => 'alignright attachment-post-medium')); ?>
 									<?php the_content(); ?>
-									<p class="text-center"><a href="?page_id=14" class="btn btn-lg btn-primary">Contact us <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+									<p class="text-center">
+										Any questions we can answer for you?<br class="hidden-xs"/>
+										<a href="?page_id=14" class="btn btn-lg btn-primary">Get in touch with us <i class="glyphicon glyphicon-chevron-right"></i></a>
+									</p>
 								</article> <!-- end article -->
 							</div>
 							<!-- <div class="col-sm-3">

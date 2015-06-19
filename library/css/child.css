@@ -516,7 +516,7 @@ section {
     font-weight: bold;
     margin-top: 60px; }
   section article .btn-primary {
-    margin-top: 30px; }
+    margin-top: 10px; }
   section p {
     font-size: 18px;
     line-height: 1.75;
@@ -1151,4 +1151,23 @@ header .navbar {
       line-height: 1.2;
       margin-bottom: 15px; }
   body.home section.faq h1, body.home section.faq .service h2, .service body.home section.faq h2 {
-    font-size: 28px; } }
+    font-size: 28px; }
+
+  section {
+    padding: 1.5em 0; }
+    section header h1, section header .service h2, .service section header h2 {
+      margin-bottom: 10px;
+      font-size: 28px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #efefef; }
+    section article .alignright {
+      margin-top: 10px;
+      width: 150px;
+      height: auto; }
+    section article p {
+      line-height: 1.5;
+      margin-bottom: 18px; }
+    section article h3 {
+      margin-top: 30px; }
+    section article .btn-primary {
+      width: 100%; } }
