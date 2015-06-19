@@ -318,11 +318,23 @@ body.home {
         body.home section.results .overlay h1, body.home section.results .overlay .service h2, .service body.home section.results .overlay h2 {
           margin-top: 0.75em !important;
           font-size: 64px;
-          color: white; }
+          color: white;
+          text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
         body.home section.results .overlay .intro {
           margin-bottom: 10px;
           color: white;
-          font-size: 25px; }
+          font-size: 25px;
+          text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
+      body.home section.results .carousel-inner {
+        position: relative; }
+        body.home section.results .carousel-inner .more {
+          position: absolute;
+          bottom: 0;
+          right: 55px;
+          font-size: 20px;
+          color: white;
+          z-index: 99;
+          text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
       body.home section.results .item {
         padding: 20px 60px; }
       body.home section.results .carousel-control {
@@ -971,32 +983,35 @@ header .navbar {
     header .navbar .call .navbar-nav li {
       color: white;
       line-height: 80px; }
-  header .navbar .navbar-collapse .navbar-nav {
-    float: right; }
-    header .navbar .navbar-collapse .navbar-nav li a {
-      color: #212121;
-      line-height: 40px;
-      margin-top: 20px;
-      padding: 0 20px;
-      font-size: 18px;
-      border-radius: 6px; }
-      header .navbar .navbar-collapse .navbar-nav li a:hover {
-        color: #0065A3; }
-    header .navbar .navbar-collapse .navbar-nav li.active a {
-      background: transparent; }
-    header .navbar .navbar-collapse .navbar-nav li.telephone {
-      color: white; }
-    header .navbar .navbar-collapse .navbar-nav li.dropdown:hover .dropdown-menu {
-      display: block; }
-    header .navbar .navbar-collapse .navbar-nav li .dropdown-menu a {
-      padding: 8px 12px;
-      font-size: 17px;
-      color: #212121;
-      margin: 0;
-      line-height: 1;
-      border-radius: 0; }
-      header .navbar .navbar-collapse .navbar-nav li .dropdown-menu a:hover {
-        background: rgba(0, 0, 0, 0.05); }
+  header .navbar .navbar-collapse {
+    margin-top: 0; }
+    header .navbar .navbar-collapse .navbar-nav {
+      border: none;
+      float: right; }
+      header .navbar .navbar-collapse .navbar-nav li a {
+        color: #212121;
+        line-height: 80px;
+        margin-top: 0;
+        padding: 0 20px;
+        font-size: 20px;
+        border-radius: 6px; }
+        header .navbar .navbar-collapse .navbar-nav li a:hover {
+          color: #0065A3; }
+      header .navbar .navbar-collapse .navbar-nav li.active a, header .navbar .navbar-collapse .navbar-nav li:active a, header .navbar .navbar-collapse .navbar-nav li:focus a, header .navbar .navbar-collapse .navbar-nav li:hover a, header .navbar .navbar-collapse .navbar-nav li.open a {
+        background: transparent; }
+      header .navbar .navbar-collapse .navbar-nav li.telephone {
+        color: white; }
+      header .navbar .navbar-collapse .navbar-nav li .dropdown-menu {
+        margin-top: 0; }
+        header .navbar .navbar-collapse .navbar-nav li .dropdown-menu li a {
+          padding: 10px 12px;
+          font-size: 18px;
+          color: #212121;
+          margin: 0;
+          line-height: 1;
+          border-radius: 0; }
+          header .navbar .navbar-collapse .navbar-nav li .dropdown-menu li a:hover {
+            background: rgba(0, 0, 0, 0.05); }
 
 .footer {
   background: white;
@@ -1021,10 +1036,11 @@ header .navbar {
 
 @media screen and (max-width: 767px) {
   header .navbar {
-    height: 54px; }
+    height: 40px; }
     header .navbar .navbar-header .navbar-brand {
-      height: 54px;
-      margin-left: 10px; }
+      height: 40px;
+      margin-left: 10px;
+      background-position: center 18px; }
     header .navbar .navbar-header .navbar-toggle {
       border: none; }
       header .navbar .navbar-header .navbar-toggle:active, header .navbar .navbar-header .navbar-toggle:hover, header .navbar .navbar-header .navbar-toggle:focus {
@@ -1032,19 +1048,27 @@ header .navbar {
       header .navbar .navbar-header .navbar-toggle .icon-bar {
         height: 3px;
         border-radius: 0;
-        width: 24px; }
+        width: 24px;
+        background: #212121; }
     header .navbar .navbar-collapse {
       border-top: none;
-      background: white; }
+      background: white;
+      max-height: 500px; }
       header .navbar .navbar-collapse .navbar-nav {
-        overflow: auto; }
+        overflow: auto;
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 0; }
         header .navbar .navbar-collapse .navbar-nav li {
-          width: 50%;
-          float: left;
+          width: 100%;
+          display: block;
+          float: none;
           text-align: center; }
           header .navbar .navbar-collapse .navbar-nav li a {
             margin: 0;
-            color: #212121; }
+            color: #212121;
+            line-height: 50px; }
           header .navbar .navbar-collapse .navbar-nav li.active a {
             background: transparent;
             color: #222b30; }
@@ -1060,5 +1084,71 @@ header .navbar {
               width: 100%; }
               header .navbar .navbar-collapse .navbar-nav li.dropdown .dropdown-menu li {
                 display: block;
-                float: none;
-                width: 100%; } }
+                float: left;
+                width: 50%; }
+                header .navbar .navbar-collapse .navbar-nav li.dropdown .dropdown-menu li a {
+                  color: #0065A3;
+                  font-size: 15px; }
+
+  body.home section .btn-lg {
+    width: 100%; }
+  body.home section.results {
+    height: 630px; }
+    body.home section.results .overlay h1, body.home section.results .overlay .service h2, .service body.home section.results .overlay h2 {
+      font-size: 44px;
+      text-align: center; }
+    body.home section.results .overlay p.intro {
+      font-size: 18px;
+      line-height: 1.3; }
+    body.home section.results .carousel {
+      margin-bottom: 10px; }
+      body.home section.results .carousel .more {
+        display: none; }
+    body.home section.results .item {
+      padding: 20px 40px 0; }
+      body.home section.results .item .card {
+        min-height: 150px;
+        background-position: center 90%;
+        margin-bottom: 10px;
+        background-size: auto 20px;
+        float: left;
+        width: 48%;
+        margin: 0 1% 8px;
+        font-size: 15px;
+        line-height: 1.3; }
+        body.home section.results .item .card.post-141, body.home section.results .item .card.post-390, body.home section.results .item .card.post-277, body.home section.results .item .card.post-417 {
+          background-size: auto 32px; }
+        body.home section.results .item .card em {
+          margin-top: 20px;
+          font-size: 28px; }
+    body.home section.results .carousel-control {
+      margin-top: -25px; }
+      body.home section.results .carousel-control.right span {
+        margin-left: -6px; }
+  body.home section.testimonials .col-sm-4 {
+    margin-bottom: 30px;
+    padding-bottom: 30px; }
+    body.home section.testimonials .col-sm-4:last-child {
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0; }
+  body.home section.how .bucket {
+    margin-bottom: 30px;
+    padding-bottom: 30px; }
+    body.home section.how .bucket.last {
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0; }
+    body.home section.how .bucket .icon {
+      width: 100px;
+      height: 100px;
+      background-size: 100px 100px; }
+  body.home section.contact {
+    padding: 30px 0; }
+    body.home section.contact h2 {
+      font-size: 20px;
+      text-align: center;
+      line-height: 1.2;
+      margin-bottom: 15px; }
+  body.home section.faq h1, body.home section.faq .service h2, .service body.home section.faq h2 {
+    font-size: 28px; } }

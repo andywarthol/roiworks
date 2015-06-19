@@ -83,9 +83,9 @@
 
 				</header> <!-- end header -->
 				<script>
-				jQuery('.dropdown a').removeAttr('data-toggle');
-				jQuery('.navbar-toggle').bind( "touchstart", function(e){
-					e.preventDefault();
-					jQuery('.navbar-collapse').collapse('toggle');
-				});
+				// jQuery('.dropdown a').removeAttr('data-toggle');
+				// jQuery('.navbar-toggle').bind( "touchstart", function(e){
+				// 	e.preventDefault();
+				// 	jQuery('.navbar-collapse').collapse('toggle');
+				// });
 				</script>

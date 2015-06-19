@@ -50,32 +50,32 @@ Template Name: Careers
 							<div class="col-sm-12">
 								<div class="row">
 									<div class="col-sm-6 value">
-										<h3>Be a Host</h3>
-										<p>Serve others so they feel they belong. We stretch our empathy until our guests feel 100% appreciated. Everyone is a guest.</p>
+										<h3>Keep Things Simple</h3>
+										<p>Define the desired outcome clearly. Simpler products, communication, and goals are best.</p>
 									</div>
 									<div class="col-sm-6 value">
-										<h3>Champion the Mission</h3>
-										<p>Create a global experience of belonging for anyone, anywhere. Those who work us agree to champion the mission by living it.</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-6 value">
-										<h3>Every Frame Matters</h3>
-										<p>Think holistically. Execute with obsession to detail. Success is measured by pride, not credit.</p>
-									</div>
-									<div class="col-sm-6 value">
-										<h3>Be a "Cereal" Entrepreneur</h3>
-										<p>Everyone is creative. Think scary big. Volunteer for impossible situations. Get shit done.</p>
+										<h3>Results Come First</h3>
+										<p>More than anything, focus on delivering results for our clients, partners, and team.</p>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-sm-6 value">
-										<h3>Simplify</h3>
-										<p>In every complex or impossible situation, we so clearly define the outcomes that all distractions are eliminated.</p>
+										<h3>Learn Every Day</h3>
+										<p>We learn from each other, our clients, books, courses, events, and articles.  Our brains are always hungry.</p>
 									</div>
 									<div class="col-sm-6 value">
-										<h3>Embrace the Adventure</h3>
-										<p>We have fun welcoming uncertainty. We master chaos through flexibility and youthful curiosity.</p>
+										<h3>Stay Centered</h3>
+										<p>We routinely turn away profitable business because working with that particular individual or brand would be too stressful or unappealing.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6 value">
+										<h3>Care About Details</h3>
+										<p>We care about execution as much as we do about strategy and creativity. Take pride in your craft and get shit done.</p>
+									</div>
+									<div class="col-sm-6 value">
+										<h3>Have Fun</h3>
+										<p>We don't hide behind titles or take ourselves too seriously. We're not scared of humor. We're sometimes a little inappropriate.</p>
 									</div>
 								</div>
 							</div>

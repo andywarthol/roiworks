@@ -12,7 +12,7 @@ Template Name: Home Page
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
 						<div class="col-sm-12">
-							<h1 class="flat">Dramatic Results. Short Timeframes.</h1>
+							<h1 class="flat">Dramatic Results. <br class="visible-xs"/>Short Timeframes.</h1>
 							<p class="intro">ROI Works is a digital agency specializing in rapid, data-driven growth and marketing.</p>
 						</div>
 					</div>
@@ -20,17 +20,17 @@ Template Name: Home Page
 						<!-- Bootstrap Carousel -->
 						<div id="carousel" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
+								<a href="<?php bloginfo('url'); ?>/results" class="more">More results &raquo;</a>
 								<div class="item active">
 									<div class="row">
 										<?php
 											global $post;
-											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date' );
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'slider', 'order' => 'DESC', 'orderby' => 'date' );
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
 										<div class="col-sm-3">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
-												<h1><?php the_title(); ?></h1>
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
 												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
@@ -45,13 +45,12 @@ Template Name: Home Page
 									<div class="row">
 										<?php
 											global $post;
-											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '4' );
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'slider', 'order' => 'DESC', 'orderby' => 'date', 'offset' => '4' );
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
 										<div class="col-sm-3 ">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
-												<h1><?php the_title(); ?></h1>
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
 												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
@@ -66,13 +65,12 @@ Template Name: Home Page
 									<div class="row">
 										<?php
 											global $post;
-											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '8' );
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'DESC', 'orderby' => 'date', 'offset' => '8' );
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
 										<div class="col-sm-3">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
-												<h1><?php the_title(); ?></h1>
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
 												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
@@ -87,13 +85,12 @@ Template Name: Home Page
 									<div class="row">
 										<?php
 											global $post;
-											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '12' );
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'DESC', 'orderby' => 'date', 'offset' => '12' );
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
 										<div class="col-sm-3">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
-												<h1><?php the_title(); ?></h1>
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
 												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
@@ -108,13 +105,12 @@ Template Name: Home Page
 									<div class="row">
 										<?php
 											global $post;
-											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'date', 'offset' => '16' );
+											$args = array( 'posts_per_page' => 4, 'category_name' => 'results', 'order' => 'DESC', 'orderby' => 'date', 'offset' => '16' );
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
 										<div class="col-sm-3">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
-												<h1><?php the_title(); ?></h1>
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
 												<!--<p class="flat text-center"><a href="<?php the_permalink(); ?>" class="btn btn-primary">Find out how <i class="glyphicon glyphicon-chevron-right"></i></a></p>-->
@@ -126,7 +122,7 @@ Template Name: Home Page
 									</div>
 								</div>
 							</div>
-							<ol class="carousel-indicators">
+							<ol class="carousel-indicators hidden-xs">
 								<li data-target="#carousel" data-slide-to="0" class="active"></li>
 								<li data-target="#carousel" data-slide-to="1" class=""></li>
 								<li data-target="#carousel" data-slide-to="2" class=""></li>
@@ -138,12 +134,13 @@ Template Name: Home Page
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12 text-center"><a href="#" class="btn btn-lg btn-primary">Get a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a></div>
+						<div class="col-sm-12 text-center"><a href="<?php bloginfo('url'); ?>/contact" class="btn btn-lg btn-primary">Get a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a></div>
 					</div>
 					<script>
 					jQuery(document).ready(function($){
 						$('.carousel').carousel({
-							interval: 8000
+							interval: false
+							//interval: 8000
 						});
 					});
 					</script>
@@ -219,7 +216,7 @@ Template Name: Home Page
 						</ul>
 					</div>
 				</div>
-				<br><br>
+				<br class="hidden-xs"/><br class="hidden-xs"/>
 				<div class="row">
 					<div class="col-sm-4 col-lg-4 col-lg-offset-2 bucket">
 						<i class="icon analytics"></i>
@@ -231,7 +228,7 @@ Template Name: Home Page
 							<li><a href="#">Multi-channel Attribution</a></li>
 						</ul>
 					</div>
-					<div class="col-sm-4 bucket">
+					<div class="col-sm-4 bucket last">
 						<i class="icon rwd"></i>
 						<h2>Design</h2>
 						<ul>
@@ -252,12 +249,45 @@ Template Name: Home Page
 			<div class="col-sm-12 col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-sm-8"><h2>Contact us today to jumpstart your growth.</h2></div>
-					<div class="col-sm-4"><a href="" class="btn btn-lg btn-primary">Get Started <i class="glyphicon glyphicon-chevron-right"></i></a></div>
+					<div class="col-sm-4"><a href="<?php bloginfo('url'); ?>/contact" class="btn btn-lg btn-primary">Get Started <i class="glyphicon glyphicon-chevron-right"></i></a></div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+<?php /*<section class="faq grey">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Frequently Asked Questions</h1>
+					</div>
+				</div>
+				<div class="row">
+						<?php if(get_field('faq')): ?>
+		 
+
+							<?php while(has_sub_field('faq')): ?>
+							<div class="col-sm-6">
+								<h3><?php the_sub_field('faq_question'); ?></h3>
+								<p><?php the_sub_field('faq_answer'); ?></p>
+							</div>
+
+							
+								
+							
+						
+							<?php endwhile; ?>
+						
+						
+						<?php endif; ?>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+</section>*/ ?>
 <section class="faq grey">
 	<div class="container">
 		<div class="row">

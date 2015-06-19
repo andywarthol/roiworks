@@ -26,36 +26,40 @@ header
 					color: white
 					line-height: $navbarHeight
 		.navbar-collapse
+			margin-top: 0
 			.navbar-nav
+				border: none
 				float: right
 				li
 					a
 						color: $black
-						line-height: $navbarHeight/2
-						margin-top: $navbarHeight/4
+						line-height: $navbarHeight
+						margin-top: 0
 						padding: 0 20px
-						font-size: 18px
+						font-size: 20px
 						// letter-spacing: 1px
 						// text-transform: uppercase
 						border-radius: 6px
 						&:hover
 							color: $blue
-					&.active
+					&.active, &:active, &:focus, &:hover, &.open
 						a
 							background: transparent
 					&.telephone
 						color: white
-					&.dropdown
-						&:hover
-							.dropdown-menu
-								display: block
+					// &.dropdown
+					// 	&:hover
+					// 		.dropdown-menu
+					// 			display: block
 					.dropdown-menu
-						a
-							padding: 8px 12px
-							font-size: 17px
-							color: $black
-							margin: 0
-							line-height: 1
-							border-radius: 0
-							&:hover
-								background: rgba(0, 0, 0, .05)
+						margin-top: 0
+						li
+							a
+								padding: 10px 12px
+								font-size: 18px
+								color: $black
+								margin: 0
+								line-height: 1
+								border-radius: 0
+								&:hover
+									background: rgba(0, 0, 0, .05)
