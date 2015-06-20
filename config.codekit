@@ -444,6 +444,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/balloon-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68574,
+		"inputAbbreviatedPath": "\/library\/images\/balloon-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/balloon-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/be-healthy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

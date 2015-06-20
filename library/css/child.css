@@ -372,16 +372,16 @@ body.home {
     body.home section.how h2 {
       border: none;
       text-align: center;
-      font-weight: normal;
-      font-size: 24px;
-      margin: 0 0 20px; }
+      font-weight: bold;
+      font-size: 18px;
+      margin: 0 0 10px; }
     body.home section.how .bucket {
       text-align: center; }
     body.home section.how .icon {
-      width: 75px;
-      height: 75px;
+      width: 70px;
+      height: 70px;
       display: inline-block;
-      background-size: 75px 75px;
+      background-size: 70px 70px;
       background-repeat: no-repeat;
       background-color: transparent;
       background-position: center center;
@@ -421,9 +421,9 @@ body.home {
       padding: 0;
       margin: 0; }
       body.home section.how ul li {
-        margin-bottom: 10px; }
+        margin-bottom: 5px; }
         body.home section.how ul li a {
-          font-size: 18px;
+          font-size: 16px;
           color: white; }
     body.home section.testimonials {
       padding-bottom: 5em; }
@@ -432,11 +432,13 @@ body.home {
         width: auto; }
       body.home section.testimonials .thumbnail {
         position: relative;
-        height: 150px;
+        height: 100px;
         width: auto;
         display: inline-block;
         margin-bottom: 0;
-        border-radius: 50%; }
+        border-radius: 50%;
+        padding: 0;
+        border: none; }
       body.home section.testimonials h1, body.home section.testimonials .service h2, .service body.home section.testimonials h2 {
         margin-bottom: 40px; }
         body.home section.testimonials h1 i, body.home section.testimonials .service h2 i, .service body.home section.testimonials h2 i {
@@ -454,8 +456,8 @@ body.home {
         font-style: italic;
         color: #212121;
         border: none;
-        font-size: 15px;
-        line-height: 1.5;
+        font-size: 14px;
+        line-height: 1.6;
         margin: 0;
         clear: both; }
         body.home section.testimonials blockquote span {
@@ -958,6 +960,9 @@ section {
   .contact address span {
     display: block;
     margin-bottom: 5px; }
+
+.results.grey {
+  padding-top: 20px; }
 
 header .navbar {
   background: white;

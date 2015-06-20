@@ -6,17 +6,23 @@ Template Name: Results
 
 <?php get_header(); ?>
 
+<section class="hero">
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	<?php
+		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
+		$url = $thumb['0'];
+	?>
+	<header style="background-image: url(<?=$url?>)">
+		<div class="overlay">
+			<h1 class="page-title text-center">Lofty Pursuits. Impactful Achievements.</h1>
+		</div>
+	</header>
+	<?php endwhile; endif; ?>
+</section>
 <section class="results grey">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 col-md-12">
-				<div class="row">
-					<div class="col-sm-12">
-						<header>
-							<h1 class="page-title">Results</h1>
-						</header>
-					</div>
-				</div>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<div class="row">
 					<div class="col-sm-12 text-center">
