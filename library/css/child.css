@@ -997,8 +997,8 @@ header .navbar {
         color: #212121;
         line-height: 80px;
         margin-top: 0;
-        padding: 0 20px;
-        font-size: 20px;
+        padding: 0 24px;
+        font-size: 18px;
         border-radius: 6px; }
         header .navbar .navbar-collapse .navbar-nav li a:hover {
           color: #0065A3; }
