@@ -1007,10 +1007,11 @@ header .navbar {
       header .navbar .navbar-collapse .navbar-nav li.telephone {
         color: white; }
       header .navbar .navbar-collapse .navbar-nav li .dropdown-menu {
-        margin-top: 0; }
+        border-top-color: white;
+        padding-top: 0; }
         header .navbar .navbar-collapse .navbar-nav li .dropdown-menu li a {
           padding: 10px 12px;
-          font-size: 18px;
+          font-size: 16px;
           color: #212121;
           margin: 0;
           line-height: 1;

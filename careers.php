@@ -38,7 +38,8 @@ Template Name: Careers
 							<div class="col-sm-12">
 								<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 									<?php /* the_content(); */ ?>
-									<blockquote class="mission">No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.</blockquote>
+									<blockquote class="mission">At the end of the day, our job is to help our clients sell more products, to more customers, more often, at a lower cost per sale.</blockquote>
+									<blockquote class="mission">To accomplish this goal, our core strategy is to first understand <em>WHAT</em> the customer does &#8211; Quantitative Research &#8211; and <em>WHY</em> they do it &#8211; Qualitative Research. We then use that information to form intelligent hypotheses about how we can help them improve Acquisition, Activation, Retention, Revenue, and Referral for their business.</blockquote>
 								</article> <!-- end article -->
 							</div>
 						</div>
@@ -50,22 +51,22 @@ Template Name: Careers
 							<div class="col-sm-12">
 								<div class="row">
 									<div class="col-sm-6 value">
-										<h3>Keep Things Simple</h3>
-										<p>Define the desired outcome clearly. Simpler products, communication, and goals are best.</p>
+										<h3>Results Come First</h3>
+										<p>More than anything, focus on getting results for our clients, partners, and team.</p>
 									</div>
 									<div class="col-sm-6 value">
-										<h3>Results Come First</h3>
-										<p>More than anything, focus on delivering results for our clients, partners, and team.</p>
+										<h3>Keep Things Simple</h3>
+										<p>Define the desired outcome clearly. Simpler products, communication, and goals are best.</p>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-sm-6 value">
 										<h3>Learn Every Day</h3>
-										<p>We learn from each other, our clients, books, courses, events, and articles.  Our brains are always hungry.</p>
+										<p>Our brains are hungry. We learn from each other, our clients, books, courses, events, and articles.</p>
 									</div>
 									<div class="col-sm-6 value">
-										<h3>Stay Centered</h3>
-										<p>We routinely turn away profitable business because working with that particular individual or brand would be too stressful or unappealing.</p>
+										<h3>The Team is Everything</h3>
+										<p>We put people over profit, and will turn away business if working with that individual or brand does not fit with who we are or what we stand for.</p>
 									</div>
 								</div>
 								<div class="row">
@@ -75,7 +76,7 @@ Template Name: Careers
 									</div>
 									<div class="col-sm-6 value">
 										<h3>Have Fun</h3>
-										<p>We don't hide behind titles or take ourselves too seriously. We're not scared of humor. We're sometimes a little inappropriate.</p>
+										<p>Don't take yourself too seriously.</p>
 									</div>
 								</div>
 							</div>
