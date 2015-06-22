@@ -39,7 +39,7 @@ Template Name: Careers
 								<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 									<?php /* the_content(); */ ?>
 									<blockquote class="mission">At the end of the day, our job is to help our clients sell more products, to more customers, more often, at a lower cost per sale.</blockquote>
-									<blockquote class="mission">To accomplish this goal, our core strategy is to first understand <em>WHAT</em> the customer does &#8211; <strong>Quantitative Research</strong> &#8211; and <em>WHY</em> they do it &#8211; <strong>Qualitative Research</strong>. We then use that information to form intelligent hypotheses about how we can help them improve Acquisition, Activation, Retention, Revenue, and Referral for their business.</blockquote>
+									<blockquote class="mission">To accomplish this goal, our core strategy is to first understand <em>WHAT</em> the customer does &#8211; Quantitative Research &#8211; and <em>WHY</em> they do it &#8211; Qualitative Research. We then use that information to form intelligent hypotheses about how we can help them improve Acquisition, Activation, Retention, Revenue, and Referral for their business.</blockquote>
 								</article> <!-- end article -->
 							</div>
 						</div>
