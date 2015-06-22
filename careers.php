@@ -66,7 +66,7 @@ Template Name: Careers
 									</div>
 									<div class="col-sm-6 value">
 										<h3>The Team is Everything</h3>
-										<p>We put people over profit, and will turn away business if working with that individual or brand does not fit with who we are or what we stand for.</p>
+										<p>We put people over profit and turn away business if working with that individual or brand does not fit with who we are or what we stand for.</p>
 									</div>
 								</div>
 								<div class="row">
