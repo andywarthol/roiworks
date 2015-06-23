@@ -9,7 +9,7 @@ Template Name: Home Page
 	<div class="overlay">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
+				<div class="col-lg-10 col-lg-offset-1">
 					<div class="row">
 						<div class="col-sm-12">
 							<h1 class="flat">Dramatic Results. <br class="visible-xs"/>Short Timeframes.</h1>
@@ -29,7 +29,7 @@ Template Name: Home Page
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
-										<div class="col-sm-3">
+										<div class="col-sm-4 col-md-3 col-lg-3">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
@@ -49,7 +49,7 @@ Template Name: Home Page
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
-										<div class="col-sm-3 ">
+										<div class="col-sm-4 col-md-3 col-lg-3">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
@@ -69,7 +69,7 @@ Template Name: Home Page
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
-										<div class="col-sm-3">
+										<div class="col-sm-4 col-md-3 col-lg-3">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
@@ -89,7 +89,7 @@ Template Name: Home Page
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
-										<div class="col-sm-3">
+										<div class="col-sm-4 col-md-3 col-lg-3">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
@@ -109,7 +109,7 @@ Template Name: Home Page
 											$myposts = get_posts( $args );
 											foreach( $myposts as $post ) :  setup_postdata($post);
 										?>
-										<div class="col-sm-3">
+										<div class="col-sm-4 col-md-3 col-lg-3">
 											<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>');">
 												<em><?php the_field('the_figure'); ?></em>
 												<?php the_field('performance_metric'); ?> <span><?php the_field('time_frame'); ?></span>
@@ -183,7 +183,7 @@ Template Name: Home Page
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-lg-10 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-4 bucket">
 						<i class="icon ppc"></i>
@@ -218,7 +218,7 @@ Template Name: Home Page
 				</div>
 				<br class="hidden-xs"/><br class="hidden-xs"/>
 				<div class="row">
-					<div class="col-sm-4 col-lg-4 col-lg-offset-2 bucket">
+					<div class="col-sm-4 col-lg-4 col-sm-offset-2 bucket">
 						<i class="icon analytics"></i>
 						<h2>Analytics</h2>
 						<ul>
@@ -255,50 +255,17 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
-<?php /*<section class="faq grey">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1>Frequently Asked Questions</h1>
-					</div>
-				</div>
-				<div class="row">
-						<?php if(get_field('faq')): ?>
-		 
-
-							<?php while(has_sub_field('faq')): ?>
-							<div class="col-sm-6">
-								<h3><?php the_sub_field('faq_question'); ?></h3>
-								<p><?php the_sub_field('faq_answer'); ?></p>
-							</div>
-
-							
-								
-							
-						
-							<?php endwhile; ?>
-						
-						
-						<?php endif; ?>
-						
-				</div>
-			</div>
-		</div>
-	</div>
-</section>*/ ?>
 <section class="faq grey">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-lg-10 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-12">
 						<h1>Frequently Asked Questions</h1>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12 col-md-8 col-md-offset-2">
+					<div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 						<?php if(get_field('faq')): ?>
 		 
 							<div class="panel-group" id="accordion">

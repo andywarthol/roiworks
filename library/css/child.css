@@ -339,7 +339,7 @@ body.home {
         padding: 20px 60px; }
       body.home section.results .carousel-control {
         color: #fff; }
-      body.home section.results .col-sm-3 {
+      body.home section.results .col-lg-3 {
         padding: 0 15px; }
       body.home section.results .card {
         font-size: 16px;
@@ -1048,6 +1048,15 @@ header .navbar {
     font-size: 15px;
     color: #999; }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.home section.results {
+    height: 560px; }
+    body.home section.results .overlay {
+      height: 560px; }
+      body.home section.results .overlay h1, body.home section.results .overlay .service h2, .service body.home section.results .overlay h2 {
+        font-size: 50px; }
+    body.home section.results .carousel-control.right {
+      right: 70px; } }
 @media screen and (min-width: 767px) and (max-width: 991px) {
   .results .col-sm-4 {
     width: 32%; }
