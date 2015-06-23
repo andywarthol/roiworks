@@ -483,7 +483,7 @@ body.home {
             height: 32px;
             width: auto; }
     body.home section.contact {
-      background: #D3D3D3; }
+      background: #CBE5F5; }
       body.home section.contact h2 {
         margin: 0;
         line-height: 60px;
@@ -613,6 +613,8 @@ section {
   display: inline-block;
   padding: 0;
   margin: 0 0 20px; }
+  .results .filters span {
+    display: inline-block !important; }
   .results .filters .btn {
     font-size: 13px;
     margin: 0 5px;
@@ -964,12 +966,16 @@ section {
 .results.grey {
   padding-top: 20px; }
 
+.home header .navbar {
+  border-bottom: none; }
+
 header .navbar {
   background: white;
   border: none;
   height: 80px;
   border-radius: 0;
-  margin: 0; }
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
   header .navbar .navbar-header .navbar-brand {
     width: 193px;
     height: 80px;
@@ -1161,6 +1167,14 @@ header .navbar {
 
   section {
     padding: 1.5em 0; }
+    section.hero {
+      height: 150px; }
+      section.hero header {
+        height: 150px; }
+        section.hero header .overlay {
+          height: 150px; }
+          section.hero header .overlay .page-title {
+            font-size: 28px; }
     section header h1, section header .service h2, .service section header h2 {
       margin-bottom: 10px;
       font-size: 28px;
@@ -1176,4 +1190,25 @@ header .navbar {
     section article h3 {
       margin-top: 30px; }
     section article .btn-primary {
-      width: 100%; } }
+      width: 100%; }
+    section.results .result-cards {
+      display: none; }
+    section.results .filters span {
+      display: none !important; }
+    section.results .filters .btn {
+      border: none;
+      background: transparent;
+      color: #0065A3;
+      padding: 6px 10px;
+      margin: 0;
+      font-size: 16px; }
+    section.results .mobile-results .item {
+      padding: 0 5px; }
+      section.results .mobile-results .item .card {
+        padding: 5px;
+        margin-bottom: 10px;
+        background-size: auto 24px; }
+        section.results .mobile-results .item .card.post-141, section.results .mobile-results .item .card.post-390, section.results .mobile-results .item .card.post-277, section.results .mobile-results .item .card.post-417 {
+          background-size: auto 36px; }
+        section.results .mobile-results .item .card.post-224 {
+          background-size: auto 20px; } }

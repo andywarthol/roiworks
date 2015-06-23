@@ -543,6 +543,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/bubbles-hero2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62803,
+		"inputAbbreviatedPath": "\/library\/images\/bubbles-hero2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/bubbles-hero2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/buildfire-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

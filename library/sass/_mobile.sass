@@ -131,6 +131,14 @@
 					font-size: 28px
 	section
 		padding: 1.5em 0
+		&.hero
+			height: 150px
+			header
+				height: 150px
+				.overlay
+					height: 150px
+					.page-title
+						font-size: 28px
 		header
 			h1
 				margin-bottom: 10px
@@ -149,3 +157,27 @@
 				margin-top: 30px
 			.btn-primary
 				width: 100%
+		&.results
+			.result-cards
+				display: none
+			.filters
+				span
+					display: none!important
+				.btn
+					border: none
+					background: transparent
+					color: $blue
+					padding: 6px 10px
+					margin: 0
+					font-size: 16px
+			.mobile-results
+				.item
+					padding: 0 5px
+					.card
+						padding: 5px
+						margin-bottom: 10px
+						background-size: auto 24px
+						&.post-141, &.post-390, &.post-277, &.post-417
+							background-size: auto 36px
+						&.post-224
+							background-size: auto 20px
