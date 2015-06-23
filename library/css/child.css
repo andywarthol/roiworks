@@ -1056,7 +1056,9 @@ header .navbar {
       body.home section.results .overlay h1, body.home section.results .overlay .service h2, .service body.home section.results .overlay h2 {
         font-size: 50px; }
     body.home section.results .carousel-control.right {
-      right: 70px; } }
+      right: 70px; }
+  body.home section.contact h2 {
+    font-size: 30px; } }
 @media screen and (min-width: 767px) and (max-width: 991px) {
   .results .col-sm-4 {
     width: 32%; }
