@@ -85,12 +85,13 @@ Template Name: Results
 		</div>
 	</div>
 </section>
-<script src="<?php bloginfo('template_directory'); ?>/library/js/isotope.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/library/js/isotope2.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
 		$('.result-cards').isotope({
 			itemSelector: '.col-sm-3',
-			layoutMode: 'masonry'
+			layoutMode: 'masonry',
+			gutter: 0
 		});
 		$('#filters').on( 'click', 'button', function() {
 			var filterValue = $(this).attr('data-filter');
