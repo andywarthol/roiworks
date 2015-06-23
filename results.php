@@ -14,7 +14,7 @@ Template Name: Results
 	?>
 	<header style="background-image: url(<?=$url?>)">
 		<div class="overlay">
-			<h1 class="page-title text-center">Lofty Pursuits. Impactful Achievements.</h1>
+			<h1 class="page-title text-center">Lofty Pursuits. <br class="visible-sm visible-xs"/>Impactful Achievements.</h1>
 		</div>
 	</header>
 	<?php endwhile; endif; ?>
@@ -52,7 +52,7 @@ Template Name: Results
 						$myposts = get_posts( $args );
 						foreach( $myposts as $post ) :  setup_postdata($post);
 					?>
-					<div <?php post_class( 'item col-xs-6 col-sm-3 col-md-3 col-lg-3' ); ?>>
+					<div <?php post_class( 'item col-xs-6 col-sm-4 col-md-3 col-lg-3' ); ?>>
 						<article id="post-<?php the_ID(); ?>" class="card slim" role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
 							<h1><?php the_title(); ?></h1>
 							<em><?php the_field('the_figure'); ?></em>
@@ -69,15 +69,15 @@ Template Name: Results
 		<div class="row">
 			<?php
 				global $post;
-				$args = array( 'posts_per_page' => 24, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'rand' );
+				$args = array( 'posts_per_page' => 60, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'rand' );
 				$myposts = get_posts( $args );
 				foreach( $myposts as $post ) :  setup_postdata($post);
 			?>
-			<div <?php post_class( 'item col-xs-6 col-sm-3 col-md-3 col-lg-3' ); ?>>
+			<div <?php post_class( 'item col-xs-6' ); ?>>
 				<article id="post-<?php the_ID(); ?>" class="card slim post-<?php the_ID(); ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
 					<h1><?php the_title(); ?></h1>
 					<em><?php the_field('the_figure'); ?></em>
-					<?php the_field('performance_metric'); ?><br/><?php the_field('time_frame'); ?>
+					<?php the_field('performance_metric'); ?> <br/><?php the_field('time_frame'); ?>
 				</article> <!-- end article -->
 			</div>
 			<?php endforeach; ?>
@@ -89,7 +89,7 @@ Template Name: Results
 <script>
 	jQuery(document).ready(function($){
 		$('.result-cards').isotope({
-			itemSelector: '.col-sm-3',
+			itemSelector: '.col-lg-3',
 			layoutMode: 'masonry',
 			gutter: 0
 		});

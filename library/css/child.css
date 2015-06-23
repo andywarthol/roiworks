@@ -637,61 +637,61 @@ section {
   background-repeat: no-repeat;
   font-size: 16px;
   color: #555; }
-.results .col-sm-3 {
+.results .col-lg-3 {
   width: 24%; }
-.results .col-sm-3, .results .col-sm-3 article {
+.results .col-lg-3, .results .col-lg-3 article {
   padding: 0 10px; }
-  .results .col-sm-3.post-123, .results .col-sm-3.post-385, .results .col-sm-3 article.post-123, .results .col-sm-3 article.post-385 {
+  .results .col-lg-3.post-123, .results .col-lg-3.post-385, .results .col-lg-3 article.post-123, .results .col-lg-3 article.post-385 {
     background-size: auto 48px; }
-    .results .col-sm-3.post-123 article, .results .col-sm-3.post-385 article, .results .col-sm-3 article.post-123 article, .results .col-sm-3 article.post-385 article {
+    .results .col-lg-3.post-123 article, .results .col-lg-3.post-385 article, .results .col-lg-3 article.post-123 article, .results .col-lg-3 article.post-385 article {
       background-size: auto 48px; }
-  .results .col-sm-3.post-141, .results .col-sm-3.post-390, .results .col-sm-3.post-277, .results .col-sm-3.post-417, .results .col-sm-3 article.post-141, .results .col-sm-3 article.post-390, .results .col-sm-3 article.post-277, .results .col-sm-3 article.post-417 {
+  .results .col-lg-3.post-141, .results .col-lg-3.post-390, .results .col-lg-3.post-277, .results .col-lg-3.post-417, .results .col-lg-3 article.post-141, .results .col-lg-3 article.post-390, .results .col-lg-3 article.post-277, .results .col-lg-3 article.post-417 {
     background-size: auto 52px; }
-    .results .col-sm-3.post-141 article, .results .col-sm-3.post-390 article, .results .col-sm-3.post-277 article, .results .col-sm-3.post-417 article, .results .col-sm-3 article.post-141 article, .results .col-sm-3 article.post-390 article, .results .col-sm-3 article.post-277 article, .results .col-sm-3 article.post-417 article {
+    .results .col-lg-3.post-141 article, .results .col-lg-3.post-390 article, .results .col-lg-3.post-277 article, .results .col-lg-3.post-417 article, .results .col-lg-3 article.post-141 article, .results .col-lg-3 article.post-390 article, .results .col-lg-3 article.post-277 article, .results .col-lg-3 article.post-417 article {
       background-size: auto 52px; }
-  .results .col-sm-3.post-87 article, .results .col-sm-3 article.post-87 article {
+  .results .col-lg-3.post-87 article, .results .col-lg-3 article.post-87 article {
     background-size: auto 42px; }
-  .results .col-sm-3.post-130, .results .col-sm-3 article.post-130 {
+  .results .col-lg-3.post-130, .results .col-lg-3 article.post-130 {
     background-size: auto 42px; }
-    .results .col-sm-3.post-130 article, .results .col-sm-3 article.post-130 article {
+    .results .col-lg-3.post-130 article, .results .col-lg-3 article.post-130 article {
       background-size: auto 42px; }
-  .results .col-sm-3.post-224, .results .col-sm-3 article.post-224 {
+  .results .col-lg-3.post-224, .results .col-lg-3 article.post-224 {
     background-size: 80% auto; }
-    .results .col-sm-3.post-224 article, .results .col-sm-3 article.post-224 article {
+    .results .col-lg-3.post-224 article, .results .col-lg-3 article.post-224 article {
       background-size: 80% auto; }
-  .results .col-sm-3.dem article, .results .col-sm-3 article.dem article {
+  .results .col-lg-3.dem article, .results .col-lg-3 article.dem article {
     font-size: 17px;
     font-weight: bold;
     padding: 15px;
     text-transform: lowercase; }
-  .results .col-sm-3.dem span, .results .col-sm-3 article.dem span {
+  .results .col-lg-3.dem span, .results .col-lg-3 article.dem span {
     display: block;
     font-weight: normal;
     font-size: 15px; }
-  .results .col-sm-3.dem em, .results .col-sm-3 article.dem em {
+  .results .col-lg-3.dem em, .results .col-lg-3 article.dem em {
     margin-top: 30px;
     display: inline-block;
     font-size: 17px;
     font-weight: bold; }
-  .results .col-sm-3.flip, .results .col-sm-3 article.flip {
+  .results .col-lg-3.flip, .results .col-lg-3 article.flip {
     background-position: center 20%;
     padding-top: 110px; }
-  .results .col-sm-3 .flat, .results .col-sm-3 article .flat {
+  .results .col-lg-3 .flat, .results .col-lg-3 article .flat {
     position: absolute;
     bottom: 45px;
     left: 0;
     right: 0; }
-  .results .col-sm-3 h1, .results .col-sm-3 .service h2, .service .results .col-sm-3 h2, .results .col-sm-3 article h1, .results .col-sm-3 article .service h2, .service .results .col-sm-3 article h2 {
+  .results .col-lg-3 h1, .results .col-lg-3 .service h2, .service .results .col-lg-3 h2, .results .col-lg-3 article h1, .results .col-lg-3 article .service h2, .service .results .col-lg-3 article h2 {
     display: none;
     text-indent: -9999px; }
-  .results .col-sm-3 em, .results .col-sm-3 article em {
+  .results .col-lg-3 em, .results .col-lg-3 article em {
     color: #444;
     font-weight: bold;
     font-size: 42px;
     display: block;
     font-style: normal;
     margin-top: 20px; }
-    .results .col-sm-3 em small, .results .col-sm-3 article em small {
+    .results .col-lg-3 em small, .results .col-lg-3 article em small {
       font-size: 0.65em;
       display: inline-block;
       vertical-align: middle;
@@ -1048,6 +1048,12 @@ header .navbar {
     font-size: 15px;
     color: #999; }
 
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .results .col-sm-4 {
+    width: 32%; }
+  .results .filters span.hidden-xs {
+    display: block !important;
+    margin-bottom: 10px; } }
 @media screen and (max-width: 767px) {
   header .navbar {
     height: 40px; }
@@ -1204,13 +1210,22 @@ header .navbar {
       padding: 6px 10px;
       margin: 0;
       font-size: 16px; }
+    section.results .mobile-results .col-sm-4 {
+      width: 50%; }
     section.results .mobile-results .item {
       padding: 0 5px; }
       section.results .mobile-results .item .card {
         padding: 5px;
         margin-bottom: 10px;
-        background-size: auto 24px; }
+        background-size: auto 24px;
+        font-size: 14px;
+        min-height: 175px; }
         section.results .mobile-results .item .card.post-141, section.results .mobile-results .item .card.post-390, section.results .mobile-results .item .card.post-277, section.results .mobile-results .item .card.post-417 {
           background-size: auto 36px; }
         section.results .mobile-results .item .card.post-224 {
-          background-size: auto 20px; } }
+          background-size: auto 20px; }
+        section.results .mobile-results .item .card em {
+          font-size: 32px;
+          margin-top: 10px; }
+        section.results .mobile-results .item .card br {
+          display: none; } }
