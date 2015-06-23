@@ -157,7 +157,7 @@ Template Name: Home Page
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-lg-10 col-lg-offset-1">
 				<?php if(get_field('testimonials')): ?>
 				<div class="row">
 					<?php while(has_sub_field('testimonials')): ?>
