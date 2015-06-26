@@ -123,6 +123,25 @@ section
 		font-size: 32px
 		display: block
 
+.hero
+	opacity: 0
+	filter: alpha(opacity=0)
+	-moz-transition: .4s opacity ease-in-out
+	-ms-transition: .4s opacity ease-in-out
+	transition: .4s opacity ease-in-out
+	&.active
+		filter: alpha(opacity=100)
+		opacity: 1
+.hero h1
+	opacity: 0
+	filter: alpha(opacity=0)
+	-moz-transition: 1s opacity ease-in-out
+	-ms-transition: 1s opacity ease-in-out
+	transition: 1s opacity ease-in-out
+	&.active
+		filter: alpha(opacity=100)
+		opacity: 1
+
 .results
 	opacity: 0
 	filter: alpha(opacity=0)

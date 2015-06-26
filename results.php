@@ -89,6 +89,13 @@ Template Name: Results
 <script>
 	jQuery(document).ready(function($){
 
+		// Fade hero functionality
+		$('.hero').addClass('active');
+
+		setTimeout(function(){
+			$('.hero .page-title').addClass('active');
+		}, 600);
+
 		// Active Filter
 		$('button').click(function(){
 			$('button').removeClass('active')

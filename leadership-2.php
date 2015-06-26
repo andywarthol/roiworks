@@ -58,4 +58,15 @@ Template Name: Leadership 2
 	</div>
 </section>
 
+<script>
+	jQuery(document).ready(function($){
+		// Fade hero functionality
+		$('.hero').addClass('active');
+
+		setTimeout(function(){
+			$('.hero .page-title').addClass('active');
+		}, 600);
+	});
+</script>
+
 <?php get_footer(); ?>

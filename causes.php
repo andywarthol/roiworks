@@ -51,6 +51,14 @@ Template Name: Causes
 </section>
 <script>
 	jQuery(document).ready(function($){
+		
+		// Fade hero functionality
+		$('.hero').addClass('active');
+
+		setTimeout(function(){
+			$('.hero .page-title').addClass('active');
+		}, 600);
+
 		if (window.location.hash == "#vpclientservices") {
 			$('#field_oknffn').val('VP Client Services');
 		} else if (window.location.hash == "#sraccountmanager") {

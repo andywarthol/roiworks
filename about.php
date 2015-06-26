@@ -24,7 +24,7 @@ Template Name: About
 		<div class="row">
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
-					<div class="col-sm-3 ">
+					<div class="col-sm-3">
 						<div class="well">
 							<h3>Our Company</h3>
 							<ul class="">
@@ -50,6 +50,14 @@ Template Name: About
 </section>
 <script>
 	jQuery(document).ready(function($){
+
+		// Fade hero functionality
+		$('.hero').addClass('active');
+
+		setTimeout(function(){
+			$('.hero .page-title').addClass('active');
+		}, 600);
+
 		if (window.location.hash == "#summerintern") {
 			$('#field_oknffn').val('Summer Intern');
 		} else if (window.location.hash == "#sraccountstrategist") {
