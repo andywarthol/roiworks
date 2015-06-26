@@ -1643,6 +1643,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/optimizely-vwo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37347,
+		"inputAbbreviatedPath": "\/library\/images\/optimizely-vwo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/optimizely-vwo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/orangechef-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

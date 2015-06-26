@@ -14,7 +14,7 @@ Template Name: Results
 	?>
 	<header style="background-image: url(<?=$url?>)">
 		<div class="overlay">
-			<h1 class="page-title text-center">Lofty Pursuits. <br class="visible-sm visible-xs"/>Impactful Achievements.</h1>
+			<h1 class="page-title text-center">Results</h1>
 		</div>
 	</header>
 	<?php endwhile; endif; ?>
@@ -27,13 +27,13 @@ Template Name: Results
 					<div class="col-sm-12 text-center">
 						<div id="filters" class="filters hidden-xs">
 							<span class="hidden-xs">Filter by service: </span>
-							<button type="button" class="btn btn-default" data-filter="*">Show all</button>
-							<button type="button" class="btn btn-default" data-filter=".category-conversion">Conversion</button>
-							<button type="button" class="btn btn-default" data-filter=".category-design">Design</button>
-							<button type="button" class="btn btn-default" data-filter=".category-holistic">Holistic</button>
 							<button type="button" class="btn btn-default" data-filter=".category-sem">PPC</button>
+							<button type="button" class="btn btn-default" data-filter=".category-conversion">Conversion</button>
 							<button type="button" class="btn btn-default" data-filter=".category-seo">SEO</button>
 							<button type="button" class="btn btn-default" data-filter=".category-facebook">Facebook</button>
+							<!-- <button type="button" class="btn btn-default" data-filter=".category-design">Design</button>-->
+							<!-- <button type="button" class="btn btn-default" data-filter=".category-holistic">Holistic</button> -->
+							<button type="button" class="btn btn-default" data-filter="*">Show all</button>
 						</div>
 
 							<?php /*$categories = wp_list_categories(array('child_of' => 4, 'title_li' => '' )); */ ?> 
@@ -88,15 +88,28 @@ Template Name: Results
 <script src="<?php bloginfo('template_directory'); ?>/library/js/isotope2.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
+
+		// Active Filter
+		$('button').click(function(){
+			$('button').removeClass('active')
+			$(this).addClass('active');
+		});
+
+		// Initialize Isotope
 		$('.result-cards').isotope({
 			itemSelector: '.col-lg-3',
 			layoutMode: 'masonry',
 			gutter: 0
 		});
+
+		// Filter Functionality
 		$('#filters').on( 'click', 'button', function() {
 			var filterValue = $(this).attr('data-filter');
 			$('.result-cards').isotope({ filter: filterValue });
 		});
+
+		// Fade in the cards
+		$('.results').addClass('active');
 	});
 </script>
 

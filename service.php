@@ -29,7 +29,7 @@ Template Name: Service
 								<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 									<?php the_post_thumbnail('medium', array('class' => 'alignright attachment-post-medium')); ?>
 									<?php the_content(); ?>
-									<p class="text-center">
+									<p class="text-center cta">
 										Any questions we can answer for you?<br class="hidden-xs"/>
 										<a href="?page_id=14" class="btn btn-lg btn-primary">Get in touch with us <i class="glyphicon glyphicon-chevron-right"></i></a>
 									</p>

@@ -35,7 +35,7 @@ Template Name: Leadership 2
 					<div class="col-sm-9">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<?php if( have_rows('team_member') ): while ( have_rows('team_member') ) : the_row(); ?>
-							<article class="row">
+							<article class="row" id="<?php the_sub_field('short_name'); ?>">
 								<div class="col-sm-12">
 									<div class="headshot-wrapper">
 										<img src="<?php the_sub_field('team_member_headshot'); ?>" class="img-responsive headshot">	

@@ -50,10 +50,10 @@ Template Name: About
 </section>
 <script>
 	jQuery(document).ready(function($){
-		if (window.location.hash == "#vpclientservices") {
-			$('#field_oknffn').val('VP Client Services');
-		} else if (window.location.hash == "#sraccountmanager") {
-			$('#field_oknffn').val('Senior Account Manager');
+		if (window.location.hash == "#summerintern") {
+			$('#field_oknffn').val('Summer Intern');
+		} else if (window.location.hash == "#sraccountstrategist") {
+			$('#field_oknffn').val('Senior Account Strategist');
 		}
 	});
 </script>

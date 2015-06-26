@@ -38,8 +38,7 @@ Template Name: Careers
 							<div class="col-sm-12">
 								<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 									<?php /* the_content(); */ ?>
-									<blockquote class="mission">At the end of the day, our job is to help our clients sell more products, to more customers, more often, at a lower cost per sale.</blockquote>
-									<blockquote class="mission">To accomplish this goal, our core strategy is to first understand <em>WHAT</em> the customer does &#8211; Quantitative Research &#8211; and <em>WHY</em> they do it &#8211; Qualitative Research. We then use that information to form intelligent hypotheses about how we can help them improve Acquisition, Activation, Retention, Revenue, and Referral for their business.</blockquote>
+									<blockquote class="mission">We are maniacally focused on getting results for our clients - as quickly as possible. We do this work surrounded by smart, humble, experienced, and inter-disciplinary people who we enjoy spending time with. As a results, we're also obsessed with helping everyone on the team achieve both their professional and financial goals.</blockquote>
 								</article> <!-- end article -->
 							</div>
 						</div>
@@ -87,13 +86,13 @@ Template Name: Careers
 							</div>
 							<div class="col-sm-12 position">
 								<h3>Senior Account Strategist</h3>
-								<p>Are you a seasoned marketer?  We are looking for an online marketing rockstar to drive strategy for our many active accounts. <a href="#">Learn more &raquo;</a></p>
+								<p>Are you a seasoned marketer?  We are looking for an online marketing rockstar to drive strategy for our many active accounts. <a href="<?php bloginfo('url'); ?>/apply-for-a-job/#sraccountstrategist">Apply now &raquo;</a></p>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-12 position">
 								<h3>Summer Intern</h3>
-								<p>Looking to learn valuable marketing skills and earn some extra cash?  We are looking for driven, entry-level marketers.  <a href="#">Learn more &raquo;</a></p>
+								<p>Looking to learn valuable marketing skills and earn some extra cash?  We are looking for driven, entry-level marketers.  <a href="<?php bloginfo('url'); ?>/apply-for-a-job/#summerintern">Apply now &raquo;</a></p>
 							</div>
 						</div>
 						<div class="row headroom">

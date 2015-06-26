@@ -11,7 +11,7 @@ Template Name: Home Page
 			<div class="row">
 				<div class="col-lg-10 col-lg-offset-1">
 					<div class="row">
-						<div class="col-sm-12">
+						<div class="col-sm-12 text">
 							<h1 class="flat">Dramatic Results. <br class="visible-xs"/>Short Timeframes.</h1>
 							<p class="intro">ROI Works is a digital agency specializing in rapid, data-driven growth and marketing.</p>
 						</div>
@@ -134,7 +134,24 @@ Template Name: Home Page
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12 text-center"><a href="<?php bloginfo('url'); ?>/contact" class="btn btn-lg btn-primary">Get a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a></div>
+						<div class="col-sm-12 text-center"><a href="#contact" class="btn btn-lg btn-primary" data-toggle="modal">Jumpstart Your Growth <i class="glyphicon glyphicon-chevron-right"></i></a></div>
+					</div>
+					<div class="modal fade" id="contact">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+									<h4 class="modal-title">Modal title</h4>
+								</div>
+								<div class="modal-body">
+									<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 8, 'title' => false, 'description' => false ) ); ?>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+								</div>
+							</div>
+						</div>
 					</div>
 					<script>
 					jQuery(document).ready(function($){
@@ -142,6 +159,7 @@ Template Name: Home Page
 							interval: false
 							//interval: 8000
 						});
+
 					});
 					</script>
 				</div>
@@ -302,6 +320,21 @@ Template Name: Home Page
 <script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.inview.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
+
+		// Fade in hero
+		$('.results').addClass('active');
+
+		setTimeout(function(){
+			$('.results .text').addClass('active');
+		}, 600);
+
+		setTimeout(function(){
+			$('.results .carousel').addClass('active');
+		}, 900);
+
+		setTimeout(function(){
+			$('.results .btn-primary').addClass('in');
+		}, 1100);
 
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');

@@ -115,6 +115,9 @@ form
 		margin-top: -1px
 	button[type="submit"], input[type="submit"]
 		-webkit-font-smoothing: antialiased
+	textarea
+		min-height: 150px
+		margin-bottom: 20px
 
 .panel-group
 	.panel
@@ -153,24 +156,10 @@ form
 
 .modal
 	.modal-dialog
-		width: 700px
 		.modal-content
-			background: $lightBlue
-			border-color: $blue
-			border-radius: 0
 			.modal-header
-				border: none
-				padding-bottom: 0
 				.modal-title
-					// color: white
-					font-size: 26px
-					br
-						display: none
-					small
-						margin-left: 5px
-						font-size: 18px
 				.close
-					// color: white
 					text-shadow: none
 					opacity: .7
 					font-size: 28px
@@ -248,7 +237,8 @@ form
 			&.current_page_item
 				a
 					display: block
-					font-weight: bold
+					font-weight: normal
+					color: $black
 @media screen and (min-width: 1200px)
 	.oversize
 		max-width: 115%
