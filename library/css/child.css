@@ -812,7 +812,8 @@ section {
   padding-top: 30px; }
 .careers h3 {
   font-weight: bold;
-  font-size: 22px; }
+  font-size: 22px;
+  line-height: 1.5; }
 .careers .value {
   margin-bottom: 20px; }
 .careers h2 {
