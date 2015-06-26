@@ -38,7 +38,7 @@ Template Name: Careers
 							<div class="col-sm-12">
 								<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 									<?php /* the_content(); */ ?>
-									<blockquote class="mission">We're maniacally focused on getting results for our clients - as quickly as possible. We work surrounded by smart, humble, experienced, and inter-disciplinary people we enjoy spending time with. So we're also obsessed with helping everyone on the team achieve both their professional and financial goals.</blockquote>
+									<blockquote class="mission">We're maniacally focused on getting results for our clients — as quickly as possible. We work surrounded by smart, humble, experienced, and inter-disciplinary people we enjoy spending time with. So we're also obsessed with helping everyone on the team achieve both their professional and financial goals.</blockquote>
 								</article> <!-- end article -->
 							</div>
 						</div>
