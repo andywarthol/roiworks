@@ -154,6 +154,7 @@ Template Name: Home Page
 					</div>
 					<script>
 					jQuery(document).ready(function($){
+
 						$('.carousel').carousel({
 							interval: false,
 							cycle: true
@@ -161,6 +162,18 @@ Template Name: Home Page
 
 						$('.modal .btn-block').click(function(){
 							$('#form_intake').submit();
+						});
+
+						$('#contact').on('shown.bs.modal', function (e) {
+
+							// Input mask - Restrict count, formatting, numbers only
+							$.extend($.inputmask.defaults, {
+								'placeholder': " "
+							});
+
+						  $('input[type="tel"]').focus(function(){
+						  	$(this).inputmask("(999) 999-9999");
+						  });
 						});
 
 					});
@@ -321,6 +334,7 @@ Template Name: Home Page
 	</div>
 </section>
 <script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.inview.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.inputmask.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
 
