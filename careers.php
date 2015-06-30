@@ -65,7 +65,7 @@ Template Name: Careers
 									</div>
 									<div class="col-sm-6 value">
 										<h3>The Team is Everything</h3>
-										<p>We put people over profit, and will turn away business if working with that individual or brand does not fit with who we are or what we stand for.</p>
+										<p>We put people over profit, and will turn away business if working with that individual or brand does not quite fit with us or our values.</p>
 									</div>
 								</div>
 								<div class="row">
@@ -75,7 +75,7 @@ Template Name: Careers
 									</div>
 									<div class="col-sm-6 value">
 										<h3>Have Fun</h3>
-										<p>Don't take yourself too seriously.</p>
+										<p>Ever hear the one about the one-eyed UX researcher? Don't take yourself too seriously.</p>
 									</div>
 								</div>
 							</div>
@@ -86,7 +86,7 @@ Template Name: Careers
 							</div>
 							<div class="col-sm-12 position">
 								<h3>Senior Account Strategist</h3>
-								<p>Are you a seasoned marketer?  We are looking for an online marketing rockstar to drive strategy for our many active accounts. <a href="<?php bloginfo('url'); ?>/apply-for-a-job/#sraccountstrategist">Apply now &raquo;</a></p>
+								<p>Are you a seasoned online marketer with agency experience?  We're looking for a data-driven strategist to drive strategy for top tier brands and up-and-coming startups. <a href="<?php bloginfo('url'); ?>/apply-for-a-job/#sraccountstrategist">Apply now &raquo;</a></p>
 							</div>
 						</div>
 						<div class="row">
@@ -101,10 +101,10 @@ Template Name: Careers
 								<p>We greatly value the importance of a well-balanced, healthy work/life balance.  Working at <a href="http://runway.is">Runway</a> has a lot of cool benefits.  Yes it's an amazing space, but there is also a community aspect of life at ROI Works that keeps us happy and well cared for:</p>
 							</div>
 							<div class="col-sm-6 perk">
-								<h3>Dog-Friendly Office</h3>
+								<h3>Healthy Food Downstairs</h3>
 								<div class="overlay-box">	
-									<img src="<?php bloginfo('template_directory'); ?>/library/images/dog.jpg" class="img-responsive">
-									<span class="text-content"><span>Treat your bestie to a large, open space to enjoy.  He or she will make lots friends pretty much immediately.</span></span>
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/market.jpg" class="img-responsive">
+									<span class="text-content"><span>Brand new marketplace downstairs w/ salad bar, taco bar, sushi bar, oyster bar, pizza bar, bar bar...</span></span>
 								</div>
 							</div>
 							<div class="col-sm-6 perk">
@@ -124,19 +124,19 @@ Template Name: Careers
 								</div>
 							</div>
 							<div class="col-sm-6 perk">
-								<h3>Bike Parking Aplenty</h3>
+								<h3>Dog-Friendly Office</h3>
 								<div class="overlay-box">	
-									<img src="<?php bloginfo('template_directory'); ?>/library/images/bicycles.jpg" class="img-responsive">
-									<span class="text-content"><span>Bike to work?  No problem, just bring your bike into the office.  We've got lots of room and dedicated bike parking.</span></span>
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/dog.jpg" class="img-responsive">
+									<span class="text-content"><span>Treat your bestie to a large, open space to enjoy.  He or she will make lots friends pretty much immediately.</span></span>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-6 perk">
-								<h3>Marketplace In Building</h3>
+								<h3>Bike Parking Aplenty</h3>
 								<div class="overlay-box">	
-									<img src="<?php bloginfo('template_directory'); ?>/library/images/market.jpg" class="img-responsive">
-									<span class="text-content"><span>Brand new marketplace downstairs w/ salad bar, taco bar, sushi bar, oyster bar, pizza bar, bar bar...</span></span>
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/bicycles.jpg" class="img-responsive">
+									<span class="text-content"><span>Bike to work?  No problem, just bring your bike into the office.  We've got lots of room and dedicated bike parking.</span></span>
 								</div>
 							</div>
 							<div class="col-sm-6 perk">

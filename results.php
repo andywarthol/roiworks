@@ -30,6 +30,7 @@ Template Name: Results
 							<button type="button" class="btn btn-default" data-filter=".category-sem">PPC</button>
 							<button type="button" class="btn btn-default" data-filter=".category-conversion">Conversion</button>
 							<button type="button" class="btn btn-default" data-filter=".category-seo">SEO</button>
+							<button type="button" class="btn btn-default" data-filter=".category-analytics">Analytics</button>
 							<button type="button" class="btn btn-default" data-filter=".category-facebook">Facebook</button>
 							<!-- <button type="button" class="btn btn-default" data-filter=".category-design">Design</button>-->
 							<!-- <button type="button" class="btn btn-default" data-filter=".category-holistic">Holistic</button> -->
@@ -48,7 +49,7 @@ Template Name: Results
 				<div class="row">
 					<?php
 						global $post;
-						$args = array( 'posts_per_page' => 24, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'rand' );
+						$args = array( 'posts_per_page' => 99, 'category_name' => 'results', 'order' => 'ASC', 'orderby' => 'rand' );
 						$myposts = get_posts( $args );
 						foreach( $myposts as $post ) :  setup_postdata($post);
 					?>
@@ -56,7 +57,7 @@ Template Name: Results
 						<article id="post-<?php the_ID(); ?>" class="card slim" role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
 							<h1><?php the_title(); ?></h1>
 							<em><?php the_field('the_figure'); ?></em>
-							<?php the_field('performance_metric'); ?><br/><?php the_field('time_frame'); ?>
+							<span class="metric"><?php the_field('performance_metric'); ?></span> <span class="timeframe"><?php the_field('time_frame'); ?></span>
 						</article> <!-- end article -->
 					</div>
 					<?php endforeach; ?>
@@ -77,7 +78,7 @@ Template Name: Results
 				<article id="post-<?php the_ID(); ?>" class="card slim post-<?php the_ID(); ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
 					<h1><?php the_title(); ?></h1>
 					<em><?php the_field('the_figure'); ?></em>
-					<?php the_field('performance_metric'); ?> <br/><?php the_field('time_frame'); ?>
+					<?php the_field('performance_metric'); ?> <?php the_field('time_frame'); ?>
 				</article> <!-- end article -->
 			</div>
 			<?php endforeach; ?>

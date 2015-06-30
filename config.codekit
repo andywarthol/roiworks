@@ -301,6 +301,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/library\/images\/15five-logo2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5719,
+		"inputAbbreviatedPath": "\/library\/images\/15five-logo2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/15five-logo2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/3scale-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -818,6 +829,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/crittercism-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9463,
+		"inputAbbreviatedPath": "\/library\/images\/crittercism-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/crittercism-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/culture-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -891,6 +913,17 @@
 		"initialSize": 43326,
 		"inputAbbreviatedPath": "\/library\/images\/dog.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/dog.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/dropdown-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1116,
+		"inputAbbreviatedPath": "\/library\/images\/dropdown-arrow.png",
+		"outputAbbreviatedPath": "\/library\/images\/dropdown-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1071,6 +1104,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/george-revutsky-headshot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34006,
+		"inputAbbreviatedPath": "\/library\/images\/george-revutsky-headshot.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/george-revutsky-headshot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/george-revutsky.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1100,6 +1144,17 @@
 		"initialSize": 60775,
 		"inputAbbreviatedPath": "\/library\/images\/george-yellow.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/george-yellow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/getinsured-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4643,
+		"inputAbbreviatedPath": "\/library\/images\/getinsured-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/getinsured-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1555,6 +1610,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/mayvenn-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8684,
+		"inputAbbreviatedPath": "\/library\/images\/mayvenn-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/mayvenn-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/mayvenn.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1639,6 +1705,17 @@
 		"initialSize": 74270,
 		"inputAbbreviatedPath": "\/library\/images\/mountain-sunset-hero.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/mountain-sunset-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/myimprov-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12590,
+		"inputAbbreviatedPath": "\/library\/images\/myimprov-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/myimprov-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2138,6 +2215,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/taylor-wang-headshot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15911,
+		"inputAbbreviatedPath": "\/library\/images\/taylor-wang-headshot.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/taylor-wang-headshot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/team-at-pod-blue.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2226,6 +2314,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/ucla-anderson-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20005,
+		"inputAbbreviatedPath": "\/library\/images\/ucla-anderson-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/ucla-anderson-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/ucla-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2233,6 +2332,17 @@
 		"initialSize": 4012,
 		"inputAbbreviatedPath": "\/library\/images\/ucla-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/ucla-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/union-bank-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9065,
+		"inputAbbreviatedPath": "\/library\/images\/union-bank-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/union-bank-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

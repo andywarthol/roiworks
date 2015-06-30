@@ -27,7 +27,9 @@ Template Name: Contact
 				<div class="row">
 					<div class="col-sm-6 form">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-							<?php the_content(); ?>
+							<?php /*the_content();*/ ?>
+							<h2>Send Us A Message</h2>
+							<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 8, 'title' => false, 'description' => false ) ); ?>
 						<?php endwhile; endif; ?>
 					</div>
 					<div class="col-sm-6">

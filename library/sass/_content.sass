@@ -39,11 +39,11 @@ section
 		&.intro
 			font-size: 22px
 		&.cta
-			padding-top: 10px
+			padding-top: 20px
 			border-top: 1px solid #efefef
 	ul
 		padding: 0 0 0 20px
-		margin: 20px 0 50px 30px
+		margin: 20px 0 50px 20px
 		list-style-position: outside
 		li
 			font-size: 18px
@@ -188,23 +188,27 @@ section
 		width: 24%
 	.col-lg-3, .col-lg-3 article
 		padding: 0 10px
+		&.category-analytics
+			em
+				font-size: 26px
+				margin-top: 48px
 		&.post-123, &.post-385
 			background-size: auto 48px
 			article
 				background-size: auto 48px
-		&.post-141, &.post-390, &.post-277, &.post-417
+		&.post-141, &.post-390, &.post-277, &.post-417, &.post-528
 			background-size: auto 52px
 			article
 				background-size: auto 52px
-		&.post-87
+		&.post-130, &.post-87
 			article
 				background-size: auto 42px
-		&.post-130
-			background-size: auto 42px
+		&.post-536
+			background-size: auto 48px
 			article
 				background-size: auto 42px
 		// Results 2 Demphasized Version
-		&.post-224
+		&.post-224, &.post-518, &.post-531
 			background-size: 80% auto
 			article
 				background-size: 80% auto
@@ -542,6 +546,11 @@ section
 		span.sub
 			display: block
 			margin-bottom: 5px
+	input[type="submit"]
+		@extend .btn-primary
+		@extend .btn-lg
+		@extend .btn-block
+
 
 .results
 	&.grey

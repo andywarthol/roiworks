@@ -13,14 +13,14 @@ Template Name: Home Page
 					<div class="row">
 						<div class="col-sm-12 text">
 							<h1 class="flat">Dramatic Results. <br class="visible-xs"/>Short Timeframes.</h1>
-							<p class="intro">ROI Works is a digital agency specializing in rapid, data-driven growth and marketing.</p>
+							<h2 class="intro">ROI Works is a digital agency specializing in rapid, data-driven growth and marketing.</h2>
 						</div>
 					</div>
 					<div class="row">
 						<!-- Bootstrap Carousel -->
 						<div id="carousel" class="carousel slide" data-ride="carousel">
+							<a href="<?php bloginfo('url'); ?>/results" class="more">More results &raquo;</a>
 							<div class="carousel-inner">
-								<a href="<?php bloginfo('url'); ?>/results" class="more">More results &raquo;</a>
 								<div class="item active">
 									<div class="row">
 										<?php
@@ -141,14 +141,13 @@ Template Name: Home Page
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-									<h4 class="modal-title">Modal title</h4>
+									<h4 class="modal-title">Let's Get It On</h4>
 								</div>
 								<div class="modal-body">
 									<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 8, 'title' => false, 'description' => false ) ); ?>
 								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Save changes</button>
+									<button type="button" class="btn btn-primary btn-block">Send It <i class="glyphicon glyphicon-chevron-right"></i></button>
 								</div>
 							</div>
 						</div>
@@ -156,8 +155,12 @@ Template Name: Home Page
 					<script>
 					jQuery(document).ready(function($){
 						$('.carousel').carousel({
-							interval: false
-							//interval: 8000
+							interval: false,
+							cycle: true
+						});
+
+						$('.modal .btn-block').click(function(){
+							$('#form_intake').submit();
 						});
 
 					});
@@ -175,11 +178,11 @@ Template Name: Home Page
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
+			<div class="col-sm-12">
 				<?php if(get_field('testimonials')): ?>
 				<div class="row">
 					<?php while(has_sub_field('testimonials')): ?>
-					<div class="col-sm-4 text-center">
+					<div class="col-sm-4 text-center testimonial">
 						<img class="thumbnail img-circle" src="<?php the_sub_field('headshot'); ?>" alt="">
 						<blockquote>
 							<span>“</span><?php the_sub_field('quote'); ?> <small><?php the_sub_field('name'); ?>, <?php the_sub_field('position'); ?></small>
@@ -193,7 +196,7 @@ Template Name: Home Page
     </div>
   </div>
 </section>
-<section class="how blue">
+<section class="services blue">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -205,55 +208,55 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-4 bucket">
 						<i class="icon ppc"></i>
-						<h2>Paid Advertising</h2>
+						<h2><a href="?p=175">Paid Advertising</a></h2>
 						<ul>
-							<li><a href="#">PPC / SEM</a></li>
-							<li><a href="#">Display Advertising</a></li>
-							<li><a href="#">Facebook Advertising</a></li>
-							<li><a href="#">Mobile Advertising</a></li>
+							<li><a href="?p=175">PPC / SEM</a></li>
+							<li><a href="?p=179">Display Advertising</a></li>
+							<li><a href="?p=177">Facebook Advertising</a></li>
+							<li><a href="?p=175">Mobile Advertising</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-4 bucket">
 						<i class="icon seo"></i>
-						<h2>Search Engine Optimization</h2>
+						<h2><a href="?p=212">Search Engine Optimization</a></h2>
 						<ul>
-							<li><a href="#">SEO Audits</a></li>
-							<li><a href="#">SEO Strategy &amp; Coaching</a></li>
-							<li><a href="#">Content Marketing Strategy</a></li>
-							<li><a href="#">Page Speed Optimization</a></li>
+							<li><a href="?p=212">SEO Audits</a></li>
+							<li><a href="?p=212">SEO Strategy &amp; Coaching</a></li>
+							<li><a href="?p=212">Content Marketing Strategy</a></li>
+							<li><a href="?p=212">Page Speed Optimization</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-4 bucket">
 						<i class="icon cro"></i>
 						<h2>Conversion Rate Optimization</h2>
 						<ul>
-							<li><a href="#">CRO Strategy</a></li>
-							<li><a href="#">User Testing</a></li>
-							<li><a href="#">Funnel Analysis</a></li>
-							<li><a href="#">A/B Testing</a></li>
+							<li><a href="?p=183">CRO Strategy</a></li>
+							<li><a href="?p=185">User Testing</a></li>
+							<li><a href="?p=181">Funnel Analysis</a></li>
+							<li><a href="?p=183">A/B Testing</a></li>
 						</ul>
 					</div>
 				</div>
 				<br class="hidden-xs"/><br class="hidden-xs"/>
-				<div class="row">
+				<div class="row two">
 					<div class="col-sm-4 col-lg-4 col-sm-offset-2 bucket">
 						<i class="icon analytics"></i>
-						<h2>Analytics</h2>
+						<h2><a href="?p=181">Analytics</a></h2>
 						<ul>
-							<li><a href="#">Analytics Audits</a></li>
-							<li><a href="#">Analytics Instrumentation</a></li>
-							<li><a href="#">Tool Assessment</a></li>
-							<li><a href="#">Multi-channel Attribution</a></li>
+							<li><a href="?p=181">Analytics Audits</a></li>
+							<li><a href="?p=181">Analytics Instrumentation</a></li>
+							<li><a href="?p=181">Tool Assessment</a></li>
+							<li><a href="?p=181">Multi-channel Attribution</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-4 bucket last">
 						<i class="icon rwd"></i>
-						<h2>Design</h2>
+						<h2><a href="?p=548">Design</a></h2>
 						<ul>
-							<li><a href="#">Responsive Web Design</a></li>
-							<li><a href="#">Landing Page Design</a></li>
-							<li><a href="#">Usability Audits</a></li>
-							<li><a href="#">Lead Generation UI</a></li>
+							<li><a href="?p=548">Responsive Web Design</a></li>
+							<li><a href="?p=548">Landing Page Design</a></li>
+							<li><a href="?p=548">Usability Audits</a></li>
+							<li><a href="?p=548">UI Design</a></li>
 						</ul>
 					</div>
 				</div>
@@ -326,20 +329,20 @@ Template Name: Home Page
 
 		setTimeout(function(){
 			$('.results .text').addClass('active');
+		}, 200);
+
+		setTimeout(function(){
+			$('.results .carousel').addClass('in');
 		}, 600);
 
 		setTimeout(function(){
-			$('.results .carousel').addClass('active');
-		}, 900);
-
-		setTimeout(function(){
 			$('.results .btn-primary').addClass('in');
-		}, 1100);
+		}, 800);
 
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
 
-    $('.how').bind('inview', function (event, visible) {
+    $('.services').bind('inview', function (event, visible) {
       if (visible == true) {
         // element is now visible in the viewport
        $('.icon').addClass('shown');
