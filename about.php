@@ -48,6 +48,7 @@ Template Name: About
 		</div>
 	</div>
 </section>
+<script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.inview.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
 
@@ -63,6 +64,18 @@ Template Name: About
 		} else if (window.location.hash == "#sraccountstrategist") {
 			$('#field_oknffn').val('Senior Account Strategist');
 		}
+
+		$('.hero').bind('inview', function (event, visible) {
+      if (visible == true) {
+        // element is now visible in the viewport
+       $('.well').removeClass('affix');
+          
+      } else {
+      	// element is no longer visible in the viewport
+        $('.well').addClass('affix');
+      }
+    });
+
 	});
 </script>
 <?php get_footer(); ?>
