@@ -54,7 +54,7 @@ Template Name: Results
 						foreach( $myposts as $post ) :  setup_postdata($post);
 					?>
 					<div <?php post_class( 'item col-xs-6 col-sm-4 col-md-3 col-lg-3' ); ?>>
-						<article id="post-<?php the_ID(); ?>" class="card slim" role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
+						<article id="post-<?php the_ID(); ?>" class="card page slim" role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
 							<h1><?php the_title(); ?></h1>
 							<em><?php the_field('the_figure'); ?></em>
 							<span class="metric"><?php the_field('performance_metric'); ?></span> <span class="timeframe"><?php the_field('time_frame'); ?></span>
@@ -75,7 +75,7 @@ Template Name: Results
 				foreach( $myposts as $post ) :  setup_postdata($post);
 			?>
 			<div <?php post_class( 'item col-xs-6' ); ?>>
-				<article id="post-<?php the_ID(); ?>" class="card slim post-<?php the_ID(); ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
+				<article id="post-<?php the_ID(); ?>" class="card page slim post-<?php the_ID(); ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
 					<h1><?php the_title(); ?></h1>
 					<em><?php the_field('the_figure'); ?></em>
 					<?php the_field('performance_metric'); ?> <?php the_field('time_frame'); ?>

@@ -129,6 +129,10 @@ form textarea {
   min-height: 150px;
   margin-bottom: 20px; }
 
+.modal-backdrop.in {
+  opacity: 0.75;
+  filter: alpha(opacity=75); }
+
 .panel-group .panel {
   margin-bottom: 1em;
   box-shadow: none;
@@ -357,47 +361,50 @@ body.home {
         color: #fff; }
       body.home section.results .col-lg-3 {
         padding: 0 15px; }
-      body.home section.results .card {
-        font-size: 16px;
-        min-height: 200px;
-        border: none;
-        background-size: auto 26px; }
-        body.home section.results .card.category-analytics em {
-          font-size: 24px;
-          margin-top: 48px; }
-        body.home section.results .card.post-123, body.home section.results .card.post-385 {
-          background-size: auto 42px; }
-          body.home section.results .card.post-123 article, body.home section.results .card.post-385 article {
+        body.home section.results .col-lg-3 .card {
+          font-size: 16px;
+          min-height: 200px;
+          border: none;
+          background-size: auto 26px;
+          background-repeat: no-repeat; }
+          body.home section.results .col-lg-3 .card.category-analytics em {
+            font-size: 24px;
+            margin-top: 48px; }
+          body.home section.results .col-lg-3 .card.post-123, body.home section.results .col-lg-3 .card.post-385 {
             background-size: auto 42px; }
-        body.home section.results .card.post-141, body.home section.results .card.post-390, body.home section.results .card.post-277, body.home section.results .card.post-417 {
-          background-size: auto 48px; }
-          body.home section.results .card.post-141 article, body.home section.results .card.post-390 article, body.home section.results .card.post-277 article, body.home section.results .card.post-417 article {
+            body.home section.results .col-lg-3 .card.post-123 article, body.home section.results .col-lg-3 .card.post-385 article {
+              background-size: auto 42px; }
+          body.home section.results .col-lg-3 .card.post-141, body.home section.results .col-lg-3 .card.post-390, body.home section.results .col-lg-3 .card.post-277, body.home section.results .col-lg-3 .card.post-417 {
             background-size: auto 48px; }
-        body.home section.results .card.post-518 {
-          background-size: auto 22px; }
-        body.home section.results .card.post-87 article {
-          background-size: auto 42px; }
-        body.home section.results .card.post-130 {
-          background-size: auto 42px; }
-          body.home section.results .card.post-130 article {
+            body.home section.results .col-lg-3 .card.post-141 article, body.home section.results .col-lg-3 .card.post-390 article, body.home section.results .col-lg-3 .card.post-277 article, body.home section.results .col-lg-3 .card.post-417 article {
+              background-size: auto 48px; }
+          body.home section.results .col-lg-3 .card.post-518 {
+            background-size: auto 22px; }
+          body.home section.results .col-lg-3 .card.post-87 article {
             background-size: auto 42px; }
-        body.home section.results .card.post-224 {
-          background-size: 80% auto; }
-          body.home section.results .card.post-224 article {
+          body.home section.results .col-lg-3 .card.post-130 {
+            background-size: auto 42px; }
+            body.home section.results .col-lg-3 .card.post-130 article {
+              background-size: auto 42px; }
+          body.home section.results .col-lg-3 .card.post-224 {
             background-size: 80% auto; }
-        body.home section.results .card em {
-          font-size: 38px;
-          margin-top: 20px; }
-        body.home section.results .card br {
-          display: none; }
+            body.home section.results .col-lg-3 .card.post-224 article {
+              background-size: 80% auto; }
+          body.home section.results .col-lg-3 .card em {
+            font-size: 38px;
+            margin-top: 20px; }
+          body.home section.results .col-lg-3 .card br {
+            display: none; }
       body.home section.results .modal {
         text-align: left; }
         body.home section.results .modal .modal-dialog {
-          width: 440px; }
+          width: 480px; }
           body.home section.results .modal .modal-dialog .modal-content {
             border-radius: 6px;
             background-clip: padding-box;
-            -webkit-background-clip: padding-box; }
+            -webkit-background-clip: padding-box;
+            background: #f3f3f3;
+            border: none; }
             body.home section.results .modal .modal-dialog .modal-content .modal-header {
               padding: 15px 15px 0;
               border: none; }
@@ -435,7 +442,7 @@ body.home {
                   cursor: pointer; }
               body.home section.results .modal .modal-dialog .modal-content form .form-group label {
                 margin: 10px 0 0;
-                font-size: 16px; }
+                font-size: 15px; }
               body.home section.results .modal .modal-dialog .modal-content form .form-group textarea.form-control {
                 min-height: 36px;
                 height: 60px; }
@@ -450,10 +457,9 @@ body.home {
                 border-radius: 0 0 6px 6px;
                 padding: 14px 0;
                 background-clip: padding-box;
-                -webkit-background-clip: padding-box;
-                z-index: 9999; }
+                -webkit-background-clip: padding-box; }
                 body.home section.results .modal .modal-dialog .modal-content .modal-footer .btn-block i {
-                  font-size: 0.65; }
+                  font-size: 0.55; }
       body.home section.results .btn-primary {
         opacity: 0;
         filter: alpha(opacity=0);
@@ -1121,6 +1127,13 @@ section {
 .results.grey {
   padding-top: 20px; }
 
+.thank-you {
+  text-align: center; }
+  .thank-you h2 {
+    font-size: 42px; }
+  .thank-you p {
+    font-size: 22px; }
+
 .home header .navbar {
   border-bottom: none; }
 
@@ -1272,43 +1285,73 @@ header .navbar {
                 width: 50%; }
                 header .navbar .navbar-collapse .navbar-nav li.dropdown .dropdown-menu li a {
                   color: #0065A3;
-                  font-size: 15px; }
+                  font-size: 13px; }
 
   body.home section .btn-lg {
     width: 100%; }
   body.home section.results {
     height: 630px; }
     body.home section.results .overlay h1, body.home section.results .overlay .service h2, .service body.home section.results .overlay h2 {
-      font-size: 44px;
+      font-size: 40px;
       text-align: center; }
-    body.home section.results .overlay p.intro {
+    body.home section.results .overlay .intro {
       font-size: 18px;
       line-height: 1.3; }
     body.home section.results .carousel {
       margin-bottom: 10px; }
       body.home section.results .carousel .more {
         display: none; }
-    body.home section.results .item {
-      padding: 20px 40px 0; }
-      body.home section.results .item .card {
-        min-height: 150px;
-        background-position: center 90%;
-        margin-bottom: 10px;
-        background-size: auto 20px;
-        float: left;
-        width: 48%;
-        margin: 0 1% 8px;
-        font-size: 15px;
-        line-height: 1.3; }
-        body.home section.results .item .card.post-141, body.home section.results .item .card.post-390, body.home section.results .item .card.post-277, body.home section.results .item .card.post-417 {
-          background-size: auto 32px; }
-        body.home section.results .item .card em {
-          margin-top: 20px;
-          font-size: 28px; }
-    body.home section.results .carousel-control {
-      margin-top: -25px; }
-      body.home section.results .carousel-control.right span {
-        margin-left: -6px; }
+      body.home section.results .carousel .item {
+        padding: 20px 40px 0; }
+        body.home section.results .carousel .item .col-lg-3 {
+          width: 50%;
+          margin: 0 0% 0px;
+          float: left;
+          padding: 0 5px; }
+        body.home section.results .carousel .item .card {
+          min-height: 150px;
+          background-position: center 90%;
+          margin-bottom: 10px;
+          background-size: auto 20px;
+          background-repeat: no-repeat;
+          float: left;
+          width: 100%;
+          font-size: 13px;
+          line-height: 1.3; }
+          body.home section.results .carousel .item .card.post-141, body.home section.results .carousel .item .card.post-390, body.home section.results .carousel .item .card.post-277, body.home section.results .carousel .item .card.post-417 {
+            background-size: auto 32px; }
+          body.home section.results .carousel .item .card.post-518 {
+            background-size: auto 16px; }
+          body.home section.results .carousel .item .card.category-analytics em {
+            font-size: 20px;
+            margin-top: 20px; }
+          body.home section.results .carousel .item .card em {
+            margin-top: 15px;
+            font-size: 26px; }
+      body.home section.results .carousel .carousel-control {
+        margin-top: -25px; }
+        body.home section.results .carousel .carousel-control.left, body.home section.results .carousel .carousel-control.right {
+          font-size: 1.5em; }
+        body.home section.results .carousel .carousel-control.right span {
+          margin-left: 3px; }
+    body.home section.results .modal .modal-dialog {
+      padding: 0;
+      width: 100%; }
+      body.home section.results .modal .modal-dialog .modal-content {
+        border-radius: 0; }
+        body.home section.results .modal .modal-dialog .modal-content .modal-body .form-group label {
+          font-size: 14px; }
+        body.home section.results .modal .modal-dialog .modal-content .modal-body .form-group .form-control {
+          -webkit-appearance: none;
+          appearance: none; }
+        body.home section.results .modal .modal-dialog .modal-content .modal-body .form-group .first {
+          margin-bottom: 10px; }
+        body.home section.results .modal .modal-dialog .modal-content .modal-body .form-group .first, body.home section.results .modal .modal-dialog .modal-content .modal-body .form-group .last {
+          padding: 0 15px; }
+        body.home section.results .modal .modal-dialog .modal-content .modal-footer {
+          padding: 0 15px 15px; }
+          body.home section.results .modal .modal-dialog .modal-content .modal-footer .btn-primary {
+            border-radius: 2px; }
   body.home section.testimonials .col-sm-4 {
     margin-bottom: 30px;
     padding-bottom: 30px; }
@@ -1316,26 +1359,31 @@ header .navbar {
       border: none;
       margin-bottom: 0;
       padding-bottom: 0; }
-  body.home section.how .bucket {
+  body.home section.services .row.two {
+    margin-top: 0px; }
+  body.home section.services .bucket {
     margin-bottom: 30px;
     padding-bottom: 30px; }
-    body.home section.how .bucket.last {
+    body.home section.services .bucket.last {
       border: none;
       margin-bottom: 0;
       padding-bottom: 0; }
-    body.home section.how .bucket .icon {
+    body.home section.services .bucket .icon {
       width: 100px;
       height: 100px;
       background-size: 100px 100px; }
   body.home section.contact {
-    padding: 30px 0; }
+    padding: 20px 0 30px; }
     body.home section.contact h2 {
-      font-size: 20px;
+      font-size: 24px;
       text-align: center;
       line-height: 1.2;
       margin-bottom: 15px; }
   body.home section.faq h1, body.home section.faq .service h2, .service body.home section.faq h2 {
-    font-size: 28px; }
+    font-size: 26px; }
+  body.home section.faq .panel-group .panel .panel-heading .panel-title {
+    font-size: 15px;
+    line-height: 1.4; }
 
   section {
     padding: 1.5em 0; }

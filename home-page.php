@@ -136,18 +136,18 @@ Template Name: Home Page
 					<div class="row">
 						<div class="col-sm-12 text-center"><a href="#contact" class="btn btn-lg btn-primary" data-toggle="modal">Jumpstart Your Growth <i class="glyphicon glyphicon-chevron-right"></i></a></div>
 					</div>
-					<div class="modal fade" id="contact">
+					<div class="modal fade" id="contact" data-background="static">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-									<h4 class="modal-title">Let's Get It On</h4>
+									<h4 class="modal-title">Send Us An Inquiry</h4>
 								</div>
 								<div class="modal-body">
 									<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 8, 'title' => false, 'description' => false ) ); ?>
 								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-primary btn-block">Send It <i class="glyphicon glyphicon-chevron-right"></i></button>
+									<button type="button" class="btn btn-primary btn-block">Get in touch <i class="glyphicon glyphicon-chevron-right"></i></button>
 								</div>
 							</div>
 						</div>
@@ -174,6 +174,7 @@ Template Name: Home Page
 						  $('input[type="tel"]').focus(function(){
 						  	$(this).inputmask("(999) 999-9999");
 						  });
+
 						});
 
 					});
@@ -282,7 +283,10 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-sm-12 col-md-10 col-md-offset-1">
 				<div class="row">
-					<div class="col-sm-8"><h2>Contact us today to jumpstart your growth.</h2></div>
+					<div class="col-sm-8">
+						<h2 class="hidden-xs">Contact us today to jumpstart your growth.</h2>
+						<h2 class="visible-xs">Jumpstart your growth today.</h2>
+					</div>
 					<div class="col-sm-4"><a href="<?php bloginfo('url'); ?>/contact" class="btn btn-lg btn-primary">Get Started <i class="glyphicon glyphicon-chevron-right"></i></a></div>
 				</div>
 			</div>

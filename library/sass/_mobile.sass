@@ -56,7 +56,7 @@
 									width: 50%
 									a
 										color: $blue
-										font-size: 15px
+										font-size: 13px
 
 	body.home
 		section
@@ -66,37 +66,71 @@
 				height: 630px
 				.overlay
 					h1
-						font-size: 44px
+						font-size: 40px
 						text-align: center
-					p.intro
+					.intro
 						font-size: 18px
 						line-height: 1.3
 				.carousel
 					margin-bottom: 10px
 					.more
 						display: none
-				.item
-					padding: 20px 40px 0
-					.card
-						min-height: 150px
-						background-position: center 90%
-						margin-bottom: 10px
-						background-size: auto 20px
-						float: left
-						width: 48%
-						margin: 0 1% 8px
-						font-size: 15px
-						line-height: 1.3
-						&.post-141, &.post-390, &.post-277, &.post-417
-							background-size: auto 32px
-						em
-							margin-top: 20px
-							font-size: 28px
-				.carousel-control
-					margin-top: -25px
-					&.right
-						span
-							margin-left: -6px
+					.item
+						padding: 20px 40px 0
+						.col-lg-3
+							width: 50%
+							margin: 0 0% 0px
+							float: left
+							padding: 0 5px
+						.card
+							min-height: 150px
+							background-position: center 90%
+							margin-bottom: 10px
+							background-size: auto 20px
+							background-repeat: no-repeat
+							float: left
+							width: 100%
+							font-size: 13px
+							line-height: 1.3
+							&.post-141, &.post-390, &.post-277, &.post-417
+								background-size: auto 32px
+							&.post-518
+								background-size: auto 16px
+							&.category-analytics
+								em
+									font-size: 20px
+									margin-top: 20px
+							em
+								margin-top: 15px
+								font-size: 26px
+					.carousel-control
+						margin-top: -25px
+						&.left, &.right
+							font-size: 1.5em
+						&.right
+							span
+								margin-left: 3px
+				.modal
+					.modal-dialog
+						padding: 0
+						width: 100%
+						.modal-content
+							border-radius: 0
+							.modal-body
+								.form-group
+									label
+										font-size: 14px
+									.form-control
+										-webkit-appearance: none
+										appearance: none
+									.first
+										margin-bottom: 10px
+									.first, .last
+										padding: 0 15px
+							.modal-footer
+								padding: 0 15px 15px
+								.btn-primary
+									border-radius: 2px
 			&.testimonials
 				.col-sm-4
 					margin-bottom: 30px
@@ -106,7 +140,10 @@
 						border: none
 						margin-bottom: 0
 						padding-bottom: 0
-			&.how
+			&.services
+				.row
+					&.two
+						margin-top: 0px
 				.bucket
 					margin-bottom: 30px
 					padding-bottom: 30px
@@ -120,15 +157,21 @@
 						height: 100px
 						background-size: 100px 100px
 			&.contact
-				padding: 30px 0
+				padding: 20px 0 30px
 				h2
-					font-size: 20px
+					font-size: 24px
 					text-align: center
 					line-height: 1.2
 					margin-bottom: 15px
 			&.faq
 				h1
-					font-size: 28px
+					font-size: 26px
+				.panel-group
+					.panel
+						.panel-heading
+							.panel-title
+								font-size: 15px
+								line-height: 1.4
 	section
 		padding: 1.5em 0
 		&.hero
