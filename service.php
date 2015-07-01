@@ -12,7 +12,7 @@ Template Name: Service
 			<div class="col-sm-12">
 				<div class="row">
 					<div class="col-sm-3 hidden-xs">
-						<div class="well">
+						<div class="well affix">
 							<h3>Our Services</h3>
 							<ul class="">
 								<?php wp_list_pages('sort_column=menu_order&exclude=44&title_li=&child_of=8&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
