@@ -24,7 +24,7 @@ Template Name: Careers
 		<div class="row">
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
-					<div class="col-sm-3 ">
+					<div class="col-sm-3 hidden-xs">
 						<div class="well">
 							<h3>Our Company</h3>
 							<ul class="">

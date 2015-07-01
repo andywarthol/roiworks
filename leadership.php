@@ -11,9 +11,9 @@ Template Name: Leadership
 		<div class="row">
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
-					<div class="col-sm-3">
+					<div class="col-sm-3 hidden-xs">
 						<div class="well">
-							<h3>About</h3>
+							<h3>Our Company</h3>
 							<ul>
 								<?php wp_list_pages('title_li=&child_of=12&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
 							</ul>

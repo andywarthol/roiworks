@@ -6,7 +6,7 @@ Template Name: Results
 
 <?php get_header(); ?>
 
-<section class="hero">
+<section class="hero terse">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<?php
 		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
@@ -43,7 +43,7 @@ Template Name: Results
 			</div>
 		</div>
 	</div>
-	<div class="container result-cards">
+	<div class="container result-cards hidden-xs">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 col-sm-12">
 				<div class="row">
@@ -76,7 +76,7 @@ Template Name: Results
 			?>
 			<div <?php post_class( 'item col-xs-6' ); ?>>
 				<article id="post-<?php the_ID(); ?>" class="card page slim post-<?php the_ID(); ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('<?php the_field('company_logo'); ?>')">
-					<h1><?php the_title(); ?></h1>
+					<h1 class="hide"><?php the_title(); ?></h1>
 					<em><?php the_field('the_figure'); ?></em>
 					<?php the_field('performance_metric'); ?> <?php the_field('time_frame'); ?>
 				</article> <!-- end article -->
@@ -109,6 +109,12 @@ Template Name: Results
 			layoutMode: 'masonry',
 			gutter: 0
 		});
+
+		// $('.mobile-results').isotope({
+		// 	itemSelector: '.col-lg-3',
+		// 	layoutMode: 'masonry',
+		// 	gutter: 0
+		// });
 
 		// Filter Functionality
 		$('#filters').on( 'click', 'button', function() {

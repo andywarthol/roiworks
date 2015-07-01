@@ -6,7 +6,7 @@ Template Name: Leadership 2
 
 <?php get_header(); ?>
 
-<section class="hero">
+<section class="hero terse">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<?php
 		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
@@ -24,9 +24,9 @@ Template Name: Leadership 2
 		<div class="row">
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
-					<div class="col-sm-3">
+					<div class="col-sm-3 hidden-xs">
 						<div class="well">
-							<h3>About</h3>
+							<h3>Our Company</h3>
 							<ul>
 								<?php wp_list_pages('title_li=&child_of=12&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
 							</ul>
