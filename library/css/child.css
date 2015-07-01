@@ -1508,4 +1508,27 @@ header .navbar {
       section.causes .alignright {
         float: none;
         width: 100%;
-        margin: 0 0 20px; } }
+        margin: 0 0 20px; }
+    section.contact form .form-group label {
+      font-size: 16px; }
+    section.contact form .form-group .checkbox label {
+      font-size: 14px; }
+    section.contact form .form-group .form-control {
+      -webkit-appearance: none;
+      appearance: none; }
+    section.contact form .form-group .first {
+      margin-bottom: 10px; }
+    section.contact form .form-group .first, section.contact form .form-group .last {
+      padding: 0 15px; }
+    section.contact form .form-group select.form-control {
+      color: #999;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      border: 1px solid #ccc;
+      border-radius: 0;
+      background-image: url("../images/dropdown-arrow.png");
+      background-size: 10px 7px;
+      background-position: 96% 15px;
+      background-repeat: no-repeat; } }
