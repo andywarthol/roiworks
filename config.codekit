@@ -2204,6 +2204,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/stephen-whiteboarding.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48670,
+		"inputAbbreviatedPath": "\/library\/images\/stephen-whiteboarding.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/stephen-whiteboarding.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/targeting-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,

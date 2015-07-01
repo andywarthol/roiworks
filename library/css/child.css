@@ -116,7 +116,8 @@ form label {
 form .form-control {
   border-radius: 0;
   font-size: 20px;
-  height: 42px; }
+  height: 42px;
+  color: #000; }
 form .frm_error {
   padding: 4px 12px;
   background-color: #0065A3;
@@ -128,6 +129,8 @@ form button[type="submit"], form input[type="submit"] {
 form textarea {
   min-height: 150px;
   margin-bottom: 20px; }
+form select.active {
+  color: #000 !important; }
 
 .modal-backdrop.in {
   opacity: 0.75;
@@ -1282,6 +1285,11 @@ header .navbar {
 
   section.hero.jobs header .overlay h1, section.hero.jobs header .overlay .service h2, .service section.hero.jobs header .overlay h2 {
     font-size: 44px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body.home section.results .overlay h1, body.home section.results .overlay .service h2, .service body.home section.results .overlay h2 {
+    margin-top: 50px !important; }
+  body.home section.results .carousel .carousel-control.right {
+    right: 50px; } }
 @media screen and (max-width: 767px) {
   header .navbar {
     height: 40px; }

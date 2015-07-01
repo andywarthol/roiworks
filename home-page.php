@@ -371,6 +371,15 @@ Template Name: Home Page
       }
     });
 
+    // Dropdown active state
+    $('.spend select').change(function(){
+    	if( $(this).val() == "" ){
+    		$(this).removeClass('active');
+    	} else {
+    		$(this).addClass('active');
+    	}
+    });
+
 	});
 </script>
 
