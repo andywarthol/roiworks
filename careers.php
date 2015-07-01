@@ -6,7 +6,7 @@ Template Name: Careers
 
 <?php get_header(); ?>
 
-<section class="hero">
+<section class="hero jobs">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<?php
 		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );

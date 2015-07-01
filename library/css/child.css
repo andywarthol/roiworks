@@ -1254,7 +1254,34 @@ header .navbar {
   .results .filters .btn {
     font-size: 16px; }
   .results .filters span.hidden-xs {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .leadership .headshot-wrapper {
+    width: 175px;
+    height: auto;
+    margin-bottom: 0; }
+    .leadership .headshot-wrapper .headshot {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px; }
+  .leadership article h2 {
+    font-size: 30px;
+    line-height: 1.5; }
+    .leadership article h2 small {
+      display: block;
+      font-size: 22px; }
+  .leadership .linkedin img {
+    width: 18px;
+    height: 18px; }
+  .leadership .linkedin .btn-default {
+    font-size: 16px;
+    padding: 12px 22px; }
+
+  .careers blockquote.mission {
+    font-size: 24px; }
+
+  section.hero.jobs header .overlay h1, section.hero.jobs header .overlay .service h2, .service section.hero.jobs header .overlay h2 {
+    font-size: 44px; } }
 @media screen and (max-width: 767px) {
   header .navbar {
     height: 40px; }
