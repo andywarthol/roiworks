@@ -25,7 +25,7 @@ Template Name: Careers
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
 					<div class="col-sm-3 hidden-xs">
-						<div class="well affix">
+						<div class="well">
 							<h3>Our Company</h3>
 							<ul class="">
 								<?php wp_list_pages('sort_column=menu_order&title_li=&include=12,307,96,98&depth=-1&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
@@ -153,6 +153,7 @@ Template Name: Careers
 		</div>
 	</div>
 </section>
+<script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.inview.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
 
@@ -168,6 +169,19 @@ Template Name: Careers
 		} else if (window.location.hash == "#sraccountmanager") {
 			$('#field_oknffn').val('Senior Account Manager');
 		}
+
+		// Affix functionality
+		$('.hero').bind('inview', function (event, visible) {
+      if (visible == true) {
+        // element is now visible in the viewport
+       $('.well').removeClass('affix');
+          
+      } else {
+      	// element is no longer visible in the viewport
+        $('.well').addClass('affix');
+      }
+    });
+
 	});
 </script>
 <?php get_footer(); ?>

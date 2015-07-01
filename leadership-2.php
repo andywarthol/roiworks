@@ -25,7 +25,7 @@ Template Name: Leadership 2
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
 					<div class="col-sm-3 hidden-xs">
-						<div class="well affix">
+						<div class="well">
 							<h3>Our Company</h3>
 							<ul>
 								<?php wp_list_pages('sort_column=menu_order&title_li=&include=12,307,96,98&depth=-1&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
@@ -57,7 +57,7 @@ Template Name: Leadership 2
 		</div>
 	</div>
 </section>
-
+<script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.inview.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
 		// Fade hero functionality
@@ -66,6 +66,18 @@ Template Name: Leadership 2
 		setTimeout(function(){
 			$('.hero .page-title').addClass('active');
 		}, 600);
+
+		// Affix functionality
+		$('.hero').bind('inview', function (event, visible) {
+      if (visible == true) {
+        // element is now visible in the viewport
+       $('.well').removeClass('affix');
+          
+      } else {
+      	// element is no longer visible in the viewport
+        $('.well').addClass('affix');
+      }
+    });
 	});
 </script>
 

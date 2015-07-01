@@ -65,6 +65,7 @@ Template Name: About
 			$('#field_oknffn').val('Senior Account Strategist');
 		}
 
+		// Affix functionality
 		$('.hero').bind('inview', function (event, visible) {
       if (visible == true) {
         // element is now visible in the viewport
