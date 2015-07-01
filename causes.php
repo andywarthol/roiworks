@@ -28,7 +28,7 @@ Template Name: Causes
 						<div class="well">
 							<h3>Our Company</h3>
 							<ul class="">
-								<?php wp_list_pages('sort_column=menu_order&exclude=44&title_li=&child_of=12&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
+								<?php wp_list_pages('sort_column=menu_order&title_li=&include=12,307,96,98&depth=-1&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
 							</ul>
 						</div>
 					</div>

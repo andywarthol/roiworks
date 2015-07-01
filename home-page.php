@@ -199,7 +199,7 @@ Template Name: Home Page
 					<div class="col-sm-4 text-center testimonial">
 						<img class="thumbnail img-circle" src="<?php the_sub_field('headshot'); ?>" alt="">
 						<blockquote>
-							<span>“</span><?php the_sub_field('quote'); ?> <small><?php the_sub_field('name'); ?>, <?php the_sub_field('position'); ?></small>
+							<span>“</span><?php the_sub_field('quote'); ?> <small><?php the_sub_field('name'); ?>, <br class="visible-sm"/><?php the_sub_field('position'); ?></small>
 						</blockquote>
 						<img src="<?php the_sub_field('logo'); ?>" alt="" class="logo">
 					</div>

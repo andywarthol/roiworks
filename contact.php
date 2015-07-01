@@ -6,7 +6,7 @@ Template Name: Contact
 
 <?php get_header(); ?>
 
-<section class="hero">
+<section class="hero terse">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<?php
 		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
@@ -28,7 +28,7 @@ Template Name: Contact
 					<div class="col-sm-6 form">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 							<?php /*the_content();*/ ?>
-							<h2>Send Us A Message</h2>
+							<h2 class="hidden-xs">Send Us A Message</h2>
 							<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 8, 'title' => false, 'description' => false ) ); ?>
 						<?php endwhile; endif; ?>
 					</div>
