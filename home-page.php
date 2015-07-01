@@ -287,7 +287,7 @@ Template Name: Home Page
 						<h2 class="hidden-xs">Contact us today to jumpstart your growth.</h2>
 						<h2 class="visible-xs">Jumpstart your growth today.</h2>
 					</div>
-					<div class="col-sm-4"><a href="<?php bloginfo('url'); ?>/contact" class="btn btn-lg btn-primary">Get Started <i class="glyphicon glyphicon-chevron-right"></i></a></div>
+					<div class="col-sm-4"><a href="#contact" class="btn btn-lg btn-primary" data-toggle="modal">Get Started <i class="glyphicon glyphicon-chevron-right"></i></a></div>
 				</div>
 			</div>
 		</div>

@@ -429,6 +429,8 @@ body.home {
                 body.home section.results .modal .modal-dialog .modal-content form .form-group .form-control:hover {
                   border-color: #27bec4;
                   cursor: text; }
+              body.home section.results .modal .modal-dialog .modal-content form .form-group .checkbox label span {
+                display: inline-block !important; }
               body.home section.results .modal .modal-dialog .modal-content form .form-group select.form-control {
                 color: #999;
                 -webkit-appearance: none;
