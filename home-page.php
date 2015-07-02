@@ -141,13 +141,13 @@ Template Name: Home Page
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-									<h4 class="modal-title">Send Us An Inquiry</h4>
+									<h4 class="modal-title">Get In Touch</h4>
 								</div>
 								<div class="modal-body">
 									<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 8, 'title' => false, 'description' => false ) ); ?>
 								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-primary btn-block">Get in touch <i class="glyphicon glyphicon-chevron-right"></i></button>
+									<button type="button" class="btn btn-primary btn-block">Submit <i class="glyphicon glyphicon-chevron-right"></i></button>
 								</div>
 							</div>
 						</div>
@@ -221,7 +221,7 @@ Template Name: Home Page
 			<div class="col-lg-10 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-4 bucket">
-						<i class="icon ppc"></i>
+						<a href="?p=175"><i class="icon ppc"></i></a>
 						<h2><a href="?p=175">Paid Advertising</a></h2>
 						<ul>
 							<li><a href="?p=175">PPC / SEM</a></li>
@@ -231,7 +231,7 @@ Template Name: Home Page
 						</ul>
 					</div>
 					<div class="col-sm-4 bucket">
-						<i class="icon seo"></i>
+						<a href="?p=212"><i class="icon seo"></i></a>
 						<h2><a href="?p=212">Search Engine Optimization</a></h2>
 						<ul>
 							<li><a href="?p=212">SEO Audits</a></li>
@@ -241,8 +241,8 @@ Template Name: Home Page
 						</ul>
 					</div>
 					<div class="col-sm-4 bucket">
-						<i class="icon cro"></i>
-						<h2>Conversion Rate Optimization</h2>
+						<a href="?p=183"><i class="icon cro"></i></a>
+						<h2><a href="?p=183">Conversion Rate Optimization</a></h2>
 						<ul>
 							<li><a href="?p=183">CRO Strategy</a></li>
 							<li><a href="?p=185">User Testing</a></li>
@@ -254,7 +254,7 @@ Template Name: Home Page
 				<br class="hidden-xs"/><br class="hidden-xs"/>
 				<div class="row two">
 					<div class="col-sm-4 col-lg-4 col-sm-offset-2 bucket">
-						<i class="icon analytics"></i>
+						<a href="?p=181"><i class="icon analytics"></i></a>
 						<h2><a href="?p=181">Analytics</a></h2>
 						<ul>
 							<li><a href="?p=181">Analytics Audits</a></li>
@@ -264,7 +264,7 @@ Template Name: Home Page
 						</ul>
 					</div>
 					<div class="col-sm-4 bucket last">
-						<i class="icon rwd"></i>
+						<a href="?p=548"><i class="icon rwd"></i></a>
 						<h2><a href="?p=548">Design</a></h2>
 						<ul>
 							<li><a href="?p=548">Responsive Web Design</a></li>
