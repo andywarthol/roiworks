@@ -89,14 +89,14 @@ Template Name: Careers
 								<p>Are you a seasoned online marketer with agency experience?  We're looking for a data-driven strategist to drive strategy for top tier brands and up-and-coming startups. <a href="<?php bloginfo('url'); ?>/apply-for-a-job/#sraccountstrategist">Apply now &raquo;</a></p>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row positions">
 							<div class="col-sm-12 position">
 								<h3>Summer Intern</h3>
 								<p>Looking to learn valuable marketing skills and earn some extra cash?  We are looking for driven, entry-level marketers.  <a href="<?php bloginfo('url'); ?>/apply-for-a-job/#summerintern">Apply now &raquo;</a></p>
 							</div>
 						</div>
 						<div class="row headroom">
-							<div class="col-sm-12">
+							<div class="col-sm-12 ">
 								<h2 class="flat">Plenty of Perks</h2>
 								<p>We greatly value the importance of a well-balanced, healthy work/life balance.  Working at <a href="http://runway.is">Runway</a> has a lot of cool benefits.  Yes it's an amazing space, but there is also a community aspect of life at ROI Works that keeps us happy and well cared for:</p>
 							</div>

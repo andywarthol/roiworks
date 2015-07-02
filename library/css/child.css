@@ -1097,6 +1097,8 @@ section {
     margin: -8px 0 0 -22px;
     color: #efefef; }
 
+.contact form .checkbox label .visible-lg {
+  display: inline-block !important; }
 .contact .google-map {
   position: relative;
   padding-bottom: 75%;
@@ -1558,13 +1560,13 @@ header .navbar {
       section.careers .positions a {
         padding: 8px 12px;
         font-size: 18px;
-        border: 1px solid #dadada;
-        background: #efefef;
+        border: 1px solid #de3e17;
+        background: #de3e17;
         text-align: center;
-        color: #212121;
+        color: white;
         display: block;
         width: 100%;
-        border-radius: 6px;
+        border-radius: 4px;
         margin: 10px 0 40px; }
     section.causes {
       padding-top: 20px; }
