@@ -1143,6 +1143,17 @@ section {
   .thank-you p {
     font-size: 22px; }
 
+.form-page {
+  background: #f9f9f9; }
+  .form-page .form-group {
+    margin-bottom: 30px; }
+    .form-page .form-group .radio {
+      margin-bottom: 5px; }
+      .form-page .form-group .radio input[type="radio"] {
+        box-shadow: none;
+        width: auto;
+        height: auto; }
+
 .home header .navbar {
   border-bottom: none; }
 
