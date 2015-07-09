@@ -13,7 +13,7 @@ Template Name: Home Page
 					<div class="row">
 						<div class="col-sm-12 text">
 							<h1 class="flat">Dramatic Results. <br class="visible-xs"/>Short Timeframes.</h1>
-							<h2 class="intro">ROI Works is a digital agency specializing in rapid, data-driven growth and marketing.</h2>
+							<h2 class="intro">ROIworks is a digital agency specializing in rapid, data-driven growth and marketing.</h2>
 						</div>
 					</div>
 					<div class="row">

@@ -398,6 +398,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/andrew-van-wart-headshot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 290829,
+		"inputAbbreviatedPath": "\/library\/images\/andrew-van-wart-headshot.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/andrew-van-wart-headshot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/andrew-van-wart.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1021,6 +1032,17 @@
 		"initialSize": 31467,
 		"inputAbbreviatedPath": "\/library\/images\/fair-trade-promo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/fair-trade-promo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/featured-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23938,
+		"inputAbbreviatedPath": "\/library\/images\/featured-image.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/featured-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
