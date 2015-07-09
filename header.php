@@ -31,8 +31,6 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-		<!-- 3rd Party Scripts -->
-
 		<!-- Optimizely -->
 		<script src="//cdn.optimizely.com/js/3142460241.js"></script>
 
