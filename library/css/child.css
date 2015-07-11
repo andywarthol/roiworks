@@ -1154,6 +1154,55 @@ section {
         width: auto;
         height: auto; }
 
+.blog .main {
+  padding: 0 20px 0 15px; }
+  .blog .main .card {
+    padding: 0; }
+    .blog .main .card .featured-image {
+      height: 280px;
+      width: 100%;
+      background-size: cover;
+      background-position: 50% 50%; }
+    .blog .main .card .card-content {
+      padding: 0 30px;
+      margin: 30px 0; }
+.blog .sidebar .affix {
+  top: 30px; }
+.blog .sidebar .widget {
+  margin-bottom: 2em; }
+  .blog .sidebar .widget #wp-subscribe {
+    padding-bottom: 20px; }
+    .blog .sidebar .widget #wp-subscribe p.text {
+      margin-top: 0; }
+    .blog .sidebar .widget #wp-subscribe input {
+      border-radius: 4px; }
+    .blog .sidebar .widget #wp-subscribe input.submit {
+      margin: 10px 0 0;
+      border-radius: 4px;
+      text-transform: none; }
+  .blog .sidebar .widget .widgettitle {
+    font-size: 22px;
+    margin: 0;
+    color: #212121;
+    text-transform: uppercase; }
+  .blog .sidebar .widget .textwidget {
+    font-size: 18px; }
+  .blog .sidebar .widget .btn {
+    margin: 20px 0; }
+  .blog .sidebar .widget.widget_text {
+    background: white;
+    border: 1px solid #efefef;
+    padding: 30px;
+    text-align: center;
+    color: #999; }
+    .blog .sidebar .widget.widget_text .btn-primary {
+      margin: 20px 0 0;
+      padding: 12px 0;
+      font-size: 18px; }
+.blog img {
+  max-width: 100%;
+  height: auto; }
+
 .home header .navbar {
   border-bottom: none; }
 
