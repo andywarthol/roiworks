@@ -1247,14 +1247,14 @@ section {
   top: 30px; }
 .blog .sidebar .widget {
   margin-bottom: 2em; }
-  .blog .sidebar .widget #wp-subscribe {
+  .blog .sidebar .widget #wp-subscribe, .blog .sidebar .widget #text-3 {
     padding: 25px 25px 20px;
     background: #f47555; }
-    .blog .sidebar .widget #wp-subscribe p.text {
+    .blog .sidebar .widget #wp-subscribe p.text, .blog .sidebar .widget #text-3 p.text {
       margin-top: 0; }
-    .blog .sidebar .widget #wp-subscribe input {
+    .blog .sidebar .widget #wp-subscribe input, .blog .sidebar .widget #text-3 input {
       border-radius: 4px; }
-    .blog .sidebar .widget #wp-subscribe input.submit {
+    .blog .sidebar .widget #wp-subscribe input.submit, .blog .sidebar .widget #text-3 input.submit {
       margin: 10px 0 0;
       border-radius: 4px;
       text-transform: none;
