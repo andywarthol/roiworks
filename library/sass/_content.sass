@@ -597,14 +597,49 @@ section
 		padding: 0 20px 0 15px
 		.card
 			padding: 0
+			position: relative
 			.featured-image
 				height: 280px
 				width: 100%
 				background-size: cover
 				background-position: 50% 50%
 			.card-content
-				padding: 0 30px
+				padding: 0 30px 30px
 				margin: 30px 0
+				border-radius: 0 0 5px 5px
+				h1, h2
+					font-size: 32px
+					margin-bottom: 10px
+				.byline
+					margin-bottom: 10px
+					font-size: 16px
+				p
+					font-size: 20px
+					margin-bottom: 15px
+			.readmore
+				position: absolute
+				right: 0
+				left: 0
+				bottom: 0
+				padding: 14px 36px
+				border-radius: 0 0 5px 5px
+				font-size: 17px
+				background: $blue
+				color: white
+				&:hover
+					background: lighten($blue, 10%)
+			.author-box
+				background: #2694D8
+				color: white
+				padding: 30px 30px 15px 30px
+				img
+					border-radius: 50%
+					display: inline-block
+				h3
+					padding: 0
+					margin-top: 0!important
+				.social
+					text-align: right
 
 
 

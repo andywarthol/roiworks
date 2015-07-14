@@ -247,6 +247,50 @@ form
 					display: block
 					font-weight: normal
 					color: $black
+
+// Social icons
+.icon
+	text-indent: -9999px
+	&.twitter
+		display: inline-block
+		background-color: transparent
+		background-image: url('../images/twitter-bird.png')
+		background-size: 18px 18px
+		background-repeat: no-repeat
+		background-position: center center
+		width: 18px 
+		height: 18px
+.social-share
+	margin: 0 0 20px
+	display: block
+	text-align: left
+	.text
+		margin: 0 10px 0 0
+	.share-icon
+		width: 60px
+		height: 24px
+		margin: 0 5px 0 0
+		display: inline-block
+		background-repeat: no-repeat
+		background-position: center center
+		background-size: 20px 20px
+		text-indent: -9999px
+		vertical-align: middle
+		span
+			display: none
+		&.facebook
+			background-image: url('../images/facebook-share.jpg')
+			background-color: #3b5998
+			background-size: 16px 16px
+			background-position: center 3px
+		&.twitter
+			background-image: url('../images/twitter-share.jpg')
+			background-color: #55acee
+		&.google
+			background-image: url('../images/google-share.jpg')
+			background-color: #dd4b39
+
+
 @media screen and (min-width: 1200px)
 	.oversize
 		max-width: 115%

@@ -187,4 +187,12 @@ function custom_excerpt_length( $length ) {
 	return 43;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+// Change the "Read more" text
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+function modify_read_more_link() {
+return '<a class="readmore btn btn-primary" href="' . get_permalink() . '">Read the full article <i class="glyphicon glyphicon-chevron-right"></i></a>';
+}
+
+
 ?>

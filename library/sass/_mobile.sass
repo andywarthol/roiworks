@@ -1,5 +1,8 @@
 @media screen and (max-width: 767px)
 	$navbarHeight: 40px
+	body
+		.wrapper
+			overflow-x: hidden
 	header
 		.navbar
 			height: $navbarHeight
@@ -340,3 +343,50 @@
 						background-size: 10px 7px
 						background-position: 96% 15px
 						background-repeat: no-repeat
+		&.blog
+			padding: 0
+			.main
+				padding: 0
+				.card
+					border: none
+					overflow: hidden
+					.featured-image
+						height: 180px
+						width: 100%
+						background-size: cover
+					.card-content
+						margin: 15px 0
+						padding: 0 10px
+						h1, h2
+							font-size: 24px
+						.byline
+							font-size: 15px
+							text-transform: none
+						p
+							font-size: 17px
+							line-height: 1.7
+						.btn-primary
+							position: relative
+							border-radius: 5px
+						code
+							font-size: 15px
+							max-width: 100%
+			.sidebar
+				padding: 0 10px
+				.affix
+					position: relative
+				.wp-subscribe
+					.text
+						font-size: 16px
+				.widget
+					padding: 0
+					margin-bottom: 1em
+					&.widget_text
+						padding: 30px 10px 20px
+					.widgettitle
+						font-size: 20px
+					#wp-subscribe
+						padding: 25px 10px 10px
+					.textwidget
+						font-size: 16px
+

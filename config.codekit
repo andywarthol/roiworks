@@ -1014,6 +1014,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/facebook-share.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1462,
+		"inputAbbreviatedPath": "\/library\/images\/facebook-share.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/facebook-share.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/fair-trade-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1186,6 +1197,17 @@
 		"initialSize": 4643,
 		"inputAbbreviatedPath": "\/library\/images\/getinsured-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/getinsured-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/google-share.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1796,
+		"inputAbbreviatedPath": "\/library\/images\/google-share.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/google-share.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2345,6 +2367,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/twitter-bird.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1705,
+		"inputAbbreviatedPath": "\/library\/images\/twitter-bird.png",
+		"outputAbbreviatedPath": "\/library\/images\/twitter-bird.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/twitter-building-minihero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2363,6 +2396,17 @@
 		"initialSize": 1725,
 		"inputAbbreviatedPath": "\/library\/images\/twitter-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/twitter-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/twitter-share.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1541,
+		"inputAbbreviatedPath": "\/library\/images\/twitter-share.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/twitter-share.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

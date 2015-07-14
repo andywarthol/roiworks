@@ -11,10 +11,10 @@ Template Name: Blog
 		<div class="row">
 			<div class="col-sm-8 main">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-				<div class="row">
+				<div class="row hide">
 					<div class="col-sm-12">
 						<header>
-							<h1 class="page-title hide"><?php the_title(); ?></h1>
+							<h1 class="page-title"><?php the_title(); ?></h1>
 						</header>
 					</div>
 				</div>
@@ -34,11 +34,11 @@ Template Name: Blog
 							<div class="featured-image" style="background-image: url(<?=$url?>)">
 							</div>
 							<div class="card-content">
-								<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+								<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 								<div class="byline vcard"><?php
 										printf( __( 'Posted <time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span>', 'bonestheme' ), get_the_time( 'Y-m-j' ), get_the_time( get_option('date_format')), bones_get_the_author_posts_link(), get_the_category_list(', ') );
 									?></div>
-								<?php the_excerpt(); ?>
+								<?php the_content(); ?>
 							</div>
 						</article> <!-- end article -->
 					</div>

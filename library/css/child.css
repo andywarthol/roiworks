@@ -245,6 +245,48 @@ form select.active {
         font-weight: normal;
         color: #212121; }
 
+.icon {
+  text-indent: -9999px; }
+  .icon.twitter {
+    display: inline-block;
+    background-color: transparent;
+    background-image: url("../images/twitter-bird.png");
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 18px;
+    height: 18px; }
+
+.social-share {
+  margin: 0 0 20px;
+  display: block;
+  text-align: left; }
+  .social-share .text {
+    margin: 0 10px 0 0; }
+  .social-share .share-icon {
+    width: 60px;
+    height: 24px;
+    margin: 0 5px 0 0;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px 20px;
+    text-indent: -9999px;
+    vertical-align: middle; }
+    .social-share .share-icon span {
+      display: none; }
+    .social-share .share-icon.facebook {
+      background-image: url("../images/facebook-share.jpg");
+      background-color: #3b5998;
+      background-size: 16px 16px;
+      background-position: center 3px; }
+    .social-share .share-icon.twitter {
+      background-image: url("../images/twitter-share.jpg");
+      background-color: #55acee; }
+    .social-share .share-icon.google {
+      background-image: url("../images/google-share.jpg");
+      background-color: #dd4b39; }
+
 @media screen and (min-width: 1200px) {
   .oversize {
     max-width: 115%;
@@ -1157,15 +1199,50 @@ section {
 .blog .main {
   padding: 0 20px 0 15px; }
   .blog .main .card {
-    padding: 0; }
+    padding: 0;
+    position: relative; }
     .blog .main .card .featured-image {
       height: 280px;
       width: 100%;
       background-size: cover;
       background-position: 50% 50%; }
     .blog .main .card .card-content {
-      padding: 0 30px;
-      margin: 30px 0; }
+      padding: 0 30px 30px;
+      margin: 30px 0;
+      border-radius: 0 0 5px 5px; }
+      .blog .main .card .card-content h1, .blog .main .card .card-content .service h2, .service .blog .main .card .card-content h2, .blog .main .card .card-content h2 {
+        font-size: 32px;
+        margin-bottom: 10px; }
+      .blog .main .card .card-content .byline {
+        margin-bottom: 10px;
+        font-size: 16px; }
+      .blog .main .card .card-content p {
+        font-size: 20px;
+        margin-bottom: 15px; }
+    .blog .main .card .readmore {
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      padding: 14px 36px;
+      border-radius: 0 0 5px 5px;
+      font-size: 17px;
+      background: #0065A3;
+      color: white; }
+      .blog .main .card .readmore:hover {
+        background: #0085d6; }
+    .blog .main .card .author-box {
+      background: #2694D8;
+      color: white;
+      padding: 30px 30px 15px 30px; }
+      .blog .main .card .author-box img {
+        border-radius: 50%;
+        display: inline-block; }
+      .blog .main .card .author-box h3 {
+        padding: 0;
+        margin-top: 0 !important; }
+      .blog .main .card .author-box .social {
+        text-align: right; }
 .blog .sidebar .affix {
   top: 30px; }
 .blog .sidebar .widget {
@@ -1357,6 +1434,9 @@ header .navbar {
   body.home section.results .carousel .carousel-control.right {
     right: 50px; } }
 @media screen and (max-width: 767px) {
+  body .wrapper {
+    overflow-x: hidden; }
+
   header .navbar {
     height: 40px; }
     header .navbar .navbar-header .navbar-brand {
@@ -1656,4 +1736,49 @@ header .navbar {
       background-image: url("../images/dropdown-arrow.png");
       background-size: 10px 7px;
       background-position: 96% 15px;
-      background-repeat: no-repeat; } }
+      background-repeat: no-repeat; }
+    section.blog {
+      padding: 0; }
+      section.blog .main {
+        padding: 0; }
+        section.blog .main .card {
+          border: none;
+          overflow: hidden; }
+          section.blog .main .card .featured-image {
+            height: 180px;
+            width: 100%;
+            background-size: cover; }
+          section.blog .main .card .card-content {
+            margin: 15px 0;
+            padding: 0 10px; }
+            section.blog .main .card .card-content h1, section.blog .main .card .card-content .service h2, .service section.blog .main .card .card-content h2, section.blog .main .card .card-content h2 {
+              font-size: 24px; }
+            section.blog .main .card .card-content .byline {
+              font-size: 15px;
+              text-transform: none; }
+            section.blog .main .card .card-content p {
+              font-size: 17px;
+              line-height: 1.7; }
+            section.blog .main .card .card-content .btn-primary {
+              position: relative;
+              border-radius: 5px; }
+            section.blog .main .card .card-content code {
+              font-size: 15px;
+              max-width: 100%; }
+      section.blog .sidebar {
+        padding: 0 10px; }
+        section.blog .sidebar .affix {
+          position: relative; }
+        section.blog .sidebar .wp-subscribe .text {
+          font-size: 16px; }
+        section.blog .sidebar .widget {
+          padding: 0;
+          margin-bottom: 1em; }
+          section.blog .sidebar .widget.widget_text {
+            padding: 30px 10px 20px; }
+          section.blog .sidebar .widget .widgettitle {
+            font-size: 20px; }
+          section.blog .sidebar .widget #wp-subscribe {
+            padding: 25px 10px 10px; }
+          section.blog .sidebar .widget .textwidget {
+            font-size: 16px; } }
