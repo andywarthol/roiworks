@@ -1248,7 +1248,8 @@ section {
 .blog .sidebar .widget {
   margin-bottom: 2em; }
   .blog .sidebar .widget #wp-subscribe {
-    padding-bottom: 20px; }
+    padding: 25px 25px 20px;
+    background: #f47555; }
     .blog .sidebar .widget #wp-subscribe p.text {
       margin-top: 0; }
     .blog .sidebar .widget #wp-subscribe input {
@@ -1256,7 +1257,17 @@ section {
     .blog .sidebar .widget #wp-subscribe input.submit {
       margin: 10px 0 0;
       border-radius: 4px;
-      text-transform: none; }
+      text-transform: none;
+      background: #FFFFFF;
+      color: #f47555;
+      margin-top: 20px;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 500;
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+      cursor: pointer;
+      padding: 10px 0;
+      width: 100%; }
   .blog .sidebar .widget .widgettitle {
     font-size: 22px;
     margin: 0;

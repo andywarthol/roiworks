@@ -57,6 +57,7 @@ Template Name: Contact
 
 		setTimeout(function(){
 			$('.hero .page-title').addClass('active');
+			$('#form_intake #field_hqhfcy').focus();
 		}, 600);
 		
 		// Dropdown active state
