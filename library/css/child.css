@@ -1247,27 +1247,6 @@ section {
   top: 30px; }
 .blog .sidebar .widget {
   margin-bottom: 2em; }
-  .blog .sidebar .widget #wp-subscribe, .blog .sidebar .widget #text-3 {
-    padding: 25px 25px 20px;
-    background: #f47555; }
-    .blog .sidebar .widget #wp-subscribe p.text, .blog .sidebar .widget #text-3 p.text {
-      margin-top: 0; }
-    .blog .sidebar .widget #wp-subscribe input, .blog .sidebar .widget #text-3 input {
-      border-radius: 4px; }
-    .blog .sidebar .widget #wp-subscribe input.submit, .blog .sidebar .widget #text-3 input.submit {
-      margin: 10px 0 0;
-      border-radius: 4px;
-      text-transform: none;
-      background: #FFFFFF;
-      color: #f47555;
-      margin-top: 20px;
-      font-size: 18px;
-      text-transform: uppercase;
-      font-weight: 500;
-      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-      cursor: pointer;
-      padding: 10px 0;
-      width: 100%; }
   .blog .sidebar .widget .widgettitle {
     font-size: 22px;
     margin: 0;
@@ -1287,6 +1266,42 @@ section {
       margin: 20px 0 0;
       padding: 12px 0;
       font-size: 18px; }
+  .blog .sidebar .widget#text-3 {
+    padding: 25px 25px 20px;
+    background: #f47555; }
+    .blog .sidebar .widget#text-3 .widgettitle, .blog .sidebar .widget#text-3 p {
+      color: white; }
+    .blog .sidebar .widget#text-3 input[type="text"] {
+      color: #FFFFFF;
+      background: #d56144;
+      width: 100%;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 10px 0;
+      margin: 0;
+      box-shadow: none;
+      border-radius: 4px;
+      height: 45px;
+      border: none;
+      font-size: 16px; }
+    .blog .sidebar .widget#text-3 p.text {
+      margin-top: 0; }
+    .blog .sidebar .widget#text-3 input {
+      border-radius: 4px; }
+    .blog .sidebar .widget#text-3 input.submit {
+      margin: 10px 0 0;
+      border-radius: 4px;
+      text-transform: none;
+      background: #FFFFFF;
+      color: #f47555;
+      font-size: 18px;
+      text-transform: none;
+      font-weight: 500;
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+      cursor: pointer;
+      padding: 10px 0;
+      width: 100%;
+      border: none; }
 .blog img {
   max-width: 100%;
   height: auto; }

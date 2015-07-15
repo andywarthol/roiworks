@@ -73,6 +73,14 @@ Template Name: Blog
       }
     });
 
+    // Value replace
+    $('#email').focus(function() {
+			if (!$(this).data("Enter your email here")) $(this).data("Enter your email here", $(this).val());
+			if ($(this).val() != "" && $(this).val() == $(this).data("Enter your email here")) $(this).val("");
+		}).blur(function(){
+		    if ($(this).val() == "") $(this).val($(this).data("Enter your email here"));
+		});
+
 	});
 </script>
 <?php get_footer(); ?>
