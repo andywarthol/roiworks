@@ -1792,7 +1792,8 @@ header .navbar {
       background-position: 96% 15px;
       background-repeat: no-repeat; }
     section.blog {
-      padding: 0; }
+      padding: 0;
+      background: white; }
       section.blog .main {
         padding: 0; }
         section.blog .main .card {
@@ -1811,7 +1812,7 @@ header .navbar {
               font-size: 15px;
               text-transform: none; }
             section.blog .main .card .card-content p {
-              font-size: 17px;
+              font-size: 16px;
               line-height: 1.7; }
             section.blog .main .card .card-content .btn-primary {
               position: relative;
@@ -1819,6 +1820,13 @@ header .navbar {
             section.blog .main .card .card-content code {
               font-size: 15px;
               max-width: 100%; }
+          section.blog .main .card .author-box {
+            padding: 20px 10px; }
+            section.blog .main .card .author-box img {
+              display: none;
+              width: 150px;
+              height: auto;
+              margin-bottom: 20px; }
       section.blog .sidebar {
         padding: 0 10px; }
         section.blog .sidebar .affix {
@@ -1835,4 +1843,6 @@ header .navbar {
           section.blog .sidebar .widget #wp-subscribe {
             padding: 25px 10px 10px; }
           section.blog .sidebar .widget .textwidget {
-            font-size: 16px; } }
+            font-size: 16px; }
+      section.blog.blog-single .main .card .card-content {
+        margin-bottom: 3em; } }
