@@ -1453,7 +1453,30 @@ header .navbar {
     font-size: 24px; }
 
   section.hero.jobs header .overlay h1, section.hero.jobs header .overlay .service h2, .service section.hero.jobs header .overlay h2 {
-    font-size: 44px; } }
+    font-size: 44px; }
+  section.blog .main {
+    padding: 0 15px; }
+  section.blog .sidebar .widget.widget_text {
+    float: left;
+    width: 49%;
+    padding: 30px 15px 15px !important;
+    height: 220px;
+    margin: 0 1% 0 0; }
+    section.blog .sidebar .widget.widget_text p {
+      margin-bottom: 10px !important;
+      clear: both; }
+    section.blog .sidebar .widget.widget_text#text-2 {
+      margin: 0 0 0 1%; }
+      section.blog .sidebar .widget.widget_text#text-2 .btn-primary {
+        margin-top: 0; }
+      section.blog .sidebar .widget.widget_text#text-2 .btn-default {
+        margin: 0 0 10px;
+        padding: 10px 0;
+        font-size: 18px; }
+    section.blog .sidebar .widget.widget_text .btn-primary {
+      margin-top: 30px; }
+  section.blog .sidebar .affix {
+    position: relative; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   body.home section.results .overlay h1, body.home section.results .overlay .service h2, .service body.home section.results .overlay h2 {
     margin-top: 50px !important; }

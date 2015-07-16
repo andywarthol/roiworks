@@ -9,7 +9,7 @@ Template Name: Blog
 <section class="blog grey">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-8 main">
+			<div class="col-sm-12 col-md-8 main">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<div class="row hide">
 					<div class="col-sm-12">
@@ -46,7 +46,7 @@ Template Name: Blog
 				<?php endforeach; ?>
 				<?php endwhile; endif; ?>
 			</div>
-			<div class="col-sm-4 sidebar">
+			<div class="col-sm-12 col-md-4 sidebar">
 				<div class="">
 					<?php get_sidebar(); ?>
 				</div>
