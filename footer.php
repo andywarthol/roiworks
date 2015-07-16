@@ -20,6 +20,14 @@
 
 		<!-- all js scripts are loaded in library/bones.php -->
 		<?php wp_footer(); ?>
+		<script>
+		jQuery(document).ready(function($){
+			$('.navbar-toggle').bind( "touchstart", function(e){
+				e.preventDefault();
+				$('.navbar-collapse').collapse('toggle');
+			});
+		});
+		</script>
 
 	</body>
 

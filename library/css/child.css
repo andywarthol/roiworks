@@ -1207,7 +1207,7 @@ section {
       background-size: cover;
       background-position: 50% 50%; }
     .blog .main .card .card-content {
-      padding: 0 30px 30px;
+      padding: 0 30px 60px;
       margin: 30px 0;
       border-radius: 0 0 5px 5px; }
       .blog .main .card .card-content h1, .blog .main .card .card-content .service h2, .service .blog .main .card .card-content h2, .blog .main .card .card-content h2 {
